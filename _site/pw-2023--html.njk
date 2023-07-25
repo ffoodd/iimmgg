@@ -1,0 +1,34 @@
+---json
+{
+	"pagination": {
+		"data": "pw-2023",
+		"size": 1,
+		"alias": "conference"
+	},
+	"permalink": "pw-2023/html/{{ conference.title | slugify }}.html"
+}
+---
+
+{% extends "base.njk" %}
+{% block title %}{{ conference.title }}{% endblock %}
+{% block content %}
+	<header role="banner">
+		Paris Web
+	</header>
+	<main role="main">
+		<h1>{{ conference.title }}</h1>
+		<ul>
+			{%- for speaker in conference.speakers -%}
+				<li>
+					<!-- @todo Si pas d’image, portrait Lego -->
+					<img src="{{ speaker.image }}" alt="" width="64" height="64">
+					{{ speaker.name }}
+				</li>
+			{%- endfor -%}
+		</ul>
+	</main>
+	<aside role="complementary">
+		<h2>Paris Web — <em>18<sup>e</sup> édition</em></h2>
+		<p>Le <time datetime="{{ conference.date }}T{{  conference.time }}Z">{{ conference.date | date }} à {{ conference.start | replace(":", "h") }}</time></p>
+	</aside>
+{% endblock %}

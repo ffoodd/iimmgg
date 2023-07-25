@@ -29,5 +29,6 @@
 .DS_Store
 Thumbs.db
 
-# Build
-docs/includes/
+# Sources
+## Paris Web
+_site/_data/pw-2023.json

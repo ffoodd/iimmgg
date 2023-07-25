@@ -1,25 +1,28 @@
 {
-  "name": "iimmgg",
-  "version": "1.0.0",
-  "description": "11ty-based image generator",
-  "author": {
-    "name": "Gaël Poupard",
-    "url": "https://www.ffoodd.fr",
-    "email": "gael+npm@ffoodd.fr"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ffoodd/iimmgg.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ffoodd/iimmgg/issues"
-  },
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  }
+	"name": "iimmgg",
+	"version": "1.0.0",
+	"description": "11ty-based image generator",
+	"author": {
+		"name": "Gaël Poupard",
+		"url": "https://www.ffoodd.fr",
+		"email": "gael+npm@ffoodd.fr"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ffoodd/iimmgg.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ffoodd/iimmgg/issues"
+	},
+	"scripts": {
+		"start": "eleventy --serve",
+		"prebuild": "shx rm -rf docs/*",
+		"build": "eleventy",
+		"build:debug": "DEBUG=Eleventy* eleventy"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^2.0.1",
+		"shx": "^0.3.4"
+	}
 }

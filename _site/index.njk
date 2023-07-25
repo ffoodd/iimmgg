@@ -1,0 +1,23 @@
+---json
+{
+	"title": "Liste des contenus générés",
+	"pagination": {
+		"data": "pw-2023",
+		"size": 100,
+		"alias": "conferences"
+	}
+}
+---
+
+{% extends "base.njk" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+	<main role="main">
+		<h1>Conférences</h1>
+		<ul>
+			{%- for conference in conferences %}
+				<li><a href="pw-2023/svg/{{ conference.title | slugify }}.svg"{% if page.url == pagination.hrefs[ forloop.index0 ] %} aria-current="page"{% endif %}>{{ conference.title }}</a></li>
+			{%- endfor %}
+		</ul>
+	</main>
+{% endblock %}
