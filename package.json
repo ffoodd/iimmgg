@@ -17,12 +17,14 @@
 	},
 	"scripts": {
 		"start": "eleventy --serve",
-		"prebuild": "shx rm -rf docs/*",
 		"build": "eleventy",
-		"build:debug": "DEBUG=Eleventy* eleventy"
+		"build:debug": "DEBUG=Eleventy* eleventy",
+		"build:png": "node build/screenshot.js",
+		"postbuild:png": "imagemin docs/pw-2023/png/*.png --out-dir docs/pw-2023/png --plugin=pngquant"
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
-		"shx": "^0.3.4"
+		"imagemin-cli": "^7.0.0",
+		"imagemin-pngquant": "^9.0.2"
 	}
 }

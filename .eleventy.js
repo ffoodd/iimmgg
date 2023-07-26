@@ -1,7 +1,8 @@
 const { DateTime } = require('luxon');
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.setUseGitIgnore(false)
+	eleventyConfig.ignores.add("README.md");
+
 
 	eleventyConfig.addFilter('date', (dateObj) => {
 		return DateTime.fromISO(dateObj).setLocale('fr').toLocaleString(DateTime.DATE_FULL)
@@ -32,11 +33,8 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("_site/img")
 
-	eleventyConfig.setBrowserSyncConfig({
-		ui: false,
-		ghostMode: false,
-		open: true,
-		browser: 'firefox',
+	eleventyConfig.setServerOptions({
+		liveReload: true
 	})
 
 	return {
