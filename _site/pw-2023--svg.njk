@@ -31,7 +31,7 @@
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff" width="1680">
 		<!-- @todo Gérer l’alignement par le bas et wrap -->
-		<text font-size="88">{{ conference.title | wrap | safe }}</text>
+		<text font-size="88">{{ conference.title | escape | wrap | safe }}</text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g id="orateurices">
 			{%- for speaker in conference.speakers -%}
@@ -46,7 +46,7 @@
 					{%  set y = 624 + 144 %}
 				{% endif %}
 				<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="{{ x }}" y="{{ y }}" style="clip-path: circle();"/>
-				<text x="{{ x + 80 }}" y="{{ y + 48 }}" font-size="48" font-style="italic">{{ speaker.name }}</text>
+				<text x="{{ x + 80 }}" y="{{ y + 48 }}" font-size="48" font-style="italic">{{ speaker.name | escape }}</text>
 			{%- endfor -%}
 		</g>
 		<text id="edition" x="1280" y="660" font-size="48">
