@@ -1,19 +1,16 @@
 const { DateTime } = require('luxon');
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.ignores.add("README.md");
-
-
 	eleventyConfig.addFilter('date', (dateObj) => {
 		return DateTime.fromISO(dateObj).setLocale('fr').toLocaleString(DateTime.DATE_FULL)
 	})
 
-	// Paris Web 2023 en SVG
 	eleventyConfig.addFilter('wrap', (title) => {
 		const lines = title.split('\n')
 		const wrappedTitle = lines.map((line, index) => {
 			let offsets = []
-			// @note Comment simplifier ça ?
+			// @todo Comment simplifier ça ?
+			// @todo spécifique à pw-2023
 			switch (lines.length) {
 				case 3:
 					offsets = [314,400,486]

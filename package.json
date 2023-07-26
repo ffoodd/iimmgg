@@ -20,7 +20,7 @@
 		"build": "eleventy",
 		"build:debug": "DEBUG=Eleventy* eleventy",
 		"build:png": "node build/screenshot.js",
-		"postbuild:png": "imagemin docs/pw-2023/png/*.png --out-dir docs/pw-2023/png --plugin=pngquant"
+		"postbuild:png": "imagemin dist/pw-2023/*.png --out-dir dist/pw-2023 --plugin=pngquant"
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",

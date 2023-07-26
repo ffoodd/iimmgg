@@ -3,9 +3,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const process = require('node:process');
 
-// @note Passer le chemin en argument ?
+// @todo Passer le(s) chemin(s) en argument
 const files = fs.readdirSync(`docs/pw-2023/svg`);
-const outputPath = path.join(process.cwd(), `/docs/pw-2023/png/`);
+const outputPath = path.join(process.cwd(), `/dist/pw-2023/`);
 const colors = {
 	green: '\x1B[32m',
 	blue: '\x1B[34m',
