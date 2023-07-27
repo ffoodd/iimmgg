@@ -28,6 +28,19 @@ module.exports = function (eleventyConfig) {
 		return wrappedTitle.join('')
 	})
 
+	// @note Micro-typographie FR : des choses à ajouter ?
+	eleventyConfig.addFilter('microtypo', (text) => {
+		return text
+			.replace(' :', ' :')
+			.replace(' ?', ' ?')
+			.replace(' !', ' !')
+			.replace(' ;', ' ;')
+			.replace(' »', ' »')
+			.replace('« ', '« ')
+			.replace(' - ', ' - ')
+			.replace(' / ', ' / ')
+	})
+
 	eleventyConfig.addPassthroughCopy("_site/img")
 
 	eleventyConfig.setServerOptions({
