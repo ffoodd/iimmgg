@@ -18,7 +18,7 @@
 		<ul>
 			{%- for conference in conferences %}
 			{%- if conference.type === "Conférences" -%}
-				<li><a href="pw-2023/svg/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+				<li><a href="pw-2023/cartons-titres/base/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
 			{%- endif -%}
 			{%- endfor %}
 		</ul>
@@ -26,8 +26,16 @@
 		<ul>
 			{%- for conference in conferences %}
 			{%- if conference.type === "Ateliers" -%}
-				<li><a href="pw-2023/svg/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+				<li><a href="pw-2023/cartons-titres/base/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
 			{%- endif -%}
+			{%- endfor %}
+		</ul>
+		<h2><abbr lang="en" title="Video On Demand">VOD</abbr></h2>
+		<ul>
+			{%- for conference in conferences %}
+				{%- if conference.type === "Conférences" -%}
+					<li><a href="pw-2023/cartons-titres/vod/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+				{%- endif -%}
 			{%- endfor %}
 		</ul>
 	</main>
