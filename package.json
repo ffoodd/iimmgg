@@ -20,13 +20,12 @@
 		"prebuild": "rm -rf docs/*",
 		"build": "eleventy",
 		"build:debug": "DEBUG=Eleventy* eleventy",
-		"prebuild:png": "rm -rf dist/*",
+		"prebuild:png": "npm run build && rm -rf dist/*",
 		"build:png": "node build/screenshot.js",
-		"postbuild:png": "imagemin dist/pw-2023/*.png --out-dir dist/pw-2023 --plugin=pngquant"
+		"postbuild:png": "node build/optimize.js"
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
-		"imagemin-cli": "^7.0.0",
-		"imagemin-pngquant": "^9.0.2"
+		"sharp": "^0.32.4"
 	}
 }

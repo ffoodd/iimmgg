@@ -1,11 +1,14 @@
----json
+---js
 {
-	"pagination": {
-		"data": "pw-2023",
-		"size": 1,
-		"alias": "conference"
+	pagination: {
+		data: "pw-2023",
+		size: 1,
+		alias: "conference",
+		before: (paginationData, fullData) => {
+			return paginationData.filter(slot => slot.type === "Conférences");
+		}
 	},
-	"permalink": "pw-2023/cartons-titres/vod/{{ conference.title | slugify }}.svg"
+	permalink: "pw-2023/cartons-titres/vod/{{ conference.title | slugify }}.svg"
 }
 ---
 {% set mainColor = '#b40b57' %}
