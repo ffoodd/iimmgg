@@ -17,8 +17,10 @@
 	},
 	"scripts": {
 		"start": "eleventy --serve",
+		"prebuild": "rm -rf docs/*",
 		"build": "eleventy",
 		"build:debug": "DEBUG=Eleventy* eleventy",
+		"prebuild:png": "rm -rf dist/*",
 		"build:png": "node build/screenshot.js",
 		"postbuild:png": "imagemin dist/pw-2023/*.png --out-dir dist/pw-2023 --plugin=pngquant"
 	},

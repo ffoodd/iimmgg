@@ -1,3 +1,6 @@
+
+
+
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
@@ -21,7 +24,7 @@
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff" width="1680">
 		<!-- @todo Gérer l’alignement par le bas et wrap -->
-		<text font-size="88"><tspan x="120" y="400">L’IA et le handicap :</tspan><tspan x="120" y="486">progrès ou exclusion ?</tspan></text>
+		<text font-size="88"><tspan x="120" y="400">L’IA et le handicap :</tspan><tspan x="120" y="486">progrès ou exclusion ?</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g id="orateurices">
 				
@@ -37,7 +40,9 @@
 				<image href="https://www.paris-web.fr/assets_c/2018/04/emmanuelle-aboaf-thumb-300x300-1269.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
 				<text x="200" y="744" font-size="48" font-style="italic">Emmanuelle Aboaf</text></g>
 		<text id="edition" x="1280" y="660" font-size="48">
-			Paris Web — <tspan font-size="48" font-style="italic">18<sup>e</sup> édition</tspan>
+			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
+			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
+			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
 		<text id="date" x="1280" y="700" font-style="italic" font-size="40">
 			28 septembre 2023 à 09h20

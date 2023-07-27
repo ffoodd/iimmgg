@@ -8,18 +8,24 @@
 	"permalink": "pw-2023/svg/{{ conference.title | slugify }}.svg"
 }
 ---
+{% set mainColor = '#b40b57' %}
+{% set lightColor = '#e11a81' %}
+{% if conference.type === "Ateliers" %}
+	{% set mainColor = '#0071b8' %}
+	{% set lightColor = '#058fd6' %}
+{% endif %}
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
 		<pattern id="bordure" width="10" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
-			<path d="M0,5H10" stroke-width="10" stroke="#e11a81" />
+			<path d="M0,5H10" stroke-width="10" stroke="{{ lightColor }}" />
 		</pattern>
 	</defs>
 	<!-- Décor -->
 	<g>
-		<rect fill="#b40b57" width="100%" height="100%"></rect>
+		<rect fill="{{ mainColor }}" width="100%" height="100%"></rect>
 		<rect fill="none" width="100%" height="100%" stroke="url(#bordure)" stroke-width="24"></rect>
-		<g fill="#e11a81" transform="translate(1448, 88) rotate(6)">
+		<g fill="{{ lightColor }}" transform="translate(1448, 88) rotate(6)">
 			<path id="vague" d="M5.02.2C.33.64-1.8 7.03 2.04 10c0 0 3.4 2.55 8.08 5.53 4.69 2.98 10.22 6.39 16.6 6.39 6.4 0 10.65-3.83 14.06-6.81 2.98-2.56 5.53-3.83 7.23-3.83 1.28 0 3.84 1.27 7.24 3.83 3.4 2.98 7.66 6.81 14.05 6.81 6.39 0 10.64-3.83 14.05-6.81 2.98-2.56 5.53-3.83 7.24-3.83 1.27 0 3.83 1.27 7.23 3.83 3.4 2.98 7.67 6.81 14.05 6.81 6.39 0 10.65-3.83 13.63-6.81 3.4-2.56 5.96-3.83 7.66-3.83 1.28 0 3.83 1.27 7.24 3.83 3.4 2.98 7.66 6.81 14.04 6.81 6.39 0 10.65-3.83 13.63-6.81 3.4-2.56 5.96-3.83 7.66-3.83 1.28 0 3.83 1.27 7.24 3.83 3.4 2.98 7.66 6.81 14.05 6.81 6.38 0 11.5-3.4 16.17-6.39 4.69-2.98 8.52-5.53 8.52-5.53 5.96-4.26-1.28-13.62-6.81-8.51 0 0-2.98 2.55-7.24 5.1-3.83 2.56-9.37 4.69-10.64 4.69-1.7 0-4.26-1.7-7.24-4.26-3.4-2.55-7.66-6.39-14.05-6.39-6.39 0-10.64 3.84-14.05 6.39-3.4 2.55-5.96 4.26-7.24 4.26-1.7 0-4.25-1.7-7.66-4.26-2.98-2.55-7.24-6.39-13.62-6.39-6.39 0-10.64 3.84-14.05 6.39-3.4 2.55-5.96 4.26-7.24 4.26-1.7 0-4.25-1.7-7.66-4.26C101.23 4.47 96.97.63 90.59.63c-6.39 0-10.65 3.84-14.05 6.39-3.4 2.55-5.96 4.26-7.24 4.26-1.7 0-4.26-1.7-7.24-4.26C58.66 4.47 54.4.63 48.01.63c-6.38 0-10.64 3.84-14.04 6.39-3.41 2.55-5.96 4.26-7.24 4.26-1.7 0-6.81-2.13-11.07-4.69a183.4 183.4 0 0 1-7.24-5.1A4.84 4.84 0 0 0 5.02.2z"/>
 			<use href="#vague" x="0" y="24"></use>
 			<use href="#vague" x="0" y="48"></use>
@@ -31,7 +37,7 @@
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff" width="1680">
 		<!-- @todo Gérer l’alignement par le bas et wrap -->
-		<text font-size="88">{{ conference.title | escape | wrap | safe }}</text>
+		<text font-size="88">{{ conference.title | microtypo | escape | wrap | safe }}</text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g id="orateurices">
 			{%- for speaker in conference.speakers -%}
@@ -46,11 +52,13 @@
 					{%  set y = 624 + 144 %}
 				{% endif %}
 				<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="{{ x }}" y="{{ y }}" style="clip-path: circle();"/>
-				<text x="{{ x + 80 }}" y="{{ y + 48 }}" font-size="48" font-style="italic">{{ speaker.name | escape }}</text>
+				<text x="{{ x + 80 }}" y="{{ y + 48 }}" font-size="48" font-style="italic">{{ speaker.name | microtypo | escape }}</text>
 			{%- endfor -%}
 		</g>
 		<text id="edition" x="1280" y="660" font-size="48">
-			Paris Web — <tspan font-size="48" font-style="italic">18<sup>e</sup> édition</tspan>
+			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
+			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
+			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
 		<text id="date" x="1280" y="700" font-style="italic" font-size="40">
 			{{ conference.date | date }} à {{ conference.start | replace(":", "h") }}

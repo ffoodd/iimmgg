@@ -13,10 +13,21 @@
 {% block title %}{{ title }}{% endblock %}
 {% block content %}
 	<main role="main">
-		<h1>Conférences</h1>
+		<h1>Images générées</h1>
+		<h2>Conférences</h2>
 		<ul>
 			{%- for conference in conferences %}
-				<li><a href="pw-2023/svg/{{ conference.title | slugify }}.svg"{% if page.url == pagination.hrefs[ forloop.index0 ] %} aria-current="page"{% endif %}>{{ conference.title }}</a></li>
+			{%- if conference.type === "Conférences" -%}
+				<li><a href="pw-2023/svg/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+			{%- endif -%}
+			{%- endfor %}
+		</ul>
+		<h2>Ateliers</h2>
+		<ul>
+			{%- for conference in conferences %}
+			{%- if conference.type === "Ateliers" -%}
+				<li><a href="pw-2023/svg/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+			{%- endif -%}
 			{%- endfor %}
 		</ul>
 	</main>

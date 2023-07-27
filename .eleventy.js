@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
 		const wrappedTitle = lines.map((line, index) => {
 			let offsets = []
 			// @todo Comment simplifier ça ?
-			// @todo spécifique à pw-2023
+			// @todo spécifique à pw-2023 : un moyen de généraliser ?
 			switch (lines.length) {
 				case 3:
 					offsets = [314,400,486]
@@ -38,6 +38,7 @@ module.exports = function (eleventyConfig) {
 			.replace(' »', ' »')
 			.replace('« ', '« ')
 			.replace(' - ', ' - ')
+			.replace(' — ', ' — ')
 			.replace(' / ', ' / ')
 	})
 

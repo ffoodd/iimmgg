@@ -1,5 +1,279 @@
 [
   {
+    "title": "Mettons les choses au (langage) clair :\nse familiariser aux bonnes pratiques\nde la rédaction claire et simple",
+    "date": "2023-09-30",
+    "start": "15:30",
+    "speakers": [
+      {
+        "name": "Morgane Hauguel",
+        "url": "https://www.paris-web.fr/orateurs/morgane-hauguel.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Morgane-Hauguel-paris-web-thumb-200x200-1815.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Escape game accessible",
+    "date": "2023-09-30",
+    "start": "15:30",
+    "speakers": [
+      {
+        "name": "Zougane Haffez",
+        "url": "https://www.paris-web.fr/orateurs/zougane-haffez.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/07/Zougane-Haffez-paris-web-thumb-200x200-1859.jpg"
+      },
+      {
+        "name": "Damien Gomez",
+        "url": "https://www.paris-web.fr/orateurs/damien-gomez.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/damien-gomez-paris-web-thumb-200x200-1803.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Stratégie de tests a11y :\ncomment les organiser ?",
+    "date": "2023-09-30",
+    "start": "15:30",
+    "speakers": [
+      {
+        "name": "Romy Duhem-Verdière",
+        "url": "https://www.paris-web.fr/orateurs/romy-duhem-verdiere.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Romy-Duhem-Verdiere-paris-web-thumb-200x200-1823.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Prise de parole en public,\npassez à l’action !",
+    "date": "2023-09-30",
+    "start": "13:40",
+    "speakers": [
+      {
+        "name": "Frédéric Fuchs",
+        "url": "https://www.paris-web.fr/orateurs/frederic-fuchs.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/06/eef678e2ffc86bcc5e5e6ddaca97bf65eafe46fc-thumb-200x200-1844.jpg"
+      },
+      {
+        "name": "Liv Lefebvre",
+        "url": "https://www.paris-web.fr/orateurs/liv-lefebvre.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/06/Liv-Danthon-Lefebvre-Paris-Web-thumb-200x200-1845.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Entretiens utilisateurs :\nidentifiez les améliorations clés\npour votre site ou service",
+    "date": "2023-09-30",
+    "start": "13:40",
+    "speakers": [
+      {
+        "name": "Myriam Jessier",
+        "url": "https://www.paris-web.fr/orateurs/myriam-jessier.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Myriam-Jessier-paris-web-thumb-200x200-1795.jpg"
+      },
+      {
+        "name": "Stéphanie Walter",
+        "url": "https://www.paris-web.fr/orateurs/stephanie-walter.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Stephanie-Walter-paris-web-thumb-200x200-1825.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Animer pour sensibiliser à l’accessibilité\n– Échanges",
+    "date": "2023-09-30",
+    "start": "13:40",
+    "speakers": [
+      {
+        "name": "Delphine Malassingne",
+        "url": "https://www.paris-web.fr/orateurs/delphine-malassingne.php",
+        "image": "https://www.paris-web.fr/assets_c/2017/06/delphine-malassingne-thumb-143x143-1182.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "De débutant·e à expert·e :\ncomment améliorer sa position d’allié·e ?",
+    "date": "2023-09-30",
+    "start": "13:40",
+    "speakers": [
+      {
+        "name": "Marcy Ericka Charollois",
+        "url": "https://www.paris-web.fr/orateurs/marcy-ericka-charollois.php",
+        "image": ""
+      },
+      {
+        "name": "Magali Milbergue",
+        "url": "https://www.paris-web.fr/orateurs/magali-milbergue.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/magali-milbergue-paris-web-thumb-200x200-1811.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Faire sa veille\net continuer à se former sans se planter",
+    "date": "2023-09-30",
+    "start": "13:40",
+    "speakers": [
+      {
+        "name": "Juliette Audema",
+        "url": "https://www.paris-web.fr/orateurs/juliette-audema.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/juliette-audema-paris-web-thumb-200x200-1809.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Le serious game\npour auditer de façon éco-responsable",
+    "date": "2023-09-30",
+    "start": "13:40",
+    "speakers": [
+      {
+        "name": "Lola Sandevoir",
+        "url": "https://www.paris-web.fr/orateurs/lola-sandevoir.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/07/Lola-Sandevoir-thumb-192x200-1855.jpg"
+      },
+      {
+        "name": "Amélie Poirier",
+        "url": "https://www.paris-web.fr/orateurs/amelie-poirier.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Amelie-Poirier-Paris-Web-thumb-200x200-1841.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Je veux un VRAI sous-titrage !\n10 ans après",
+    "date": "2023-09-30",
+    "start": "10:50",
+    "speakers": [
+      {
+        "name": "Sophie Drouvroy",
+        "url": "https://www.paris-web.fr/orateurs/sophie-drouvroy.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Sophie-Drouvroy-paris-web-thumb-200x200-1824.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Une séance d’entrainement\npour muscler son écoute ?\nC’est par ici !",
+    "date": "2023-09-30",
+    "start": "10:50",
+    "speakers": [
+      {
+        "name": "Albane Veyron",
+        "url": "https://www.paris-web.fr/orateurs/albane-veyron.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/albane-veyron-paris-web-thumb-200x200-1796.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Jeu du design inclusif",
+    "date": "2023-09-30",
+    "start": "10:50",
+    "speakers": [
+      {
+        "name": "Luz Delgado Bautista",
+        "url": "https://www.paris-web.fr/orateurs/luz-delgado-bautista.php",
+        "image": ""
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Accessibility\nfor design systems teams",
+    "date": "2023-09-30",
+    "start": "09:00",
+    "speakers": [
+      {
+        "name": "Hidde De Vries",
+        "url": "https://www.paris-web.fr/orateurs/hidde-de-vries.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Hidde-De-Vries-paris-web-thumb-200x200-1806.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "« Pair-Creating »",
+    "date": "2023-09-30",
+    "start": "09:00",
+    "speakers": [
+      {
+        "name": "Maxime Federov",
+        "url": "https://www.paris-web.fr/orateurs/maxime-federov.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/maxime-federov-paris-web-thumb-200x200-1814.jpg"
+      },
+      {
+        "name": "Candice Poyet",
+        "url": "https://www.paris-web.fr/orateurs/candice-poyet.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Candice-Poyet-thumb-200x200-1832.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "De grâce, annotez vos designs\navec de l’accessibilité !",
+    "date": "2023-09-30",
+    "start": "09:00",
+    "speakers": [
+      {
+        "name": "Nicolas Got",
+        "url": "https://www.paris-web.fr/orateurs/nicolas-got.php",
+        "image": ""
+      },
+      {
+        "name": "Vincent Aniort",
+        "url": "https://www.paris-web.fr/orateurs/vincent-aniort.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/4562064de3d7e80d050a302285b8a322dc755bae-thumb-200x200-1830.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Mettre le web en page(s)",
+    "date": "2023-09-30",
+    "start": "09:00",
+    "speakers": [
+      {
+        "name": "Lucie Anglade",
+        "url": "https://www.paris-web.fr/orateurs/lucie-anglade.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/lucie-anglade-thumb-200x200-1837.jpg"
+      },
+      {
+        "name": "Guillaume Ayoub",
+        "url": "https://www.paris-web.fr/orateurs/guillaume-ayoub.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/guillaume-ayoub-paris-web-thumb-200x200-1804.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "Statut, TJM et clients,\nles bases du freelance",
+    "date": "2023-09-30",
+    "start": "09:00",
+    "speakers": [
+      {
+        "name": "Raphaël Yharrassarry",
+        "url": "https://www.paris-web.fr/orateurs/raphael-yharrassarry.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Raphael-Yharrassarry-paris-web-thumb-200x200-1816.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
+    "title": "« Bonjour, je voudrais un site web ! » :\nclarifier les besoins avec l’analyse métier",
+    "date": "2023-09-30",
+    "start": "09:00",
+    "speakers": [
+      {
+        "name": "Guillaume Barbier",
+        "url": "https://www.paris-web.fr/orateurs/guillaume-barbier.php",
+        "image": "https://www.paris-web.fr/assets_c/2023/05/Guillaume-Barbier-Paris-Web-thumb-200x200-1840.jpg"
+      }
+    ],
+    "type": "Ateliers"
+  },
+  {
     "title": "Du CSS aux shaders WebGL :\npanorama des techniques d’animation\nen 2023",
     "date": "2023-09-29",
     "start": "17:00",
@@ -9,7 +283,8 @@
         "url": "https://www.paris-web.fr/orateurs/julien-sulpis.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/julien-sulpis-paris-web-thumb-200x200-1808.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "L’écoconception, c’est les autres",
@@ -21,7 +296,8 @@
         "url": "https://www.paris-web.fr/orateurs/laurent-devernay-satyagraha.php",
         "image": "https://www.paris-web.fr/assets_c/2023/07/Laurent-Devernay-Satyagraha-thumb-200x200-1857.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "La lisibilité en typographie",
@@ -33,7 +309,8 @@
         "url": "https://www.paris-web.fr/orateurs/damien-collot.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/damien-collot-thumb-200x200-1831.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "Le pouvoir de l’inconscient :\nles biais cognitifs qui façonnent\nla recherche en ligne",
@@ -45,7 +322,8 @@
         "url": "https://www.paris-web.fr/orateurs/myriam-jessier.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/Myriam-Jessier-paris-web-thumb-200x200-1795.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "L’utilisateurice forcée,\nqui n’aime pas l’informatique",
@@ -57,7 +335,8 @@
         "url": "https://www.paris-web.fr/orateurs/tony-archambeau.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/Tony-Archambeau-thumb-200x200-1828.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "Gatekeeping, misogynie et influenceurs :\nla triade infernale de la tech",
@@ -69,7 +348,8 @@
         "url": "https://www.paris-web.fr/orateurs/amelie-abdallah.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/c3d29ec67ae1b6fd680f6bff7b109897c4dfbba4-thumb-200x200-1798.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "Nous créons l’inaccessibilité",
@@ -81,7 +361,8 @@
         "url": "https://www.paris-web.fr/orateurs/delphine-malassingne.php",
         "image": "https://www.paris-web.fr/assets_c/2017/06/delphine-malassingne-thumb-143x143-1182.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "Écoconception web,\net si ça ne suffisait pas ?",
@@ -93,7 +374,8 @@
         "url": "https://www.paris-web.fr/orateurs/richard-hanna.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/d8471bb7749ce5d5357596e99dd81ffb6087387a-thumb-200x200-1822.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "ARIA, the good parts",
@@ -105,7 +387,8 @@
         "url": "https://www.paris-web.fr/orateurs/hidde-de-vries.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/Hidde-De-Vries-paris-web-thumb-200x200-1806.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "La fin de l’Empire des Dark patterns ?\nLe RGPD contre-attaque !",
@@ -117,7 +400,8 @@
         "url": "https://www.paris-web.fr/orateurs/harmonie-peynot.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/harmonie-peynot-paris-web-thumb-200x200-1805.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "Le contenu doit être rédigé de la manière\nla plus claire et la plus simple possible :\nles textes dans l’accessibilité numérique",
@@ -129,7 +413,8 @@
         "url": "https://www.paris-web.fr/orateurs/morgane-hauguel.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/Morgane-Hauguel-paris-web-thumb-200x200-1815.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "WCAGmire",
@@ -141,10 +426,11 @@
         "url": "https://www.paris-web.fr/orateurs/adrian-roselli.php",
         "image": "https://www.paris-web.fr/assets_c/2023/07/adrian-roselli-thumb-200x200-1853.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
-    "title": "CSS Viewport Units v2 :\non pousse encore plus loin la réactivité",
+    "title": "CSS Viewport Units v2 :\n on pousse encore plus loin la réactivité",
     "date": "2023-09-28",
     "start": "12:15",
     "speakers": [
@@ -153,10 +439,11 @@
         "url": "https://www.paris-web.fr/orateurs/josiane-makelele.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/josiane-makelele-paris-web-thumb-200x200-1807.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
-    "title": "Table ronde Duchesses",
+    "title": "Table ronde\n« Femmes dans la tech »",
     "date": "2023-09-28",
     "start": "11:20",
     "speakers": [
@@ -190,7 +477,8 @@
         "url": "https://www.paris-web.fr/orateurs/emmanuelle-aboaf.php",
         "image": "https://www.paris-web.fr/assets_c/2018/04/emmanuelle-aboaf-thumb-300x300-1269.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "Web et décroissance :\nvers un web « stationnaire » ?",
@@ -202,7 +490,8 @@
         "url": "https://www.paris-web.fr/orateurs/maxime-brehin.php",
         "image": "https://www.paris-web.fr/assets_c/2023/05/Maxime-Brehin---thumb-200x200-1835.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   },
   {
     "title": "L’IA et le handicap :\nprogrès ou exclusion ?",
@@ -219,6 +508,7 @@
         "url": "https://www.paris-web.fr/orateurs/emmanuelle-aboaf.php",
         "image": "https://www.paris-web.fr/assets_c/2018/04/emmanuelle-aboaf-thumb-300x300-1269.jpg"
       }
-    ]
+    ],
+    "type": "Conférences"
   }
 ]
