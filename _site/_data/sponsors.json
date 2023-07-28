@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Gandi",
+		"logo": "/img/lego.svg",
+		"type": "Bronze"
+	},
+	{
+		"name": "IIM Digital School",
+		"logo": "/img/lego.svg",
+		"type": "Bronze"
+	},
+	{
+		"name": "Proton",
+		"logo": "/img/lego.svg",
+		"type": "Bronze"
+	},
+	{
+		"name": "LebonCoin",
+		"logo": "/img/lego.svg",
+		"type": "Argent"
+	},
+	{
+		"name": "Temesis",
+		"logo": "/img/lego.svg",
+		"type": "Argent"
+	},
+	{
+		"name": "Balsamiq",
+		"logo": "/img/lego.svg",
+		"type": "Argent"
+	},
+	{
+		"name": "mc2i",
+		"logo": "/img/lego.svg",
+		"type": "Argent"
+	},
+	{
+		"name": "MAIF",
+		"logo": "/img/lego.svg",
+		"type": "Argent"
+	},
+	{
+		"name": "HelloWork",
+		"logo": "/img/lego.svg",
+		"type": "Or"
+	},
+	{
+		"name": "o2switch",
+		"logo": "/img/lego.svg",
+		"type": "Or"
+	}
+]

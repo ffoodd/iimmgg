@@ -1,42 +1,55 @@
----json
+---js
 {
-	"title": "Liste des contenus générés",
-	"pagination": {
-		"data": "pw-2023",
-		"size": 100,
-		"alias": "conferences"
+	title: "Liste des contenus générés",
+	pagination: {
+		data: "pw-2023",
+		size: 100,
+		alias: "conferences"
 	}
 }
 ---
-
 {% extends "base.njk" %}
 {% block title %}{{ title }}{% endblock %}
 {% block content %}
 	<main role="main">
 		<h1>Images générées</h1>
-		<h2>Conférences</h2>
-		<ul>
-			{%- for conference in conferences %}
-			{%- if conference.type === "Conférences" -%}
-				<li><a href="pw-2023/cartons-titres/base/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
-			{%- endif -%}
-			{%- endfor %}
-		</ul>
-		<h2>Ateliers</h2>
-		<ul>
-			{%- for conference in conferences %}
-			{%- if conference.type === "Ateliers" -%}
-				<li><a href="pw-2023/cartons-titres/base/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
-			{%- endif -%}
-			{%- endfor %}
-		</ul>
-		<h2><abbr lang="en" title="Video On Demand">VOD</abbr></h2>
-		<ul>
-			{%- for conference in conferences %}
-				{%- if conference.type === "Conférences" -%}
-					<li><a href="pw-2023/cartons-titres/vod/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+		<details>
+			<summary>Conférences</summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Conférences" -%}
+						<li><a href="pw-2023/cartons-titres/base/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary>Ateliers</summary>
+			<ul>
+				{%- for conference in conferences %}
+				{%- if conference.type === "Ateliers" -%}
+					<li><a href="pw-2023/cartons-titres/base/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
 				{%- endif -%}
-			{%- endfor %}
-		</ul>
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary><abbr lang="en" title="Video On Demand">VOD</abbr></summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Conférences" -%}
+						<li><a href="pw-2023/cartons-titres/vod/{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary>Politesse</summary>
+			<ul>
+				{%- for courtesy in courtesies %}
+					<li><a href="pw-2023/cartons-titres/courtesy/{{ courtesy.slug | slugify }}.svg">{{ courtesy.title | microtypo }}</a></li>
+				{%- endfor %}
+			</ul>
+		</details>
 	</main>
 {% endblock %}

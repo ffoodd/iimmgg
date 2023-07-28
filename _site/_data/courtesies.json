@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Bienvenue !",
+		"slug": "bienvenue-sponsors",
+		"sponsors": "true"
+	},
+	{
+		"title": "Merci !",
+		"slug": "merci",
+		"sponsors": "false"
+	},
+	{
+		"title": "Merci !",
+		"slug": "merci-sponsors",
+		"sponsors": "true"
+	},
+	{
+		"title": "Merci à nos partenaires de l’édition 2023",
+		"slug": "merci-partenaires",
+		"sponsors": "true"
+	}
+]
