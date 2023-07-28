@@ -38,7 +38,7 @@
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">28 — 30 septembre 2023</text>
-		<text x="120" y="960" font-style="italic" font-size="36">Retrouvez les vidéos de toutes nos conférences sur notre site <tspan text-decoration="underline">paris-web.fr</tspan></text>
+		<text x="120" y="960" font-style="italic" font-size="56">Retrouvez les vidéos de toutes nos conférences sur notre site <tspan text-decoration="underline">paris-web.fr</tspan></text>
 	</g>
 </svg>
 
