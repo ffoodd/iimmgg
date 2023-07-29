@@ -30,20 +30,22 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88">{{ courtesy.title | microtypo | escape | wrap | safe }}</text>
-		<text>{{ courtesy.sponsors | dump }}</text>
+		<text font-size="88">
+			<tspan x="120" y="144">{{ courtesy.title | microtypo | escape | replace('\n', '</tspan><tspan x="120" y="240">' | safe) }}</tspan>
+		</text>
 		{%- if courtesy.sponsors == "true" -%}
+			<!-- Largeur totale disponible : 1680 -->
 			<g>
 				{%- for sponsor in sponsors -%}
 					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="64" height="64" />
 				{%- endfor -%}
 			</g>
 		{%- endif -%}
-		<text x="1280" y="660" font-size="48">
+		<text x="1280" y="884" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 		--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
-		<text x="1280" y="700" font-style="italic" font-size="40">28 — 30 septembre 2023</text>
+		<text x="1280" y="924" font-style="italic" font-size="40">28 — 30 septembre 2023</text>
 	</g>
 </svg>

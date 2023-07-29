@@ -2,51 +2,51 @@
 	{
 		"name": "Gandi",
 		"logo": "/img/lego.svg",
-		"type": "Bronze"
+		"type": "bronze"
 	},
 	{
 		"name": "IIM Digital School",
 		"logo": "/img/lego.svg",
-		"type": "Bronze"
+		"type": "bronze"
 	},
 	{
 		"name": "Proton",
 		"logo": "/img/lego.svg",
-		"type": "Bronze"
+		"type": "bronze"
 	},
 	{
 		"name": "LebonCoin",
 		"logo": "/img/lego.svg",
-		"type": "Argent"
+		"type": "argent"
 	},
 	{
 		"name": "Temesis",
 		"logo": "/img/lego.svg",
-		"type": "Argent"
+		"type": "argent"
 	},
 	{
 		"name": "Balsamiq",
 		"logo": "/img/lego.svg",
-		"type": "Argent"
+		"type": "argent"
 	},
 	{
 		"name": "mc2i",
 		"logo": "/img/lego.svg",
-		"type": "Argent"
+		"type": "argent"
 	},
 	{
 		"name": "MAIF",
 		"logo": "/img/lego.svg",
-		"type": "Argent"
+		"type": "argent"
 	},
 	{
 		"name": "HelloWork",
 		"logo": "/img/lego.svg",
-		"type": "Or"
+		"type": "or"
 	},
 	{
 		"name": "o2switch",
 		"logo": "/img/lego.svg",
-		"type": "Or"
+		"type": "or"
 	}
 ]
