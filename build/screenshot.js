@@ -11,7 +11,12 @@ const colors = {
 }
 
 // @todo Passer le(s) chemin(s) en argument
-const folders = ['pw-2023/cartons-titres/base', 'pw-2023/cartons-titres/vod'];
+const folders = [
+	'pw-2023/cartons-titres/base',
+	'pw-2023/cartons-titres/vod',
+	'pw-2023/cartons-titres/courtesy',
+	'pw-2023/cartons-titres/sponsors'
+];
 
 folders.forEach(folder => {
 	const files = fs.readdirSync(`docs/${folder}`)

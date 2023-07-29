@@ -27,9 +27,9 @@
 			<summary>Ateliers</summary>
 			<ul>
 				{%- for conference in conferences %}
-				{%- if conference.type === "Ateliers" -%}
-					<li><a href="pw-2023/cartons-titres/base/atel-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
-				{%- endif -%}
+					{%- if conference.type === "Ateliers" -%}
+						<li><a href="pw-2023/cartons-titres/base/atel-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
 				{%- endfor %}
 			</ul>
 		</details>
@@ -55,7 +55,7 @@
 			<summary>Sponsors</summary>
 			<ul>
 				{%- for sponsor in sponsors %}
-					<li><strong>{{ sponsor.name | microtypo }}</strong> ({{  sponsor.type }}</li>
+					<li><a href="pw-2023/cartons-titres/sponsors/{{ sponsor.name | slugify }}.svg"><strong>{{ sponsor.name | microtypo }}</strong> <small>({{  sponsor.type }})</small></a></li>
 				{%- endfor %}
 			</ul>
 		</details>

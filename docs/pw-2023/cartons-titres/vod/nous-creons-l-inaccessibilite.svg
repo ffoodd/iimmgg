@@ -23,7 +23,6 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<!-- @todo Gérer l’alignement par le bas et wrap -->
 		<text font-size="88"><tspan x="120" y="486">Nous créons l’inaccessibilité</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>

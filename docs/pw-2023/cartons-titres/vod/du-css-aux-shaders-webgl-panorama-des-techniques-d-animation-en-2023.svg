@@ -23,7 +23,6 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<!-- @todo Gérer l’alignement par le bas et wrap -->
 		<text font-size="88"><tspan x="120" y="314">Du CSS aux shaders WebGL :</tspan><tspan x="120" y="400">panorama des techniques d’animation</tspan><tspan x="120" y="486">en 2023</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>

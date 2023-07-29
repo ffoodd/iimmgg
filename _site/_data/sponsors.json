@@ -1,52 +1,77 @@
 [
 	{
 		"name": "Gandi",
-		"logo": "/img/lego.svg",
+		"logo": "/img/sponsors/gandi.svg",
+		"size": {
+			"width": 50,
+			"height": 13
+		},
 		"type": "bronze"
 	},
 	{
 		"name": "IIM Digital School",
-		"logo": "/img/lego.svg",
+		"logo": "/img/sponsors/iim.svg",
+		"size": {
+			"width": 194,
+			"height": 172
+		},
 		"type": "bronze"
 	},
 	{
 		"name": "Proton",
-		"logo": "/img/lego.svg",
+		"logo": "/img/sponsors/proton.svg",
+		"size": {
+			"width": 690,
+			"height": 175
+		},
 		"type": "bronze"
 	},
 	{
 		"name": "LebonCoin",
-		"logo": "/img/lego.svg",
 		"type": "argent"
 	},
 	{
 		"name": "Temesis",
-		"logo": "/img/lego.svg",
+		"logo": "/img/sponsors/logo-temesis-fond-blanc.png",
+		"size": {
+			"width": 1500,
+			"height": 345
+		},
 		"type": "argent"
 	},
 	{
 		"name": "Balsamiq",
-		"logo": "/img/lego.svg",
+		"logo": "/img/sponsors/balsamiq-logo-screen.png",
+		"size": {
+			"width": 1024,
+			"height": 327
+		},
 		"type": "argent"
 	},
 	{
 		"name": "mc2i",
-		"logo": "/img/lego.svg",
+		"logo": "/img/sponsors/mc2i.png",
+		"size": {
+			"width": 1199,
+			"height": 710
+		},
 		"type": "argent"
 	},
 	{
 		"name": "MAIF",
-		"logo": "/img/lego.svg",
 		"type": "argent"
 	},
 	{
 		"name": "HelloWork",
-		"logo": "/img/lego.svg",
+		"logo": "/img/sponsors/HelloWork.png",
+		"size": {
+			"width": 493,
+			"height": 174
+		},
 		"type": "or"
 	},
 	{
 		"name": "o2switch",
-		"logo": "/img/lego.svg",
 		"type": "or"
 	}
 ]
