@@ -1,13 +1,3 @@
----js
-{
-	pagination: {
-		data: "sponsors",
-		size: 1,
-		alias: "sponsor"
-	},
-	permalink: "pw-2023/cartons-titres/sponsors/sponsor-{{ sponsor.name | slugify }}.svg"
-}
----
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
@@ -30,38 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#4f27d6">
-		<!-- Zone d’affichage :1156 × 443 -->
-		{%- set width = sponsor.size.width or 443 -%}
-		{%- set height = sponsor.size.height or 443 -%}
-		<!-- Si la largeur est trop grande -->
-		{%- if width > 1156 -%}
-			{%- set width = 1156 -%}
-			{%- set height = height * 1156 / sponsor.size.width -%}
-		{%- endif -%}
-		<!-- Si la hauteur est trop grande -->
-		{%- if height > 443 -%}
-			{%- set height = 443 -%}
-			{%- set width = width * 443 / sponsor.size.height -%}
-		{%- endif -%}
-		<!-- Si on a un SVG -->
-		{%- if sponsor.logo and ".svg" in sponsor.logo -%}
-			{%- if sponsor.size.width > sponsor.size.height -%}
-				{%- set width = 1156 -%}
-				{%- set height = height * 1156 / sponsor.size.width -%}
-				{%- if height > 443 -%}
-					{%- set height = 443 -%}
-					{%- set width = "auto" -%}
-				{%- endif -%}
-			{%- else -%}
-				{%- set height = 443 -%}
-				{%- set width = width * 443 / sponsor.size.height -%}
-				{%- if width > 1156 -%}
-					{%- set width = 1156 -%}
-					{%- set height = "auto" -%}
-				{%- endif -%}
-			{%- endif -%}
-		{%- endif -%}
-		<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ width | round }}" height="{{ height | round }}" x="120" y="{{ 512 - height | round }}"/>
+		<!-- Zone d’affichage :1156 × 443 --><!-- Si la largeur est trop grande --><!-- Si la hauteur est trop grande --><!-- Si on a un SVG --><image href="/img/sponsors/iim.svg" width="NaN" height="443" x="120" y="69"/>
 		<text x="120" y="604" font-size="88">soutient Paris Web</text>
 		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--

@@ -32,10 +32,10 @@
 	},
 	{
 		"name": "Temesis",
-		"logo": "/img/sponsors/logo-temesis-fond-blanc.png",
+		"logo": "/img/sponsors/temesis.svg",
 		"size": {
-			"width": 1500,
-			"height": 345
+			"width": 179,
+			"height": 40
 		},
 		"type": "argent"
 	},
