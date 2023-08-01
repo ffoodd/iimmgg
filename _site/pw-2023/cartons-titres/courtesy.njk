@@ -34,10 +34,11 @@
 			<tspan x="120" y="144">{{ courtesy.title | microtypo | escape | replace('\n', '</tspan><tspan x="120" y="240">' | safe) }}</tspan>
 		</text>
 		{%- if courtesy.sponsors == "true" -%}
-			<!-- Largeur totale disponible : 1680 -->
 			<g>
+				{%- set spacer = 96 -%}
+				{%- set maxWidth = 1680 -%}
 				{%- for sponsor in sponsors -%}
-					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="64" height="64" />
+					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ width }}" height="{{ height }}" />
 				{%- endfor -%}
 			</g>
 		{%- endif -%}

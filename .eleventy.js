@@ -1,6 +1,6 @@
 const { DateTime } = require('luxon');
 
-module.exports = function (eleventyConfig) {
+module.exports = (eleventyConfig) => {
 	eleventyConfig.addFilter('date', (dateObj) => {
 		return DateTime.fromISO(dateObj).setLocale('fr').toLocaleString(DateTime.DATE_FULL)
 	})

@@ -73,5 +73,9 @@
 	{
 		"name": "o2switch",
 		"type": "or"
+	},
+	{
+		"name": "Ekino",
+		"type": "bronze"
 	}
 ]

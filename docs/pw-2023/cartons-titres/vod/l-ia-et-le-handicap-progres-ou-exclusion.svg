@@ -1,6 +1,3 @@
-
-
-
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
@@ -47,4 +44,3 @@
 		<text x="120" y="960" font-style="italic" font-size="56">Retrouvez les vidéos de toutes nos conférences sur notre site <tspan text-decoration="underline">paris-web.fr</tspan></text>
 	</g>
 </svg>
-

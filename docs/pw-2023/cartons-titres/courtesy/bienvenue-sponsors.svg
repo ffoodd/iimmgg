@@ -22,8 +22,7 @@
 	<g font-family="Zilla Slab" fill="#fff">
 		<text font-size="88">
 			<tspan x="120" y="144">Bienvenue !</tspan>
-		</text><!-- Largeur totale disponible : 1680 -->
-			<g><image href="/img/sponsors/gandi.svg" width="64" height="64" /><image href="/img/sponsors/iim.svg" width="64" height="64" /><image href="/img/sponsors/proton.svg" width="64" height="64" /><image href="/img/lego.svg" width="64" height="64" /><image href="/img/sponsors/temesis.svg" width="64" height="64" /><image href="/img/sponsors/balsamiq-logo-screen.png" width="64" height="64" /><image href="/img/sponsors/mc2i.png" width="64" height="64" /><image href="/img/lego.svg" width="64" height="64" /><image href="/img/sponsors/HelloWork.png" width="64" height="64" /><image href="/img/lego.svg" width="64" height="64" /></g><text x="1280" y="884" font-size="48">
+		</text><g><image href="/img/sponsors/gandi.svg" width="" height="" /><image href="/img/sponsors/iim.svg" width="" height="" /><image href="/img/sponsors/proton.svg" width="" height="" /><image href="/img/lego.svg" width="" height="" /><image href="/img/sponsors/temesis.svg" width="" height="" /><image href="/img/sponsors/balsamiq-logo-screen.png" width="" height="" /><image href="/img/sponsors/mc2i.png" width="" height="" /><image href="/img/lego.svg" width="" height="" /><image href="/img/sponsors/HelloWork.png" width="" height="" /><image href="/img/lego.svg" width="" height="" /><image href="/img/lego.svg" width="" height="" /></g><text x="1280" y="884" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 		--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
