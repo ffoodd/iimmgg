@@ -1,81 +1,107 @@
 [
 	{
 		"name": "Gandi",
+		"type": "bronze",
 		"logo": "/img/sponsors/gandi.svg",
 		"size": {
 			"width": 50,
 			"height": 13
 		},
-		"type": "bronze"
+		"x": 120
 	},
 	{
 		"name": "IIM Digital School",
+		"type": "bronze",
 		"logo": "/img/sponsors/iim.svg",
 		"size": {
 			"width": 194,
 			"height": 172
 		},
-		"type": "bronze"
+		"x": 554
 	},
 	{
 		"name": "Proton",
+		"type": "bronze",
 		"logo": "/img/sponsors/proton.svg",
 		"size": {
 			"width": 690,
 			"height": 175
 		},
-		"type": "bronze"
+		"x": 720
 	},
 	{
 		"name": "LebonCoin",
-		"type": "argent"
+		"type": "argent",
+		"x": 1680
 	},
 	{
 		"name": "Temesis",
+		"type": "argent",
 		"logo": "/img/sponsors/temesis.svg",
 		"size": {
 			"width": 179,
 			"height": 40
 		},
-		"type": "argent"
+		"x": 120
 	},
 	{
 		"name": "Balsamiq",
+		"type": "argent",
 		"logo": "/img/sponsors/balsamiq-logo-screen.png",
 		"size": {
 			"width": 1024,
 			"height": 327
 		},
-		"type": "argent"
+		"x": 840
 	},
 	{
 		"name": "mc2i",
+		"type": "argent",
 		"logo": "/img/sponsors/mc2i.png",
 		"size": {
 			"width": 1199,
 			"height": 710
 		},
-		"type": "argent"
+		"x": 1364
 	},
 	{
 		"name": "MAIF",
-		"type": "argent"
+		"type": "argent",
+		"logo": "/img/sponsors/maif.svg",
+		"size": {
+			"width": 144,
+			"height": 113
+		},
+		"x": 1450
 	},
 	{
 		"name": "HelloWork",
+		"type": "or",
 		"logo": "/img/sponsors/HelloWork.png",
 		"size": {
 			"width": 493,
 			"height": 174
 		},
-		"type": "or"
+		"x": 120
 	},
 	{
 		"name": "o2switch",
+		"x": 973,
 		"type": "or"
 	},
 	{
 		"name": "Ekino",
-		"type": "bronze"
+		"type": "bronze",
+		"logo": "/img/sponsors/ekino.svg",
+		"size": {
+			"width": 1037,
+			"height": 288
+		},
+		"x": 1148
+	},
+	{
+		"name": "DGSI",
+		"type": "or",
+		"x": 1341
 	}
 ]

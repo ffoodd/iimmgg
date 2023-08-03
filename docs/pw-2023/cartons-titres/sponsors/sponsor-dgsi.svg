@@ -1,13 +1,3 @@
----js
-{
-	pagination: {
-		data: "courtesies",
-		size: 1,
-		alias: "courtesy"
-	},
-	permalink: "pw-2023/cartons-titres/courtesy/{{ courtesy.slug | slugify }}.svg"
-}
----
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
@@ -30,40 +20,14 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#4f27d6">
-		<text font-size="88">
-			<tspan x="120" y="144">{{ courtesy.title | microtypo | escape | replace('\n', '</tspan><tspan x="120" y="240">' | safe) }}</tspan>
-		</text>
-		{%- if courtesy.sponsors == "true" -%}
-			<g>
-				{%- set spacer = 64 -%}
-				{%- set x = 120 -%}
-				{%- set maxWidth = 1680 -%}
-				{%- for sponsor in sponsors -%}
-					{%- if sponsor.type === "or" -%}
-						{%- set height = 248 -%}
-						{%- set y = 304 -%}
-					{%- elseif sponsor.type === "argent" -%}
-						{%- set height = 152 -%}
-						{%- set y = 616 -%}
-					{%- elseif sponsor.type === "bronze" -%}
-						{%- set height = 96 -%}
-						{%- set y = 832 -%}
-					{%- endif -%}
-					{%- if sponsor.size -%}
-						{%- set width = (sponsor.size.width * height / sponsor.size.height) | round -%}
-					{%- else -%}
-						{%- set width = "auto" -%}
-					{%- endif -%}
-					{%- set x = sponsor.x -%}
-					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ width }}" height="{{ height }}" x="{{ x }}" y="{{ y }}" />
-				{%- endfor -%}
-			</g>
-		{%- endif -%}
-		<text x="1280" y="884" font-size="48">
+		<!-- Zone d’affichage : 1156 × 443 -->
+		<!-- @todo Faire ça en amont avec 11ty ? --><!-- Si la largeur est trop grande --><!-- Si la hauteur est trop grande --><!-- Si on a un SVG --><image href="/img/lego.svg" width="443" height="443" x="120" y="69"/>
+		<text x="120" y="604" font-size="88">soutient Paris Web</text>
+		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
-		--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
+			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
-		<text x="1280" y="924" font-style="italic" font-size="40">28 — 30 septembre 2023</text>
+		<text x="1280" y="700" font-style="italic" font-size="40">28 — 30 septembre 2023</text>
 	</g>
 </svg>
