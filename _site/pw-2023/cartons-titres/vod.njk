@@ -33,7 +33,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88">{{ conference.title | microtypo | escape | wrap | safe }}</text>
+		<text font-size="88">{{ conference.title | microtypo | escape | wrap([314,400,486], 120) | safe }}</text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>
 			{%- for speaker in conference.speakers -%}

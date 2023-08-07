@@ -1,16 +1,3 @@
----js
-{
-	pagination: {
-		data: "pw-2023",
-		size: 1,
-		alias: "conference",
-		before: (paginationData, fullData) => {
-			return paginationData.filter(slot => slot.type === "Conférences");
-		}
-	},
-	permalink: "pw-2023/cartons-titres/base/conf-{{ conference.title | slugify }}.svg"
-}
----
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
@@ -33,32 +20,22 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88">{{ conference.title | microtypo | escape | wrap([314,400,486], 120) | safe }}</text>
+		<text font-size="88" x="120"><tspan x="120" y="400">Table ronde</tspan><tspan x="120" y="486">« Femmes dans la tech »</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
-		<g>
-			{%- for speaker in conference.speakers -%}
-				<!-- @todo Simplifier ça ? Un filtre ? -->
-				{%- set x = 120 -%}
-				{%- if loop.index > 3 -%}
-					{%- set x = 702 -%}
-				{%- endif -%}
-				{%- set y = 624 -%}
-				{%- if loop.index === 2 or loop.index === 5 -%}
-					{%- set y = 624 + 72 -%}
-				{%- elseif loop.index === 3 or loop.index === 6 -%}
-					{%- set y = 624 + 144 -%}
-				{%- endif -%}
-				<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="{{ x }}" y="{{ y }}" style="clip-path: circle();"/>
-				<text x="{{ x + 80 }}" y="{{ y + 48 }}" font-size="48" font-style="italic">{{ speaker.name | microtypo | escape }}</text>
-			{%- endfor -%}
-		</g>
+		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/08/gaelle-kubila-thumb-200x200-1862.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+				<text x="200" y="672" font-size="48" font-style="italic">Gaëlle Kubila</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/Marine-Gandy-paris-web-thumb-200x200-1812.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
+				<text x="200" y="744" font-size="48" font-style="italic">Marine Gandy</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/08/marcy-ericka-charollois-thumb-200x200-1861.jpg" width="64" height="64" x="120" y="768" style="clip-path: circle();"/>
+				<text x="200" y="816" font-size="48" font-style="italic">Marcy Ericka Charollois</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/Anais-Sparesotto-paris-web-thumb-200x200-1799.jpg" width="64" height="64" x="702" y="624" style="clip-path: circle();"/>
+				<text x="782" y="672" font-size="48" font-style="italic">Anais Sparesotto</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/magali-milbergue-paris-web-thumb-200x200-1811.jpg" width="64" height="64" x="702" y="696" style="clip-path: circle();"/>
+				<text x="782" y="744" font-size="48" font-style="italic">Magali Milbergue</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2018/04/emmanuelle-aboaf-thumb-300x300-1269.jpg" width="64" height="64" x="702" y="768" style="clip-path: circle();"/>
+				<text x="782" y="816" font-size="48" font-style="italic">Emmanuelle Aboaf</text></g>
 		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
-			{{ conference.date | date }} à {{ conference.start | replace(":", "h") }}
-		</text>
-	</g>
+			28 septembre 2023 à 11h20
+		</text><text font-size="32"><tspan x="1280" y="864" font-style="italic">À suivre :</tspan><tspan x="1280" y="904">CSS Viewport Units v2 :</tspan><tspan x="1280" y="944"> on pousse encore plus loin la réactivité</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 12h15</tspan>
+			</text></g>
 </svg>

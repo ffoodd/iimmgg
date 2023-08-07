@@ -59,5 +59,15 @@
 				{%- endfor %}
 			</ul>
 		</details>
+		<details>
+			<summary>Transitions</summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Conférences" -%}
+						<li><a href="pw-2023/cartons-titres/transitions/trans-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
 	</main>
 {% endblock %}

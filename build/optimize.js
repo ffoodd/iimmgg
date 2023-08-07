@@ -14,7 +14,8 @@ const folders = [
 	'dist/pw-2023/cartons-titres/base',
 	'dist/pw-2023/cartons-titres/vod',
 	'dist/pw-2023/cartons-titres/courtesy',
-	'dist/pw-2023/cartons-titres/sponsors'
+	'dist/pw-2023/cartons-titres/sponsors',
+	'dist/pw-2023/cartons-titres/transitions'
 ];
 
 folders.forEach(folder => {

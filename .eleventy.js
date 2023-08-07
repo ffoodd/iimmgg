@@ -5,25 +5,30 @@ module.exports = (eleventyConfig) => {
 		return DateTime.fromISO(dateObj).setLocale('fr').toLocaleString(DateTime.DATE_FULL)
 	})
 
-	eleventyConfig.addFilter('wrap', (title) => {
+	eleventyConfig.addFilter('wrap', (title, positions = [314,400,486], offsetX = 120) => {
 		const lines = title.split('\n')
 		const wrappedTitle = lines.map((line, index) => {
 			let offsets = []
 			// @todo Comment simplifier ça ?
-			// @todo spécifique à pw-2023 : un moyen de généraliser ?
 			switch (lines.length) {
+				case 5:
+					offsets = [positions.at(-5), positions.at(-4), positions.at(-3), positions.at(-2), positions.at(-1)]
+					break;
+				case 4:
+					offsets = [positions.at(-4), positions.at(-3), positions.at(-2), positions.at(-1)]
+					break;
 				case 3:
-					offsets = [314,400,486]
+					offsets = [positions.at(-3), positions.at(-2), positions.at(-1)]
 					break;
 				case 2:
-					offsets = [400,486]
+					offsets = [positions.at(-2), positions.at(-1)]
 					break;
 				case 1:
 				default:
-					offsets = [486]
+					offsets = [positions.at(-1)]
 					break;
 			}
-			return `<tspan x="120" y="${offsets[index]}">${line}</tspan>`;
+			return `<tspan x="${offsetX}" y="${offsets[index]}"${line.startsWith('À suivre') || line.includes('septembre 2023') ? ' font-style="italic"' : ''}>${line}</tspan>`;
 		})
 		return wrappedTitle.join('')
 	})
@@ -41,6 +46,14 @@ module.exports = (eleventyConfig) => {
 			.replace(' — ', ' — ')
 			.replace(' / ', ' / ')
 	})
+
+	eleventyConfig.addCollection("orderedConferences", (collection) =>
+		collection.getFilteredByGlob("_posts/*.md").sort((a, b) => {
+			if (a.data.title > b.data.title) return -1;
+			else if (a.data.title < b.data.title) return 1;
+			else return 0;
+		})
+	);
 
 	eleventyConfig.addPassthroughCopy("_site/img")
 
