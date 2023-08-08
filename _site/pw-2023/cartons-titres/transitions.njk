@@ -62,7 +62,7 @@
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			{{ conference.date | date }} à {{ conference.start | replace(":", "h") }}
 		</text>
-		{%- if pagination.page.next -%}
+		{%- if pagination.page.next and pagination.page.next.start !== "09:05" -%}
 			<text font-size="32">
 				{%- set nextTitle = ['À suivre :\n', pagination.page.next.title, '\n', pagination.page.next.date | date, ' à ', pagination.page.next.start| replace(":", "h") ] | join -%}
 				{{ nextTitle | microtypo | escape | wrap([824,864,904,944,984], 1280) | safe }}
