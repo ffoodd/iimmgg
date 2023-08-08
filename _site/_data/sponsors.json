@@ -32,6 +32,11 @@
 	{
 		"name": "LebonCoin",
 		"type": "argent",
+		"logo": "/img/sponsors/leboncoin.svg",
+		"size": {
+			"width": 230,
+			"height": 45
+		},
 		"x": 1680
 	},
 	{
@@ -86,8 +91,13 @@
 	},
 	{
 		"name": "o2switch",
-		"x": 973,
-		"type": "or"
+		"type": "or",
+		"logo": "/img/sponsors/o2switch.svg",
+		"size": {
+			"width": 794,
+			"height": 251
+		},
+		"x": 973
 	},
 	{
 		"name": "Ekino",
@@ -102,6 +112,11 @@
 	{
 		"name": "DGSI",
 		"type": "or",
+		"logo": "/img/sponsors/dgsi.svg",
+		"size": {
+			"width": 595,
+			"height": 595
+		},
 		"x": 1341
 	}
 ]
