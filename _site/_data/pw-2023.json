@@ -339,14 +339,14 @@
     "type": "Conférences"
   },
   {
-    "title": "Gatekeeping, misogynie et influenceurs :\nla triade infernale de la tech",
+    "title": "Numérique responsable :\net si on industrialisait la démarche ?",
     "date": "2023-09-29",
     "start": "11:05",
     "speakers": [
       {
-        "name": "Amélie Abdallah",
-        "url": "https://www.paris-web.fr/orateurs/amelie-abdallah.php",
-        "image": "https://www.paris-web.fr/assets_c/2023/05/c3d29ec67ae1b6fd680f6bff7b109897c4dfbba4-thumb-200x200-1798.jpg"
+        "name": "Aurélien Levy",
+        "url": "https://www.paris-web.fr/orateurs/aurelien-levy.php",
+        "image": "https://www.paris-web.fr/assets_c/2018/04/aurelien-levy-thumb-143x143-1280.jpg"
       }
     ],
     "type": "Conférences"
@@ -510,5 +510,53 @@
       }
     ],
     "type": "Conférences"
-  }
+  },
+	{
+		"title": "Pause",
+		"date": "2023-09-28",
+		"start": "10:50",
+		"type": "Pause"
+	},
+	{
+		"title": "Déjeuner",
+		"date": "2023-09-28",
+		"start": "12:45",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2023-09-28",
+		"start": "16:10",
+		"type": "Pause"
+	},
+	{
+		"title": "Apéritif communautaire",
+		"date": "2023-09-28",
+		"start": "18:15",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2023-09-29",
+		"start": "10:35",
+		"type": "Pause"
+	},
+	{
+		"title": "Déjeuner",
+		"date": "2023-09-29",
+		"start": "12:30",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2023-09-29",
+		"start": "15:55",
+		"type": "Pause"
+	},
+	{
+		"title": "Conférence de clôture",
+		"date": "2023-09-29",
+		"start": "17:55",
+		"type": "Pause"
+	}
 ]

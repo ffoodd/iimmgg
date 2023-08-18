@@ -20,11 +20,9 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88" x="120"><tspan x="120" y="314">Le pouvoir de l’inconscient :</tspan><tspan x="120" y="400">les biais cognitifs qui façonnent</tspan><tspan x="120" y="486">la recherche en ligne</tspan></text>
-		<text x="120" y="600" font-size="48" font-style="italic">--</text>
-		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/Myriam-Jessier-paris-web-thumb-200x200-1795.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
-				<text x="200" y="672" font-size="48" font-style="italic">Myriam Jessier</text></g>
-		<text x="1280" y="660" font-size="48">
+		<text font-size="88" x="120"><tspan x="120" y="314">Le pouvoir de l’inconscient :</tspan><tspan x="120" y="400">les biais cognitifs qui façonnent</tspan><tspan x="120" y="486">la recherche en ligne</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
+			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/Myriam-Jessier-paris-web-thumb-200x200-1795.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+					<text x="200" y="672" font-size="48" font-style="italic">Myriam Jessier</text></g><text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>

@@ -20,16 +20,15 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88" x="120"><tspan x="120" y="314">Du CSS aux shaders WebGL :</tspan><tspan x="120" y="400">panorama des techniques d’animation</tspan><tspan x="120" y="486">en 2023</tspan></text>
-		<text x="120" y="600" font-size="48" font-style="italic">--</text>
-		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/julien-sulpis-paris-web-thumb-200x200-1808.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
-				<text x="200" y="672" font-size="48" font-style="italic">Julien Sulpis</text></g>
-		<text x="1280" y="660" font-size="48">
+		<text font-size="88" x="120"><tspan x="120" y="314">Du CSS aux shaders WebGL :</tspan><tspan x="120" y="400">panorama des techniques d’animation</tspan><tspan x="120" y="486">en 2023</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
+			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/julien-sulpis-paris-web-thumb-200x200-1808.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+					<text x="200" y="672" font-size="48" font-style="italic">Julien Sulpis</text></g><text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			29 septembre 2023 à 17h00
-		</text></g>
+		</text><text font-size="32"><tspan x="1280" y="904" font-style="italic">À suivre :</tspan><tspan x="1280" y="944">Conférence de clôture</tspan><tspan x="1280" y="984" font-style="italic">29 septembre 2023 à 17h55</tspan>
+			</text></g>
 </svg>

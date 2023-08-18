@@ -6,11 +6,11 @@
 		alias: "conference",
 		before: (paginationData, fullData) => {
 			return paginationData
-				.filter(slot => slot.type === "Conférences")
+				.filter(slot => (["Conférences", "Pause"].includes(slot.type)))
 				.sort((a,b) => new Date(`${a.date}T${a.start}`) - new Date(`${b.date}T${b.start}`) )
 		}
 	},
-	permalink: "pw-2023/cartons-titres/transitions/trans-{{ conference.title | slugify }}.svg"
+	permalink: "pw-2023/cartons-titres/transitions/trans-{{ conference.title | slugify }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' -%}-{{ conference.start | replace(':', 'h') }}{%- endif -%}.svg"
 }
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
@@ -36,24 +36,26 @@
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
 		<text font-size="88" x="120">{{ conference.title | microtypo | escape | wrap([314,400,486]) | safe }}</text>
-		<text x="120" y="600" font-size="48" font-style="italic">--</text>
-		<g>
-			{%- for speaker in conference.speakers -%}
-				<!-- @todo Simplifier ça ? Un filtre ? -->
-				{%- set x = 120 -%}
-				{%- if loop.index > 3 -%}
-					{%- set x = 702 -%}
-				{%- endif -%}
-				{%- set y = 624 -%}
-				{%- if loop.index === 2 or loop.index === 5 -%}
-					{%- set y = 624 + 72 -%}
-				{%- elseif loop.index === 3 or loop.index === 6 -%}
-					{%- set y = 624 + 144 -%}
-				{%- endif -%}
-				<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="{{ x }}" y="{{ y }}" style="clip-path: circle();"/>
-				<text x="{{ x + 80 }}" y="{{ y + 48 }}" font-size="48" font-style="italic">{{ speaker.name | microtypo | escape }}</text>
-			{%- endfor -%}
-		</g>
+		{%- if conference.speakers -%}
+			<text x="120" y="600" font-size="48" font-style="italic">--</text>
+			<g>
+				{%- for speaker in conference.speakers -%}
+					<!-- @todo Simplifier ça ? Un filtre ? -->
+					{%- set x = 120 -%}
+					{%- if loop.index > 3 -%}
+						{%- set x = 702 -%}
+					{%- endif -%}
+					{%- set y = 624 -%}
+					{%- if loop.index === 2 or loop.index === 5 -%}
+						{%- set y = 624 + 72 -%}
+					{%- elseif loop.index === 3 or loop.index === 6 -%}
+						{%- set y = 624 + 144 -%}
+					{%- endif -%}
+					<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="{{ x }}" y="{{ y }}" style="clip-path: circle();"/>
+					<text x="{{ x + 80 }}" y="{{ y + 48 }}" font-size="48" font-style="italic">{{ speaker.name | microtypo | escape }}</text>
+				{%- endfor -%}
+			</g>
+		{%- endif -%}
 		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>

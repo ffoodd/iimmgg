@@ -55,7 +55,7 @@
 			<summary>Sponsors</summary>
 			<ul>
 				{%- for sponsor in sponsors %}
-					<li><a href="pw-2023/cartons-titres/sponsors/{{ sponsor.name | slugify }}.svg"><strong>{{ sponsor.name | microtypo }}</strong> <small>({{  sponsor.type }})</small></a></li>
+					<li><a href="pw-2023/cartons-titres/sponsors/sponsor-{{ sponsor.name | slugify }}.svg"><strong>{{ sponsor.name | microtypo }}</strong> <small>({{  sponsor.type }})</small></a></li>
 				{%- endfor %}
 			</ul>
 		</details>
@@ -63,8 +63,8 @@
 			<summary>Transitions</summary>
 			<ul>
 				{%- for conference in conferences %}
-					{%- if conference.type === "Conférences" -%}
-						<li><a href="pw-2023/cartons-titres/transitions/trans-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- if conference.type === "Conférences" or conference.type === "Pause" -%}
+						<li><a href="pw-2023/cartons-titres/transitions/trans-{{ conference.title | slugify }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' -%}-{{ conference.start | replace(':', 'h') }}{%- endif -%}.svg">{{ conference.title | microtypo }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' %} ({{ conference.start | replace(':', 'h') }}){%- endif -%}</a></li>
 					{%- endif -%}
 				{%- endfor %}
 			</ul>
