@@ -28,7 +28,7 @@ module.exports = (eleventyConfig) => {
 					offsets = [positions.at(-1)]
 					break;
 			}
-			return `<tspan x="${offsetX}" y="${offsets[index]}"${line.startsWith('À suivre') || line.includes('septembre 2023') ? ' font-style="italic"' : ''}>${line}</tspan>`;
+			return `<tspan x="${offsetX}" y="${offsets[index]}"${line.startsWith('À suivre') || line.includes('septembre 2023') || line.includes('en anglais') ? ' font-style="italic"' : ''}>${line}</tspan>`;
 		})
 		return wrappedTitle.join('')
 	})

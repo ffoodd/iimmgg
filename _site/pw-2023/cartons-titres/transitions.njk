@@ -66,7 +66,11 @@
 		</text>
 		{%- if pagination.page.next and pagination.page.next.start !== "09:05" -%}
 			<text font-size="32">
-				{%- set nextTitle = ['À suivre :\n', pagination.page.next.title, '\n', pagination.page.next.date | date, ' à ', pagination.page.next.start| replace(":", "h") ] | join -%}
+				{%- set nextLanguage = '' -%}
+				{%- if pagination.page.next.lang === 'EN' -%}
+					{%- set nextLanguage = '\n(conférence en anglais)' -%}
+				{%- endif -%}
+				{%- set nextTitle = ['À suivre :\n', pagination.page.next.title, nextLanguage, '\n', pagination.page.next.date | date, ' à ', pagination.page.next.start | replace(":", "h") ] | join -%}
 				{{ nextTitle | microtypo | escape | wrap([824,864,904,944,984], 1280) | safe }}
 			</text>
 		{%- endif -%}
