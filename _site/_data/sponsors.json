@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Webvert",
+		"type": "bronze",
+		"logo": "/img/sponsors/webvert.svg",
+		"size": {
+			"width": 520,
+			"height": 85
+		},
+		"x": 120
+	},
+	{
 		"name": "Gandi",
 		"type": "bronze",
 		"logo": "/img/sponsors/gandi.svg",
