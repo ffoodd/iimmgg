@@ -442,6 +442,25 @@
 		"lang": "EN"
 	},
 	{
+		"title": "[Partenaire]\nCabinets de conseil en SI\net numérique responsable, incompatibles ?",
+		"date": "2023-09-28",
+		"start": "13:50",
+		"speakers": [
+			{
+				"name": "Charlotte Grivot",
+				"url": "https://www.paris-web.fr/orateurs/charlotte-grivot.php",
+				"image": "https://www.paris-web.fr/assets_c/2023/08/charlotte-grivot-thumb-200x200-1867.png"
+			},
+			{
+				"name": "Gaëtan Robine",
+				"url": "https://www.paris-web.fr/orateurs/gaetan-robine.php",
+				"image": "https://www.paris-web.fr/assets_c/2023/08/gaetan-robine-thumb-200x200-1878.jpg"
+			}
+		],
+		"type": "Conférences",
+		"lang": "FR"
+	},
+	{
 		"title": "CSS Viewport Units v2 :\n on pousse encore plus loin la réactivité",
 		"date": "2023-09-28",
 		"start": "12:15",
@@ -528,6 +547,12 @@
 		"lang": "FR"
 	},
 	{
+		"title": "Conférence d’ouverture",
+		"date": "2023-09-28",
+		"start": "09:05",
+		"type": "Pause"
+	},
+	{
 		"title": "Pause",
 		"date": "2023-09-28",
 		"start": "10:50",
@@ -549,6 +574,12 @@
 		"title": "Apéritif communautaire",
 		"date": "2023-09-28",
 		"start": "18:15",
+		"type": "Pause"
+	},
+	{
+		"title": "Bonjour !",
+		"date": "2023-09-29",
+		"start": "08:30",
 		"type": "Pause"
 	},
 	{

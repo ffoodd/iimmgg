@@ -12,7 +12,7 @@ Les fichiers json d’entrée sont stockés dans `_site/_data/`.
 En utilisant [jq](https://jqlang.github.io/jq/), on peut générer un fichier json sur-mesure contenant uniquement les clés qui nous intéressent — par exemple, pour un export du programme de Paris Web, voilà la commande utilisée :
 
 ```shell
-cat _site/_data/pw-2023-export.json | jq 'map({title,date,start,speakers,type})' > _site/_data/pw-2023.json
+cat _site/_data/pw-2023-export.json | jq 'map({title,date,start,speakers,type,lang})' > _site/_data/pw-2023.json
 ```
 
 ## Images
