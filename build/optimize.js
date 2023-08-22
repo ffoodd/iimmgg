@@ -1,3 +1,4 @@
+const cp = require('node:child_process');
 const fs = require('node:fs');
 const path = require('node:path');
 const sharp = require('sharp');
@@ -22,17 +23,19 @@ folders.forEach(folder => {
 	const images = fs.readdirSync(folder)
 
 	images.forEach(image => {
-		const imagePath = path.join(process.cwd(),`${folder}/${image}`)
-
-		sharp(imagePath)
-			.png({ colours: 32, force: true })
-			.toBuffer((error, buffer) => {
-				fs.writeFile(`${folder}/${image}`, buffer, (error) => {
-					if (error) throw error
-					console.log(`${colors.bold}${colors.green}Optimized${colors.end} ${colors.blue}${folder}/${image}${colors.end}`)
+		const relativeImagePath = `${folder}/${image}`
+		const imagePath = path.join(process.cwd(), relativeImagePath)
+		const isGitModified = cp.execSync(`git diff --name-only ${relativeImagePath}`).toString().trim() === relativeImagePath
+		if (isGitModified) {
+			sharp(imagePath)
+				.png({colours: 32, force: true})
+				.toBuffer((error, buffer) => {
+					fs.writeFile(`${folder}/${image}`, buffer, (error) => {
+						if (error) throw error
+						console.log(`${colors.bold}${colors.green}Optimized${colors.end} ${colors.blue}${folder}/${image}${colors.end}`)
+					})
 				})
-		})
-
+		}
 	})
 })
 

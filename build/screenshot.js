@@ -25,8 +25,12 @@ folders.forEach(folder => {
 
 	for (let file of files) {
 		const filename = file.replace('.svg', '.png')
-		cp.execSync(`firefox -p "noob" --screenshot ${outputPath}/${filename} --window-size 1920,1080 http://localhost:8080/${folder}/${file}`)
-		console.log(`${colors.bold}${colors.green}Generated${colors.end} ${colors.blue}${folder}/${filename}${colors.end}`)
+		const filePath = `docs/${folder}/${file}`
+		const isGitModified = cp.execSync(`git diff --name-only ${filePath}`).toString().trim() === filePath
+		if (isGitModified) {
+			cp.execSync(`firefox -p "noob" --screenshot ${outputPath}/${filename} --window-size 1920,1080 http://localhost:8080/${folder}/${file}`)
+			console.log(`${colors.bold}${colors.green}Generated${colors.end} ${colors.blue}${folder}/${filename}${colors.end}`)
+		}
 	}
 })
 

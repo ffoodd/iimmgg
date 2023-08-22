@@ -20,7 +20,7 @@
 		"prebuild": "rm -rf docs/*",
 		"build": "eleventy",
 		"build:debug": "DEBUG=Eleventy* eleventy",
-		"prebuild:png": "npm run build && rm -rf dist/*",
+		"prebuild:png": "npm run build",
 		"build:png": "node build/screenshot.js",
 		"postbuild:png": "node build/optimize.js"
 	},
