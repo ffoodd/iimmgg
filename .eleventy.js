@@ -28,7 +28,16 @@ module.exports = (eleventyConfig) => {
 					offsets = [positions.at(-1)]
 					break;
 			}
-			return `<tspan x="${offsetX}" y="${offsets[index]}"${line.startsWith('À suivre') || line.includes('septembre 2023') || line.includes('en anglais') ? ' font-style="italic"' : ''}>${line}</tspan>`;
+			let fontStyle = ''
+			let fontSize = ''
+			if (['À suivre', 'septembre 2023', 'en anglais'].some(string => line.includes(string))) {
+				fontStyle = ' font-style="italic"'
+			}
+			if (line.startsWith('[Partenaire]') && !lines[0].startsWith('À suivre')) {
+				fontStyle = ' font-style="italic"'
+				fontSize = ' font-size="48"'
+			}
+			return `<tspan x="${offsetX}" y="${offsets[index]}"${fontStyle}${fontSize}>${line}</tspan>`
 		})
 		return wrappedTitle.join('')
 	})
@@ -53,7 +62,7 @@ module.exports = (eleventyConfig) => {
 			else if (a.data.title < b.data.title) return 1;
 			else return 0;
 		})
-	);
+	)
 
 	eleventyConfig.addPassthroughCopy("_site/img")
 
