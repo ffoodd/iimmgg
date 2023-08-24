@@ -14,7 +14,6 @@ const colors = {
 const folders = [
 	'dist/pw-2023/cartons-titres/base',
 	'dist/pw-2023/cartons-titres/vod',
-	'dist/pw-2023/cartons-titres/courtesy',
 	'dist/pw-2023/cartons-titres/sponsors',
 	'dist/pw-2023/cartons-titres/transitions'
 ];
@@ -25,7 +24,7 @@ folders.forEach(folder => {
 	images.forEach(image => {
 		const relativeImagePath = `${folder}/${image}`
 		const imagePath = path.join(process.cwd(), relativeImagePath)
-		const isGitModified = cp.execSync(`git diff --name-only ${relativeImagePath}`).toString().trim() === relativeImagePath
+		const isGitModified = cp.execSync(`git diff --name-only --cached ${relativeImagePath}`, { encoding: 'utf-8' }).trim() === relativeImagePath
 		if (isGitModified) {
 			sharp(imagePath)
 				.png({colours: 32, force: true})
