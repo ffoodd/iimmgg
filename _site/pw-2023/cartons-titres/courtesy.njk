@@ -5,7 +5,7 @@
 		size: 1,
 		alias: "courtesy"
 	},
-	permalink: "pw-2023/cartons-titres/courtesy/{{ courtesy.slug | slugify }}.svg"
+	permalink: "pw-2023/cartons-titres/transitions/trans-{{ courtesy.slug | slugify }}.svg"
 }
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
@@ -35,27 +35,9 @@
 		</text>
 		{%- if courtesy.sponsors == "true" -%}
 			<g>
-				{%- set spacer = 64 -%}
-				{%- set x = 120 -%}
-				{%- set maxWidth = 1680 -%}
 				{%- for sponsor in sponsors -%}
-					{%- if sponsor.type === "or" -%}
-						{%- set height = 248 -%}
-						{%- set y = 304 -%}
-					{%- elseif sponsor.type === "argent" -%}
-						{%- set height = 152 -%}
-						{%- set y = 616 -%}
-					{%- elseif sponsor.type === "bronze" -%}
-						{%- set height = 96 -%}
-						{%- set y = 832 -%}
-					{%- endif -%}
-					{%- if sponsor.size -%}
-						{%- set width = (sponsor.size.width * height / sponsor.size.height) | round -%}
-					{%- else -%}
-						{%- set width = "auto" -%}
-					{%- endif -%}
-					{%- set x = sponsor.x -%}
-					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ width }}" height="{{ height }}" x="{{ x }}" y="{{ y }}" />
+					{# @todo Ajuster la position y au cas par cas dans sponsors.json (basé sur Figma) #}
+					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ sponsor.position.width }}" height="{{ sponsor.position.height }}" x="{{ sponsor.position.x }}" y="{{ sponsor.position.y }}" />
 				{%- endfor -%}
 			</g>
 		{%- endif -%}
