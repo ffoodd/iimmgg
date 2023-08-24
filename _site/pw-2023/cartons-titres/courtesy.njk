@@ -36,7 +36,6 @@
 		{%- if courtesy.sponsors == "true" -%}
 			<g>
 				{%- for sponsor in sponsors -%}
-					{# @todo Ajuster la position y au cas par cas dans sponsors.json (basé sur Figma) #}
 					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ sponsor.position.width }}" height="{{ sponsor.position.height }}" x="{{ sponsor.position.x }}" y="{{ sponsor.position.y }}" />
 				{%- endfor -%}
 			</g>
