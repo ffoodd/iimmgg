@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
-	<defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice"><defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
 		<pattern id="bordure" width="10" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
 			<path d="M0,5H10" stroke-width="10" stroke="#e11a81" />
