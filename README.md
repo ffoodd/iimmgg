@@ -9,11 +9,20 @@ Les fichiers json d’entrée sont stockés dans `_site/_data/`.
 
 ### Nettoyer un json d’entrée
 
-En utilisant [jq](https://jqlang.github.io/jq/), on peut générer un fichier json sur-mesure contenant uniquement les clés qui nous intéressent — par exemple, pour un export du programme de Paris Web, voilà la commande utilisée :
+La source principale est [l’export proposé par MT](https://www.paris-web.fr/export_conferences_gael.json) :
+
+1. à filtrer pour l’année en cours (2023),
+2. à enregistrer dans `_site/_date/pw-2023.json` (ignoré de Git),
+3. à limiter aux conférences et atelier de ladite année.
+
+Puis en utilisant [jq](https://jqlang.github.io/jq/), on peut générer un fichier json sur-mesure contenant uniquement les clés qui nous intéressent — par exemple, pour un export du programme de Paris Web, voilà la commande utilisée :
 
 ```shell
-cat _site/_data/pw-2023-export.json | jq 'map({title,date,start,speakers,type,lang})' > _site/_data/pw-2023.json
+cat _site/_data/pw-2023-export.json | jq 'map({title,date,start,speakers,type,lang})' > _site/_data/pw-2023-clean.json
 ```
+
+> [!IMPORTANT]
+> On écrase le fichier source, car des données supplémentaires sont ajoutées dans le fichier source pour 11ty : présence des sponsors, pauses et sauts de ligne (`\n`).
 
 ## Images
 
