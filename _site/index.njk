@@ -69,5 +69,13 @@
 				{%- endfor %}
 			</ul>
 		</details>
+		<details>
+			<summary>Colors</summary>
+			<ul>
+				{%- for color in colors %}
+					<li><a href="pw-2023/cartons-titres/colors/color-{{ color.name | slugify }}.svg">{{ color.name | microtypo }}</a></li>
+				{%- endfor %}
+			</ul>
+		</details>
 	</main>
 {% endblock %}

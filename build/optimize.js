@@ -15,6 +15,7 @@ const folders = [
 	'dist/pw-2023/cartons-titres/base',
 	'dist/pw-2023/cartons-titres/vod',
 	'dist/pw-2023/cartons-titres/sponsors',
+	'dist/pw-2023/cartons-titres/colors',
 	'dist/pw-2023/cartons-titres/transitions'
 ];
 
@@ -24,17 +25,14 @@ folders.forEach(folder => {
 	images.forEach(image => {
 		const relativeImagePath = `${folder}/${image}`
 		const imagePath = path.join(process.cwd(), relativeImagePath)
-		const isGitModified = cp.execSync(`git diff --name-only --cached ${relativeImagePath}`, { encoding: 'utf-8' }).trim() === relativeImagePath
-		if (isGitModified) {
-			sharp(imagePath)
-				.png({colours: 32, force: true})
-				.toBuffer((error, buffer) => {
-					fs.writeFile(`${folder}/${image}`, buffer, (error) => {
-						if (error) throw error
-						console.log(`${colors.bold}${colors.green}Optimized${colors.end} ${colors.blue}${folder}/${image}${colors.end}`)
-					})
+		sharp(imagePath)
+			.png({colours: 32, force: true})
+			.toBuffer((error, buffer) => {
+				fs.writeFile(`${folder}/${image}`, buffer, (error) => {
+					if (error) throw error
+					console.log(`${colors.bold}${colors.green}Optimized${colors.end} ${colors.blue}${folder}/${image}${colors.end}`)
 				})
-		}
+			})
 	})
 })
 

@@ -17,6 +17,7 @@ const folders = [
 	'pw-2023/cartons-titres/base',
 	'pw-2023/cartons-titres/vod',
 	'pw-2023/cartons-titres/sponsors',
+	'pw-2023/cartons-titres/colors',
 	'pw-2023/cartons-titres/transitions'
 ];
 

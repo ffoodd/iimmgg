@@ -1,0 +1,20 @@
+[
+	{
+		"name": "conference",
+		"patterns": "#e11a81",
+		"background": "#b40b57",
+		"text": "#fff"
+	},
+	{
+		"name": "sponsor",
+		"patterns": "#ad95fb",
+		"background": "#e7e5ef",
+		"text": "#4f27d6"
+	},
+	{
+		"name": "workshops",
+		"patterns": "#058fd6",
+		"background": "#0071b8",
+		"text": "#fff"
+	}
+]
