@@ -363,14 +363,19 @@
 		"lang": "FR"
 	},
 	{
-		"title": "Numérique responsable :\net si on industrialisait la démarche ?",
+		"title": "Le guide du jardinier de l'accessibilité\nnumérique : choisir les meilleures graines\npour la faire pousser et l'entretenir",
 		"date": "2023-09-29",
 		"start": "11:05",
 		"speakers": [
 			{
-				"name": "Aurélien Levy",
-				"url": "https://www.paris-web.fr/orateurs/aurelien-levy.php",
-				"image": "https://www.paris-web.fr/assets_c/2018/04/aurelien-levy-thumb-143x143-1280.jpg"
+				"name": "Arnaud Delafosse",
+				"url": "https://www.paris-web.fr/orateurs/arnaud-delafosse.php",
+				"image": "https://www.paris-web.fr/assets_c/2019/04/arnaud-delafosse-thumb-200xauto-1445.jpg"
+			},
+			{
+				"name": "Lena Chandelier",
+				"url": "https://www.paris-web.fr/orateurs/lena-chandelier.php",
+				"image": "https://www.paris-web.fr/assets_c/2017/06/lena-chandelier-thumb-143x143-1207.jpg"
 			}
 		],
 		"type": "Conférences",

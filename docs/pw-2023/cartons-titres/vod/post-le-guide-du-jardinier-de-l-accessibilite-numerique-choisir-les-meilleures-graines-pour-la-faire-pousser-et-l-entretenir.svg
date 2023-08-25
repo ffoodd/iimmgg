@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice"><defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
 		<pattern id="bordure" width="10" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
 			<path d="M0,5H10" stroke-width="10" stroke="#e11a81" />
@@ -19,15 +20,27 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88" x="120"><tspan x="120" y="400">Numérique responsable :</tspan><tspan x="120" y="486">et si on industrialisait la démarche ?</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
-			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2018/04/aurelien-levy-thumb-143x143-1280.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
-					<text x="200" y="672" font-size="48" font-style="italic">Aurélien Levy</text></g><text x="1280" y="660" font-size="48">
+		<text font-size="88"><tspan x="120" y="314">Le guide du jardinier de l&#39;accessibilité</tspan><tspan x="120" y="400">numérique : choisir les meilleures graines</tspan><tspan x="120" y="486">pour la faire pousser et l&#39;entretenir</tspan></text>
+		<text x="120" y="600" font-size="48" font-style="italic">--</text>
+		<g>
+				
+				
+				
+				<image href="https://www.paris-web.fr/assets_c/2019/04/arnaud-delafosse-thumb-200xauto-1445.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+				<text x="200" y="672" font-size="48" font-style="italic">Arnaud Delafosse</text>
+				
+				
+				
+					
+				
+				<image href="https://www.paris-web.fr/assets_c/2017/06/lena-chandelier-thumb-143x143-1207.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
+				<text x="200" y="744" font-size="48" font-style="italic">Lena Chandelier</text></g>
+		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
-		<text x="1280" y="700" font-style="italic" font-size="40">
-			29 septembre 2023 à 11h05
-		</text><text font-size="32"><tspan x="1280" y="864" font-style="italic">À suivre :</tspan><tspan x="1280" y="904">L’utilisateurice forcée,</tspan><tspan x="1280" y="944">qui n’aime pas l’informatique</tspan><tspan x="1280" y="984" font-style="italic">29 septembre 2023 à 12h00</tspan>
-			</text></g>
+		<text x="1280" y="700" font-style="italic" font-size="40">28 — 30 septembre 2023</text>
+		<text x="120" y="960" font-style="italic" font-size="56">Retrouvez les vidéos de toutes nos conférences sur notre site <tspan text-decoration="underline">paris-web.fr</tspan></text>
+	</g>
 </svg>
