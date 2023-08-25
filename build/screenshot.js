@@ -31,7 +31,7 @@ folders.forEach(folder => {
 	for (let file of files) {
 		const filename = file.replace('.svg', '.png')
 		const filePath = `docs/${folder}/${file}`
-		const isGitModified = cp.execSync(`git diff --name-only --cached --staged ${filePath}`, { encoding: 'utf-8' }).trim() === filePath
+		const isGitModified = cp.execSync(`git diff --name-only HEAD ${filePath}`, { encoding: 'utf-8' }).trim() === filePath
 		const outputFileExists = fs.existsSync(`${outputPath}/${filename}`)
 		if (isGitModified || !outputFileExists) {
 			try {
