@@ -21,7 +21,7 @@
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
 		<text font-size="88" x="120"><tspan x="120" y="314" font-style="italic" font-size="48">[Partenaire]</tspan><tspan x="120" y="400">Quel est le meilleur composant pour</tspan><tspan x="120" y="486">améliorer l’efficience d’une saisie de date ?</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
-			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="/img/lego.svg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/08/sebastien-chalme-thumb-143xauto-1884.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 					<text x="200" y="672" font-size="48" font-style="italic">Sébastien Chalmé</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/08/emilie-dumaine-thumb-200x200-1883.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
 					<text x="200" y="744" font-size="48" font-style="italic">Émilie Dumaine</text></g><text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
