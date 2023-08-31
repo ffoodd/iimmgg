@@ -10,7 +10,7 @@
 				.sort((a,b) => new Date(`${a.date}T${a.start}`) - new Date(`${b.date}T${b.start}`) )
 		}
 	},
-	permalink: "pw-2023/cartons-titres/transitions/trans-{{ conference.title | slugify }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' -%}-{{ conference.start | replace(':', 'h') }}{%- endif -%}.svg"
+	permalink: "pw-2023/cartons-titres/transitions/trans-{%- if conference.date === '2023-09-28' -%}jeudi{%- elseif conference.date === '2023-09-29' -%}vendredi{%- endif -%}-{%- if pagination.pageNumber < 10 -%}0{%- endif -%}{{ pagination.pageNumber }}.svg"
 }
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
