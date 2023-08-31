@@ -26,7 +26,7 @@ folders.forEach(folder => {
 		const relativeImagePath = `${folder}/${image}`
 		const imagePath = path.join(process.cwd(), relativeImagePath)
 		sharp(imagePath)
-			.png({colours: 32, force: true})
+			.png({colours: 256, force: true})
 			.toBuffer((error, buffer) => {
 				fs.writeFile(`${folder}/${image}`, buffer, (error) => {
 					if (error) throw error

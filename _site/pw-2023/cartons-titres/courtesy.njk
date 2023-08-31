@@ -37,7 +37,7 @@
 			<g>
 				{%- for sponsor in sponsors -%}
 					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ sponsor.position.width }}" height="{{ sponsor.position.height }}" x="{{ sponsor.position.x }}" y="{{ sponsor.position.y }}" />
-				{%- endfor -%}
+				{% endfor -%}
 			</g>
 		{%- endif -%}
 		<text x="1280" y="884" font-size="48">
