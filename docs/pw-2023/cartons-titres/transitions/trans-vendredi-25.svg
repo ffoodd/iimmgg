@@ -19,9 +19,9 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88" x="120"><tspan x="120" y="486">L’écoconception, c’est les autres</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
-			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/07/Laurent-Devernay-Satyagraha-thumb-200x200-1857.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
-					<text x="200" y="672" font-size="48" font-style="italic">Laurent Devernay Satyagraha</text></g><text x="1280" y="660" font-size="48">
+		<text font-size="88" x="120"><tspan x="120" y="314">RGESN : Retour d&#39;expérience</tspan><tspan x="120" y="400">sur sa prise en compte par</tspan><tspan x="120" y="486">les métiers du Web</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
+			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/09/christophe-clouzeau-thumb-200x200-1886.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+					<text x="200" y="672" font-size="48" font-style="italic">Christophe Clouzeau</text></g><text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
