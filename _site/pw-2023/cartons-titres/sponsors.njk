@@ -48,14 +48,14 @@
 		{%- if sponsor.logo and ".svg" in sponsor.logo -%}
 			{%- if sponsor.size.width > sponsor.size.height -%}
 				{%- set width = 1156 -%}
-				{%- set height = height * 1156 / sponsor.size.width -%}
+				{%- set height = sponsor.size.height * 1156 / sponsor.size.width -%}
 				{%- if height > 443 -%}
 					{%- set height = 443 -%}
 					{%- set width = "auto" -%}
 				{%- endif -%}
 			{%- else -%}
 				{%- set height = 443 -%}
-				{%- set width = width * 443 / sponsor.size.height -%}
+				{%- set width = sponsor.size.width * 443 / sponsor.size.height -%}
 				{%- if width > 1156 -%}
 					{%- set width = 1156 -%}
 					{%- set height = "auto" -%}

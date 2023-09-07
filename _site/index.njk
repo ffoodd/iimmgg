@@ -64,7 +64,7 @@
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Conférences" or conference.type === "Pause" -%}
-						<li><a href="pw-2023/cartons-titres/transitions/trans-{{ conference.title | slugify }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' -%}-{{ conference.start | replace(':', 'h') }}{%- endif -%}.svg">{{ conference.title | microtypo }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' %} ({{ conference.start | replace(':', 'h') }}){%- endif -%}</a></li>
+						<li><a href="pw-2023/cartons-titres/transitions/trans-{%- if conference.date === '2023-09-28' -%}jeudi{%- elseif conference.date === '2023-09-29' -%}vendredi{%- endif -%}-{%- if pagination.pageNumber < 10 -%}0{%- endif -%}{{ pagination.pageNumber }}.svg">{{ conference.title | microtypo }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' %} ({{ conference.start | replace(':', 'h') }}){%- endif -%}</a></li>
 					{%- endif -%}
 				{%- endfor %}
 			</ul>
