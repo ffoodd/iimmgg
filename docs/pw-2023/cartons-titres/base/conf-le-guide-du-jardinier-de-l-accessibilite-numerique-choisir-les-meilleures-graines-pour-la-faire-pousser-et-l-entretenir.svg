@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="314">Le guide du jardinier de l&#39;accessibilité</tspan><tspan x="120" y="400">numérique : choisir les meilleures graines</tspan><tspan x="120" y="486">pour la faire pousser et l&#39;entretenir</tspan></text>
+		<text font-size="88"><tspan x="120" y="314">Le guide du jardinier de l’accessibilité</tspan><tspan x="120" y="400">numérique : choisir les meilleures graines</tspan><tspan x="120" y="486">pour la faire pousser et l’entretenir</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2019/04/arnaud-delafosse-thumb-200xauto-1445.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Arnaud Delafosse</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2017/06/lena-chandelier-thumb-143x143-1207.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
