@@ -16,5 +16,11 @@
 		"patterns": "#058fd6",
 		"background": "#0071b8",
 		"text": "#fff"
+	},
+	{
+		"name": "staff",
+		"patterns": "#734bf9",
+		"background": "#4f27d6",
+		"text": "#fff"
 	}
 ]
