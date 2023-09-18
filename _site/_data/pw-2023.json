@@ -281,7 +281,7 @@
 	{
 		"title": "Du CSS aux shaders WebGL :\npanorama des techniques d’animation\nen 2023",
 		"date": "2023-09-29",
-		"start": "17:00",
+		"start": "16:55",
 		"speakers": [
 			{
 				"name": "Julien Sulpis",
@@ -357,7 +357,7 @@
 	{
 		"title": "L’utilisateurice forcée,\nqui n’aime pas l’informatique",
 		"date": "2023-09-29",
-		"start": "12:00",
+		"start": "11:55",
 		"speakers": [
 			{
 				"name": "Tony Archambeau",
@@ -371,7 +371,7 @@
 	{
 		"title": "Le guide du jardinier de l’accessibilité\nnumérique : choisir les meilleures graines\npour la faire pousser et l’entretenir",
 		"date": "2023-09-29",
-		"start": "11:05",
+		"start": "11:00",
 		"speakers": [
 			{
 				"name": "Arnaud Delafosse",
@@ -494,7 +494,7 @@
 	{
 		"title": "CSS Viewport Units v2 :\n on pousse encore plus loin la réactivité",
 		"date": "2023-09-28",
-		"start": "12:15",
+		"start": "12:10",
 		"speakers": [
 			{
 				"name": "Josiane Makelele",
@@ -508,7 +508,7 @@
 	{
 		"title": "Table ronde\n« Femmes dans la tech »",
 		"date": "2023-09-28",
-		"start": "11:20",
+		"start": "11:15",
 		"speakers": [
 			{
 				"name": "Gaëlle Kubila",
@@ -581,13 +581,13 @@
 	{
 		"title": "Pause",
 		"date": "2023-09-28",
-		"start": "10:50",
+		"start": "10:45",
 		"type": "Pause"
 	},
 	{
 		"title": "Déjeuner",
 		"date": "2023-09-28",
-		"start": "12:45",
+		"start": "12:40",
 		"type": "Pause"
 	},
 	{
@@ -617,7 +617,7 @@
 	{
 		"title": "Déjeuner",
 		"date": "2023-09-29",
-		"start": "12:30",
+		"start": "12:25",
 		"type": "Pause"
 	},
 	{

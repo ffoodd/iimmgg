@@ -14,7 +14,7 @@
 	<main role="main">
 		<h1>Images générées</h1>
 		<details>
-			<summary>Conférences</summary>
+			<summary><h2>Conférences</h2></summary>
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Conférences" -%}
@@ -24,7 +24,7 @@
 			</ul>
 		</details>
 		<details>
-			<summary>Ateliers</summary>
+			<summary><h2>Ateliers</h2></summary>
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Ateliers" -%}
@@ -34,7 +34,7 @@
 			</ul>
 		</details>
 		<details>
-			<summary><abbr lang="en" title="Video On Demand">VOD</abbr></summary>
+			<summary><h2><abbr lang="en" title="Video On Demand">VOD</abbr></h2></summary>
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Conférences" -%}
@@ -44,7 +44,7 @@
 			</ul>
 		</details>
 		<details>
-			<summary>Politesse</summary>
+			<summary><h2>Politesse</h2></summary>
 			<ul>
 				{%- for courtesy in courtesies %}
 					<li><a href="pw-2023/cartons-titres/transitions/trans-{{ courtesy.slug | slugify }}.svg">{{ courtesy.title | microtypo }}</a></li>
@@ -52,7 +52,7 @@
 			</ul>
 		</details>
 		<details>
-			<summary>Sponsors</summary>
+			<summary><h2>Sponsors</h2></summary>
 			<ul>
 				{%- for sponsor in sponsors %}
 					<li><a href="pw-2023/cartons-titres/sponsors/sponsor-{{ sponsor.name | slugify }}.svg"><strong>{{ sponsor.name | microtypo }}</strong> <small>({{  sponsor.type }})</small></a></li>
@@ -60,17 +60,36 @@
 			</ul>
 		</details>
 		<details>
-			<summary>Transitions</summary>
-			<ul>
-				{%- for conference in conferences %}
-					{%- if conference.type === "Conférences" or conference.type === "Pause" -%}
-						<li><a href="pw-2023/cartons-titres/transitions/trans-{%- if conference.date === '2023-09-28' -%}jeudi{%- elseif conference.date === '2023-09-29' -%}vendredi{%- endif -%}-{%- if pagination.pageNumber < 10 -%}0{%- endif -%}{{ pagination.pageNumber }}.svg">{{ conference.title | microtypo }}{%- if conference.title === 'Pause' or conference.title === 'Déjeuner' %} ({{ conference.start | replace(':', 'h') }}){%- endif -%}</a></li>
+			<summary><h2>Transitions</h2></summary>
+			<ol>
+				{%- for date, conferences in conferences | groupby("date") %}
+					{% if date !== "2023-09-30" %}
+						{%- if date === "2023-09-28" -%}
+							{%- set day = "Jeudi"  %}
+						{%- elseif date === "2023-09-29" -%}
+							{%- set day = "Vendredi"  %}
+						{%- endif -%}
+						<li>
+							<h3>{{ day }}</h3>
+							<ol>
+								{%- for conference in conferences | sort( false, true, "start") %}
+									{%- if date === "2023-09-29" -%}
+										{%- set index = loop.index + 13 -%}
+									{%- elseif loop.index < 11 -%}
+										{%- set index = "0" + (loop.index - 1) -%}
+									{%- else -%}
+										{%- set index = loop.index - 1 -%}
+									{%- endif -%}
+									<li><a href="pw-2023/cartons-titres/transitions/trans-{{ day | lower }}-{{ index }}.svg">{{ conference.title | microtypo }} ({{ conference.start | replace(':', 'h') }})</a></li>
+								{%- endfor %}
+							</ol>
+						</li>
 					{%- endif -%}
 				{%- endfor %}
-			</ul>
+			</ol>
 		</details>
 		<details>
-			<summary>Colors</summary>
+			<summary><h2>Colors</h2></summary>
 			<ul>
 				{%- for color in colors %}
 					<li><a href="pw-2023/cartons-titres/colors/color-{{ color.name | slugify }}.svg">{{ color.name | microtypo }}</a></li>
