@@ -71,7 +71,12 @@
 			{%- if conference.type === "Pause" -%}
 				<tspan y="144">{{ conference.title | microtypo | escape | safe }}</tspan>
 			{%- else -%}
-				{{ conference.title | microtypo | escape | wrap([314,400,486]) | safe }}
+				{%- if conference.lang === "EN" -%}
+					{% set title = conference.title + "\n(en anglais)" %}
+					{{ title | microtypo | escape | wrap([314,400,486]) | safe }}
+				{%- else -%}
+					{{ conference.title | microtypo | escape | wrap([314,400,486]) | safe }}
+				{%- endif -%}
 			{%- endif -%}
 		</text>
 		{%- if conference.speakers -%}
@@ -111,11 +116,11 @@
 		</text>
 		{%- if pagination.page.next and pagination.page.next.start !== "08:30" -%}
 			<text font-size="32">
-				{%- set nextLanguage = '' -%}
-				{%- if pagination.page.next.lang === 'EN' -%}
-					{%- set nextLanguage = '\n(conférence en anglais)' -%}
+				{%- set nextLanguage = "" -%}
+				{%- if pagination.page.next.lang === "EN" -%}
+					{%- set nextLanguage = "\n(conférence en anglais)" -%}
 				{%- endif -%}
-				{%- set nextTitle = ['À suivre :\n', pagination.page.next.title, nextLanguage, '\n', pagination.page.next.date | date, ' à ', pagination.page.next.start | replace(":", "h") ] | join -%}
+				{%- set nextTitle = ["À suivre :\n", pagination.page.next.title, nextLanguage, "\n", pagination.page.next.date | date, " à ", pagination.page.next.start | replace(":", "h") ] | join -%}
 				{{ nextTitle | microtypo | escape | wrap([824,864,904,944,984], 1280) | safe }}
 			</text>
 		{%- endif -%}
