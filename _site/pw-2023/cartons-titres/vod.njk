@@ -14,14 +14,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,400');</style>
-		<pattern id="bordure" width="10" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
-			<path d="M0,5H10" stroke-width="10" stroke="#e11a81" />
+		<pattern id="bordure" width="10" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+			<path d="M0,5H10" stroke-width="16" stroke="#e11a81" />
 		</pattern>
 	</defs>
 	<!-- Décor -->
 	<g>
 		<rect fill="#b40b57" width="100%" height="100%"></rect>
-		<rect fill="none" width="100%" height="100%" stroke="url(#bordure)" stroke-width="24"></rect>
+		<rect fill="none" width="100%" height="100%" stroke="url(#bordure)" stroke-width="48"></rect>
 		{%- set xWave = 1448 -%}
 		{%- if conference.sponsor -%}
 			{%- set xWave = 1256 -%}
