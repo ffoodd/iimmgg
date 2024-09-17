@@ -1,0 +1,101 @@
+---js
+{
+	title: "Liste des contenus générés pour Paris Web 2023",
+	permalink: "pw-2023/index.html",
+	pagination: {
+		data: "pw_2023",
+		size: 100,
+		alias: "conferences"
+	}
+}
+---
+{% extends "base.njk" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+	<main role="main">
+		<h1>Images générées pour Paris Web 2023</h1>
+		<details>
+			<summary><h2>Conférences</h2></summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Conférences" -%}
+						<li><a href="pw-2023/cartons-titres/base/conf-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary><h2>Ateliers</h2></summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Ateliers" -%}
+						<li><a href="pw-2023/cartons-titres/base/atel-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary><h2><abbr lang="en" title="Video On Demand">VOD</abbr></h2></summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Conférences" -%}
+						<li><a href="pw-2023/cartons-titres/vod/post-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary><h2>Politesse</h2></summary>
+			<ul>
+				{%- for courtesy in courtesies %}
+					<li><a href="pw-2023/cartons-titres/transitions/trans-{{ courtesy.slug | slugify }}.svg">{{ courtesy.title | microtypo }}</a></li>
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary><h2>Sponsors</h2></summary>
+			<ul>
+				{%- for sponsor in sponsors %}
+					<li><a href="pw-2023/cartons-titres/sponsors/sponsor-{{ sponsor.name | slugify }}.svg"><strong>{{ sponsor.name | microtypo }}</strong> <small>({{  sponsor.type }})</small></a></li>
+				{%- endfor %}
+			</ul>
+		</details>
+		<details>
+			<summary><h2>Transitions</h2></summary>
+			<ol>
+				{%- for date, conferences in conferences | groupby("date") %}
+					{% if date !== "2023-09-30" %}
+						{%- if date === "2023-09-28" -%}
+							{%- set day = "Jeudi"  %}
+						{%- elseif date === "2023-09-29" -%}
+							{%- set day = "Vendredi"  %}
+						{%- endif -%}
+						<li>
+							<h3>{{ day }}</h3>
+							<ol>
+								{%- for conference in conferences | sort( false, true, "start") %}
+									{%- if date === "2023-09-29" -%}
+										{%- set index = loop.index + 13 -%}
+									{%- elseif loop.index < 11 -%}
+										{%- set index = "0" + (loop.index - 1) -%}
+									{%- else -%}
+										{%- set index = loop.index - 1 -%}
+									{%- endif -%}
+									<li><a href="pw-2023/cartons-titres/transitions/trans-{{ day | lower }}-{{ index }}.svg">{{ conference.title | microtypo }} ({{ conference.start | replace(':', 'h') }})</a></li>
+								{%- endfor %}
+							</ol>
+						</li>
+					{%- endif -%}
+				{%- endfor %}
+			</ol>
+		</details>
+		<details>
+			<summary><h2>Colors</h2></summary>
+			<ul>
+				{%- for color in colors %}
+					<li><a href="pw-2023/cartons-titres/colors/color-{{ color.name | slugify }}.svg">{{ color.name | microtypo }}</a></li>
+				{%- endfor %}
+			</ul>
+		</details>
+	</main>
+{% endblock %}

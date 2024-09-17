@@ -1,7 +1,7 @@
 ---js
 {
 	pagination: {
-		data: "pw-2023",
+		data: "pw_2023",
 		size: 1,
 		alias: "conference",
 		before: (paginationData, fullData) => {
@@ -39,7 +39,7 @@
 			{%- set cy = 168 -%}
 			{%- set r = 96 -%}
 			{%- set max = 128 -%}
-			{%- for sponsor in sponsors -%}
+			{%- for sponsor in sponsors_2023 -%}
 				{%- if conference.sponsor === sponsor.name %}
 					<circle fill="#fff" r="{{ r }}" cx="{{ cx }}" cy="{{ cy }}"></circle>
 					{%- if sponsor.size.width > sponsor.size.height -%}

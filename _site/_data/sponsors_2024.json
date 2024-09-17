@@ -1,0 +1,122 @@
+[
+	{
+		"name": "Webvert",
+		"type": "bronze",
+		"logo": "/img/sponsors-2024/webvert.svg",
+		"size": {
+			"width": 520,
+			"height": 85
+		},
+		"position": {
+			"x": 894,
+			"y": 865,
+			"height": 48,
+			"width": 286
+		}
+	},
+	{
+		"name": "CodeWorks",
+		"type": "bronze",
+		"logo": "/img/sponsors-2024/codeworks.svg",
+		"size": {
+			"width": 179,
+			"height": 40
+		},
+		"position": {
+			"x": 475,
+			"y": 662,
+			"height": 93,
+			"width": 394
+		}
+	},
+	{
+		"name": "LebonCoin",
+		"type": "argent",
+		"logo": "/img/sponsors-2024/leboncoin.svg",
+		"size": {
+			"width": 230,
+			"height": 45
+		},
+		"position": {
+			"x": 1450,
+			"y": 675,
+			"height": 70,
+			"width": 350
+		}
+	},
+	{
+		"name": "Temesis",
+		"type": "argent",
+		"logo": "/img/sponsors-2024/temesis.svg",
+		"size": {
+			"width": 179,
+			"height": 40
+		},
+		"position": {
+			"x": 475,
+			"y": 662,
+			"height": 93,
+			"width": 394
+		}
+	},
+	{
+		"name": "Idéance",
+		"type": "argent",
+		"logo": "/img/sponsors-2024/ideance.svg",
+		"size": {
+			"width": 179,
+			"height": 40
+		},
+		"position": {
+			"x": 475,
+			"y": 662,
+			"height": 93,
+			"width": 394
+		}
+	},
+	{
+		"name": "Authôt",
+		"type": "argent",
+		"logo": "/img/sponsors-2024/authot.svg",
+		"size": {
+			"width": 179,
+			"height": 40
+		},
+		"position": {
+			"x": 475,
+			"y": 662,
+			"height": 93,
+			"width": 394
+		}
+	},
+	{
+		"name": "Enedis",
+		"type": "argent",
+		"logo": "/img/sponsors-2024/enedis.svg",
+		"size": {
+			"width": 179,
+			"height": 40
+		},
+		"position": {
+			"x": 475,
+			"y": 662,
+			"height": 93,
+			"width": 394
+		}
+	},
+	{
+		"name": "o2switch",
+		"type": "or",
+		"logo": "/img/sponsors-2024/o2switch.svg",
+		"size": {
+			"width": 794,
+			"height": 251
+		},
+		"position": {
+			"x": 1048,
+			"y": 386,
+			"height": 174,
+			"width": 776
+		}
+	}
+]

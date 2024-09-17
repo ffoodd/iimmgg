@@ -2,7 +2,7 @@
 	{
 		"name": "Webvert",
 		"type": "bronze",
-		"logo": "/img/sponsors/webvert.svg",
+		"logo": "/img/sponsors-2023/webvert.svg",
 		"size": {
 			"width": 520,
 			"height": 85
@@ -17,7 +17,7 @@
 	{
 		"name": "Gandi",
 		"type": "bronze",
-		"logo": "/img/sponsors/gandi.svg",
+		"logo": "/img/sponsors-2023/gandi.svg",
 		"size": {
 			"width": 50,
 			"height": 13
@@ -32,7 +32,7 @@
 	{
 		"name": "IIM Digital School",
 		"type": "bronze",
-		"logo": "/img/sponsors/iim.svg",
+		"logo": "/img/sponsors-2023/iim.svg",
 		"size": {
 			"width": 194,
 			"height": 172
@@ -47,7 +47,7 @@
 	{
 		"name": "Proton",
 		"type": "bronze",
-		"logo": "/img/sponsors/proton.svg",
+		"logo": "/img/sponsors-2023/proton.svg",
 		"size": {
 			"width": 690,
 			"height": 175
@@ -62,7 +62,7 @@
 	{
 		"name": "LebonCoin",
 		"type": "argent",
-		"logo": "/img/sponsors/leboncoin.svg",
+		"logo": "/img/sponsors-2023/leboncoin.svg",
 		"size": {
 			"width": 230,
 			"height": 45
@@ -77,7 +77,7 @@
 	{
 		"name": "Temesis",
 		"type": "argent",
-		"logo": "/img/sponsors/temesis.svg",
+		"logo": "/img/sponsors-2023/temesis.svg",
 		"size": {
 			"width": 179,
 			"height": 40
@@ -92,7 +92,7 @@
 	{
 		"name": "Balsamiq",
 		"type": "argent",
-		"logo": "/img/sponsors/balsamiq-logo-screen.png",
+		"logo": "/img/sponsors-2023/balsamiq-logo-screen.png",
 		"size": {
 			"width": 1024,
 			"height": 327
@@ -107,7 +107,7 @@
 	{
 		"name": "mc2i",
 		"type": "argent",
-		"logo": "/img/sponsors/mc2i.png",
+		"logo": "/img/sponsors-2023/mc2i.png",
 		"size": {
 			"width": 1199,
 			"height": 710
@@ -122,7 +122,7 @@
 	{
 		"name": "MAIF",
 		"type": "argent",
-		"logo": "/img/sponsors/maif.svg",
+		"logo": "/img/sponsors-2023/maif.svg",
 		"size": {
 			"width": 144,
 			"height": 113
@@ -137,7 +137,7 @@
 	{
 		"name": "HelloWork",
 		"type": "or",
-		"logo": "/img/sponsors/HelloWork.png",
+		"logo": "/img/sponsors-2023/HelloWork.png",
 		"size": {
 			"width": 493,
 			"height": 174
@@ -152,7 +152,7 @@
 	{
 		"name": "o2switch",
 		"type": "or",
-		"logo": "/img/sponsors/o2switch.svg",
+		"logo": "/img/sponsors-2023/o2switch.svg",
 		"size": {
 			"width": 794,
 			"height": 251
@@ -167,7 +167,7 @@
 	{
 		"name": "Ekino",
 		"type": "bronze",
-		"logo": "/img/sponsors/ekino.svg",
+		"logo": "/img/sponsors-2023/ekino.svg",
 		"size": {
 			"width": 1348,
 			"height": 374
@@ -182,7 +182,7 @@
 	{
 		"name": "DGSI",
 		"type": "or",
-		"logo": "/img/sponsors/dgsi.svg",
+		"logo": "/img/sponsors-2023/dgsi.svg",
 		"size": {
 			"width": 595,
 			"height": 595

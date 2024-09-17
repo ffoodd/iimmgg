@@ -1,7 +1,7 @@
 ---js
 {
 	pagination: {
-		data: "courtesies",
+		data: "courtesies_2023",
 		size: 1,
 		alias: "courtesy"
 	},
@@ -35,7 +35,7 @@
 		</text>
 		{%- if courtesy.sponsors == "true" -%}
 			<g>
-				{%- for sponsor in sponsors -%}
+				{%- for sponsor in sponsors_2023 -%}
 					<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ sponsor.position.width }}" height="{{ sponsor.position.height }}" x="{{ sponsor.position.x }}" y="{{ sponsor.position.y }}" />
 				{% endfor -%}
 			</g>
