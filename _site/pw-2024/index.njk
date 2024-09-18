@@ -19,7 +19,7 @@
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Conférences" -%}
-						<li><a href="pw-2024/cartons-titres/base/conf-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+						<li><a href="cartons-titres/base/conf-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
 					{%- endif -%}
 				{%- endfor %}
 			</ul>
@@ -29,7 +29,7 @@
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Ateliers" -%}
-						<li><a href="pw-2024/cartons-titres/base/atel-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+						<li><a href="cartons-titres/base/atel-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
 					{%- endif -%}
 				{%- endfor %}
 			</ul>
@@ -39,7 +39,7 @@
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Conférences" -%}
-						<li><a href="pw-2024/cartons-titres/vod/post-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+						<li><a href="cartons-titres/vod/post-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
 					{%- endif -%}
 				{%- endfor %}
 			</ul>
@@ -47,16 +47,16 @@
 		<details>
 			<summary><h2>Politesse</h2></summary>
 			<ul>
-				{%- for courtesy in courtesies %}
-					<li><a href="pw-2024/cartons-titres/transitions/trans-{{ courtesy.slug | slugify }}.svg">{{ courtesy.title | microtypo }}</a></li>
+				{%- for courtesy in courtesies_2024 %}
+					<li><a href="cartons-titres/transitions/trans-{{ courtesy.slug | slugify }}.svg">{{ courtesy.title | microtypo }}</a></li>
 				{%- endfor %}
 			</ul>
 		</details>
 		<details>
 			<summary><h2>Sponsors</h2></summary>
 			<ul>
-				{%- for sponsor in sponsors %}
-					<li><a href="pw-2024/cartons-titres/sponsors/sponsor-{{ sponsor.name | slugify }}.svg"><strong>{{ sponsor.name | microtypo }}</strong> <small>({{  sponsor.type }})</small></a></li>
+				{%- for sponsor in sponsors_2024 %}
+					<li><a href="cartons-titres/sponsors/sponsor-{{ sponsor.name | slugify }}.svg"><strong>{{ sponsor.name | microtypo }}</strong> <small>({{  sponsor.type }})</small></a></li>
 				{%- endfor %}
 			</ul>
 		</details>
@@ -64,24 +64,24 @@
 			<summary><h2>Transitions</h2></summary>
 			<ol>
 				{%- for date, conferences in conferences | groupby("date") %}
-					{% if date !== "2023-09-30" %}
-						{%- if date === "2023-09-28" -%}
+					{% if date !== "2024-09-28" %}
+						{%- if date === "2024-09-26" -%}
 							{%- set day = "Jeudi"  %}
-						{%- elseif date === "2023-09-29" -%}
+						{%- elseif date === "2024-09-27" -%}
 							{%- set day = "Vendredi"  %}
 						{%- endif -%}
 						<li>
 							<h3>{{ day }}</h3>
 							<ol>
 								{%- for conference in conferences | sort( false, true, "start") %}
-									{%- if date === "2023-09-29" -%}
-										{%- set index = loop.index + 13 -%}
+									{%- if date === "2024-09-27" -%}
+										{%- set index = loop.index + 12 -%}
 									{%- elseif loop.index < 11 -%}
 										{%- set index = "0" + (loop.index - 1) -%}
 									{%- else -%}
 										{%- set index = loop.index - 1 -%}
 									{%- endif -%}
-									<li><a href="pw-2024/cartons-titres/transitions/trans-{{ day | lower }}-{{ index }}.svg">{{ conference.title | microtypo }} ({{ conference.start | replace(':', 'h') }})</a></li>
+									<li><a href="cartons-titres/transitions/trans-{{ day | lower }}-{{ index }}.svg">{{ conference.title | microtypo }} ({{ conference.start | replace(':', 'h') }})</a></li>
 								{%- endfor %}
 							</ol>
 						</li>
@@ -92,8 +92,8 @@
 		<details>
 			<summary><h2>Colors</h2></summary>
 			<ul>
-				{%- for color in colors %}
-					<li><a href="pw-2024/cartons-titres/colors/color-{{ color.name | slugify }}.svg">{{ color.name | microtypo }}</a></li>
+				{%- for color in colors_2024 %}
+					<li><a href="cartons-titres/colors/color-{{ color.name | slugify }}.svg">{{ color.name | microtypo }}</a></li>
 				{%- endfor %}
 			</ul>
 		</details>

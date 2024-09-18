@@ -28,16 +28,26 @@ module.exports = (eleventyConfig) => {
 					offsets = [positions.at(-1)]
 					break;
 			}
+			let fontWeight = ''
 			let fontStyle = ''
 			let fontSize = ''
-			if (['À suivre', 'septembre 2023', 'en anglais'].some(string => line.includes(string))) {
+			let color = ''
+			if (['À suivre', 'septembre 2023', 'septembre 2024', 'en anglais'].some(string => line.includes(string))) {
 				fontStyle = ' font-style="italic"'
 			}
 			if (line.startsWith('[Partenaire]') && !lines[0].startsWith('À suivre')) {
 				fontStyle = ' font-style="italic"'
 				fontSize = ' font-size="48"'
 			}
-			return `<tspan x="${offsetX}" y="${offsets[index]}"${fontStyle}${fontSize}>${line}</tspan>`
+			if (['À suivre'].some(string => line.includes(string))) {
+				color = ' fill="var(--gray)"'
+			}
+			if (['(en anglais)'].some(string => line.includes(string))) {
+				fontWeight = ' font-weight="400"'
+				fontSize = ' font-size="48"'
+				color = ' fill="var(--gray)"'
+			}
+			return `<tspan x="${offsetX}" y="${offsets[index]}"${fontStyle}${fontSize}${fontWeight}${color}>${line}</tspan>`
 		})
 		return wrappedTitle.join('')
 	})

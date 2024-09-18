@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+	<!-- Couleurs --><style>
+		:root {
+			--secondary: #4f27d6;
+			--gray: #585462;
+		}
+	</style>
+	<!-- Décor -->
+	<defs>
+		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
+		<radialGradient id="gradient" r="400" cx="1688" cy="192" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#e8e0fa" />
+			<stop offset="100%" stop-color="#fff" />
+		</radialGradient>
+	</defs>
+	<g>
+		<rect width="100%" height="100%" fill="url(#gradient)"></rect>
+		<image x="1568" y="72" width="240" height="240" href="http://localhost:8080/img/paris-web×ishihara.svg" />
+		<image x="1622" y="132" width="132" height="128" href="http://localhost:8080/img/paris-web.svg" />
+	</g>
+	<!-- Contenu -->
+	<g font-family="PT Sans" fill="#25222c">
+		<text font-size="88" x="120" font-weight="700"><tspan y="144">Déjeuner</tspan></text><text x="120" y="740" font-style="italic" font-size="36" fill="#585462">
+			26 septembre 2024 à 12h55
+		</text><g style="transform: scale(66%) translate(0, -150px);transform-box: fill-box;"><image href="/img/sponsors-2023/webvert.svg" width="286" height="48" x="894" y="865" /><image href="/img/sponsors-2023/gandi.svg" width="186" height="49" x="480" y="876" /><image href="/img/sponsors-2023/iim.svg" width="132" height="117" x="324" y="828" /><image href="/img/sponsors-2023/proton.svg" width="169" height="43" x="120" y="870" /><image href="/img/sponsors-2023/leboncoin.svg" width="350" height="70" x="1450" y="675" /><image href="/img/sponsors-2023/temesis.svg" width="394" height="93" x="475" y="662" /><image href="/img/sponsors-2023/balsamiq-logo-screen.png" width="285" height="93" x="120" y="662" /><image href="/img/sponsors-2023/mc2i.png" width="201" height="121" x="941" y="648" /><image href="/img/sponsors-2023/maif.svg" width="164" height="131" x="1214" y="643" /><image href="/img/sponsors-2023/HelloWork.png" width="492" height="174" x="120" y="386" /><image href="/img/sponsors-2023/o2switch.svg" width="776" height="174" x="1048" y="386" /><image href="/img/sponsors-2023/ekino.svg" width="149" height="42" x="706" y="870" /><image href="/img/sponsors-2023/dgsi.svg" width="177" height="177" x="748" y="386" /></g><text font-size="32"><tspan x="1280" y="824" font-style="italic" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="864">Du calendrier lunaire</tspan><tspan x="1280" y="904">aux notifications du smartphone :</tspan><tspan x="1280" y="944">la notion du temps</tspan><tspan x="1280" y="984" font-style="italic">26 septembre 2024 à 14h40</tspan>
+			</text></g>
+</svg>

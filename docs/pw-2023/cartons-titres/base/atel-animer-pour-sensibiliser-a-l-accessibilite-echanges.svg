@@ -22,7 +22,7 @@
 	<g font-family="Zilla Slab" fill="#fff">
 		<text font-size="88"><tspan x="120" y="400">Animer pour sensibiliser à l’accessibilité</tspan><tspan x="120" y="486">– Échanges</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
-		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2017/06/delphine-malassingne-thumb-143x143-1182.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/delphine-malassingne/d01500cc72-1716813314/delphine-malassingne.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Delphine Malassingne</text></g>
 		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--

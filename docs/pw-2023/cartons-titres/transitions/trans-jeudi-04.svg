@@ -19,19 +19,16 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88" x="120"><tspan x="120" y="400">Table ronde</tspan><tspan x="120" y="486">« Femmes dans la tech »</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
-			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/08/Gaelle-Kubila-thumb-200x200-1870.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
-					<text x="200" y="672" font-size="48" font-style="italic">Gaëlle Kubila</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/08/Marcy-Ericka-Charollois-thumb-200x200-1869.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
-					<text x="200" y="744" font-size="48" font-style="italic">Marcy Ericka Charollois</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/Anais-Sparesotto-paris-web-thumb-200x200-1799.jpg" width="64" height="64" x="120" y="768" style="clip-path: circle();"/>
-					<text x="200" y="816" font-size="48" font-style="italic">Anais Sparesotto</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/magali-milbergue-paris-web-thumb-200x200-1811.jpg" width="64" height="64" x="702" y="624" style="clip-path: circle();"/>
-					<text x="782" y="672" font-size="48" font-style="italic">Magali Milbergue</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2018/04/emmanuelle-aboaf-thumb-300x300-1269.jpg" width="64" height="64" x="702" y="696" style="clip-path: circle();"/>
-					<text x="782" y="744" font-size="48" font-style="italic">Emmanuelle Aboaf</text></g><text x="1280" y="660" font-size="48">
+		<text font-size="88" x="120"><tspan x="120" y="314" font-style="italic" font-size="48">[Partenaire]</tspan><tspan x="120" y="400">Cabinets de conseil en SI</tspan><tspan x="120" y="486">et numérique responsable, incompatibles ?</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
+			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/charlotte-grivot/11148121dd-1716813315/charlotte-grivot.png" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+					<text x="200" y="672" font-size="48" font-style="italic">Charlotte Grivot</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/gaetan-robine/0c17a0fabc-1716813315/gaetan-robine.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
+					<text x="200" y="744" font-size="48" font-style="italic">Gaëtan Robine</text></g><text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
 			--><tspan font-size="32" font-style="italic" dy="-24">e</tspan>
 			<tspan font-size="48" font-style="italic" dy="24"> édition</tspan>
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
-			28 septembre 2023 à 11h15
-		</text><text font-size="32"><tspan x="1280" y="864" font-style="italic">À suivre :</tspan><tspan x="1280" y="904">CSS Viewport Units v2 :</tspan><tspan x="1280" y="944"> on pousse encore plus loin la réactivité</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 12h10</tspan>
+			28 septembre 2023 à 13h50
+		</text><text font-size="32"><tspan x="1280" y="864" font-style="italic" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">WCAGmire</tspan><tspan x="1280" y="944" font-style="italic">(conférence en anglais)</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 14h25</tspan>
 			</text></g>
 </svg>
