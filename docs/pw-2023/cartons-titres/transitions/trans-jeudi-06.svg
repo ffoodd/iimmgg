@@ -28,6 +28,6 @@
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			28 septembre 2023 à 15h20
-		</text><text font-size="32"><tspan x="1280" y="864" font-style="italic" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">La fin de l’Empire des Dark patterns ?</tspan><tspan x="1280" y="944">Le RGPD contre-attaque !</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 16h40</tspan>
+		</text><text font-size="32"><tspan x="1280" y="864" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">La fin de l’Empire des Dark patterns ?</tspan><tspan x="1280" y="944">Le RGPD contre-attaque !</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 16h40</tspan>
 			</text></g>
 </svg>

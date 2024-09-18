@@ -11,6 +11,9 @@ module.exports = (eleventyConfig) => {
 			let offsets = []
 			// @todo Comment simplifier ça ?
 			switch (lines.length) {
+				case 6:
+					offsets = [positions.at(-6), positions.at(-5), positions.at(-4), positions.at(-3), positions.at(-2), positions.at(-1)]
+					break;
 				case 5:
 					offsets = [positions.at(-5), positions.at(-4), positions.at(-3), positions.at(-2), positions.at(-1)]
 					break;
@@ -32,20 +35,18 @@ module.exports = (eleventyConfig) => {
 			let fontStyle = ''
 			let fontSize = ''
 			let color = ''
-			if (['À suivre', 'septembre 2023', 'septembre 2024', 'en anglais'].some(string => line.includes(string))) {
+			if (['À suivre', 'septembre 2023', 'en anglais'].some(string => line.includes(string))) {
 				fontStyle = ' font-style="italic"'
 			}
 			if (line.startsWith('[Partenaire]') && !lines[0].startsWith('À suivre')) {
 				fontStyle = ' font-style="italic"'
 				fontSize = ' font-size="48"'
 			}
-			if (['À suivre'].some(string => line.includes(string))) {
-				color = ' fill="var(--gray)"'
-			}
-			if (['(en anglais)'].some(string => line.includes(string))) {
+			// @note Ajouts 2024, peut avoir des impacts sur 2023
+			if (['À'].some(string => line.startsWith(string))) {
 				fontWeight = ' font-weight="400"'
-				fontSize = ' font-size="48"'
 				color = ' fill="var(--gray)"'
+				fontStyle = ''
 			}
 			return `<tspan x="${offsetX}" y="${offsets[index]}"${fontStyle}${fontSize}${fontWeight}${color}>${line}</tspan>`
 		})

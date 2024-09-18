@@ -28,6 +28,6 @@
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			28 septembre 2023 à 10h15
-		</text><text font-size="32"><tspan x="1280" y="864" font-style="italic" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">Table ronde</tspan><tspan x="1280" y="944">« Femmes de la tech »</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 11h15</tspan>
+		</text><text font-size="32"><tspan x="1280" y="864" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">Table ronde</tspan><tspan x="1280" y="944">« Femmes de la tech »</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 11h15</tspan>
 			</text></g>
 </svg>

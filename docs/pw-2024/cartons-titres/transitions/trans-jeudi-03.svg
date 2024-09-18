@@ -8,7 +8,7 @@
 	<!-- Décor -->
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
-		<radialGradient id="gradient" r="400" cx="1688" cy="192" gradientUnits="userSpaceOnUse">
+		<radialGradient id="gradient" r="600" cx="1488" cy="192" fx="1800" fy="180" gradientUnits="userSpaceOnUse">
 			<stop offset="0%" stop-color="#e8e0fa" />
 			<stop offset="100%" stop-color="#fff" />
 		</radialGradient>
@@ -20,8 +20,6 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="PT Sans" fill="#25222c">
-		<text font-size="88" x="120" font-weight="700"><tspan y="144">Pause</tspan></text><text x="120" y="740" font-style="italic" font-size="36" fill="#585462">
-			26 septembre 2024 à 11h00
-		</text><g style="transform: scale(66%) translate(0, -150px);transform-box: fill-box;"><image href="/img/sponsors-2023/webvert.svg" width="286" height="48" x="894" y="865" /><image href="/img/sponsors-2023/gandi.svg" width="186" height="49" x="480" y="876" /><image href="/img/sponsors-2023/iim.svg" width="132" height="117" x="324" y="828" /><image href="/img/sponsors-2023/proton.svg" width="169" height="43" x="120" y="870" /><image href="/img/sponsors-2023/leboncoin.svg" width="350" height="70" x="1450" y="675" /><image href="/img/sponsors-2023/temesis.svg" width="394" height="93" x="475" y="662" /><image href="/img/sponsors-2023/balsamiq-logo-screen.png" width="285" height="93" x="120" y="662" /><image href="/img/sponsors-2023/mc2i.png" width="201" height="121" x="941" y="648" /><image href="/img/sponsors-2023/maif.svg" width="164" height="131" x="1214" y="643" /><image href="/img/sponsors-2023/HelloWork.png" width="492" height="174" x="120" y="386" /><image href="/img/sponsors-2023/o2switch.svg" width="776" height="174" x="1048" y="386" /><image href="/img/sponsors-2023/ekino.svg" width="149" height="42" x="706" y="870" /><image href="/img/sponsors-2023/dgsi.svg" width="177" height="177" x="748" y="386" /></g><text font-size="32"><tspan x="1280" y="864" font-style="italic" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">Il n’y a pas que les</tspan><tspan x="1280" y="944">Single Page Apps dans la vie</tspan><tspan x="1280" y="984" font-style="italic">26 septembre 2024 à 11h30</tspan>
+		<text font-size="88" x="120" font-weight="700"><tspan y="144">Pause</tspan></text><g style="transform: scale(66%) translate(0, -150px);transform-box: fill-box;"><image href="/img/sponsors-2024/webvert.svg" width="297" height="48" x="120" y="865" /><image href="/img/sponsors-2024/codeworks.svg" width="154" height="120" x="500" y="810" /><image href="/img/sponsors-2024/leboncoin.svg" width="293" height="93" x="1670" y="675" /><image href="/img/sponsors-2024/temesis.svg" width="407" height="93" x="1180" y="662" /><image href="/img/sponsors-2024/ideance.svg" width="85" height="93" x="1000" y="662" /><image href="/img/sponsors-2024/authot.svg" width="366" height="93" x="560" y="662" /><image href="/img/sponsors-2024/enedis.svg" width="346" height="70" x="120" y="680" /><image href="/img/sponsors-2024/o2switch.svg" width="776" height="174" x="120" y="386" /></g><text font-size="32" font-weight="700"><tspan x="1280" y="864" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">Il n’y a pas que les</tspan><tspan x="1280" y="944">Single Page Apps dans la vie</tspan><tspan x="1280" y="984" font-weight="400" fill="var(--gray)">À 11h30</tspan>
 			</text></g>
 </svg>

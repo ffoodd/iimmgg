@@ -6,7 +6,7 @@
 		"speakers": [
 			{
 				"name": "Magali Milbergue",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/c41112de2e-1716813314/magali-milbergue.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/3e79438118-1716813314/magali-milbergue-300x-crop.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -18,7 +18,7 @@
 		"speakers": [
 			{
 				"name": "Simon Bonaventure",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/simon-bonaventure/6e6b00850b-1716885351/simon-bonaventure.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/simon-bonaventure/7ffa9d207a-1716885351/simon-bonaventure.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -30,7 +30,7 @@
 		"speakers": [
 			{
 				"name": "Anthony Ricaud",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/anthony-ricaud/ab9a6eebb4-1716813315/anthony-ricaud.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/anthony-ricaud/f5ee603bf6-1716813315/anthony-ricaud.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -42,11 +42,11 @@
 		"speakers": [
 			{
 				"name": "Tamara Sredojevic",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/tamara-sredojevic/dfd5a24dc9-1716813315/tamara-sredojevic.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/tamara-sredojevic/cdfd2d420c-1716813315/tamara-sredojevic.jpg"
 			},
 			{
 				"name": "Nora Goerne",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/nora-goerne/e9ecc3c65a-1716813315/nora-goerne.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/nora-goerne/e4be248439-1716813315/nora-goerne.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -58,23 +58,23 @@
 		"speakers": [
 			{
 				"name": "Flora Brochier",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/flora-brochier/cb1627b150-1716905417/flora-brochier.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/flora-brochier/4888be0cc6-1716905417/flora-brochier.jpg"
 			},
 			{
 				"name": "Esther Jacquet",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/esther-jacquet/a4c606a2fb-1716813315/esther-jacquet.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/esther-jacquet/4133d12585-1716813315/esther-jacquet.jpg"
 			}
 		],
 		"type": "Conférences"
 	},
 	{
-		"title": "« Accessibilité :\nl’IA pour faire pousser\nmes tomates inclusives »",
+		"title": "« Accessibilité : l’IA pour faire\npousser mes tomates inclusives »",
 		"date": "2024-09-26",
 		"start": "15:35",
 		"speakers": [
 			{
 				"name": "Sébastien Delorme",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/sebastien-delorme/d29d69bf30-1716813314/sebastien-delorme.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/sebastien-delorme/a03211da2d-1716813314/sebastien-delorme.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -86,7 +86,7 @@
 		"speakers": [
 			{
 				"name": "Thomas Parisot",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/thomas-parisot/d749dfeb98-1716813315/thomas-parisot.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/thomas-parisot/0fc5114f57-1716813315/thomas-parisot.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -98,7 +98,7 @@
 		"speakers": [
 			{
 				"name": "Lison Fanuel",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/lison-fanuel/de5bb0a4fd-1716813315/lison-fanuel.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/lison-fanuel/0fe03af665-1716813315/lison-fanuel.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -110,7 +110,7 @@
 		"speakers": [
 			{
 				"name": "Damien Collot",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-collot/8ad99a730a-1716813315/damien-collot.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-collot/02257c3a4b-1716813315/damien-collot.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -122,7 +122,7 @@
 		"speakers": [
 			{
 				"name": "Lainey Feingold",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/lainey-feingold/1f1ba6f7f9-1716813315/lainey-feingold.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/lainey-feingold/36a3e2397f-1716813315/lainey-feingold.jpg"
 			}
 		],
 		"type": "Conférences",
@@ -135,7 +135,7 @@
 		"speakers": [
 			{
 				"name": "Sofia Lescano Carroll",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/sofia-lescano-carroll/77011f2896-1716813315/sofia-lescano-caroll.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/sofia-lescano-carroll/9a389f8b54-1716813315/sofia-lescano-caroll.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -147,7 +147,7 @@
 		"speakers": [
 			{
 				"name": "Thomas Thibault",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/thomas-thibault/0e4e573274-1716813315/thomas-thibault.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/thomas-thibault/842b9b19c3-1716813315/thomas-thibault.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -159,7 +159,7 @@
 		"speakers": [
 			{
 				"name": "Agnès Haasser",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/agnes-haasser/954b0a11dd-1716813312/agnes-haasser.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/agnes-haasser/9fab215c68-1716813312/agnes-haasser.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -171,7 +171,7 @@
 		"speakers": [
 			{
 				"name": "Christophe Breheret-Girardin",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/christophe-breheret-girardin/863297793c-1716813315/christophe-bregeret-girardin.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/christophe-breheret-girardin/96826602c4-1716813315/christophe-bregeret-girardin.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -183,7 +183,7 @@
 		"speakers": [
 			{
 				"name": "Emmanuel Pelletier",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/emmanuel-pelletier/f73163658f-1716813315/emmanuel-pelletier.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/emmanuel-pelletier/68f0e23010-1716813315/emmanuel-pelletier.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -195,7 +195,7 @@
 		"speakers": [
 			{
 				"name": "Olivier Guillard",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/olivier-guillard/d2e672f97f-1716813315/olivier-guillard.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/olivier-guillard/5e576318f8-1716813315/olivier-guillard.jpg"
 			}
 		],
 		"type": "Conférences"
@@ -207,7 +207,7 @@
 		"speakers": [
 			{
 				"name": "Coryse Quibel",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/coryse-quibel/bfdd2e3328-1716813315/coryse-quibel.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/coryse-quibel/cf583d2eca-1725811398/coryse-quibel-2.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -219,11 +219,11 @@
 		"speakers": [
 			{
 				"name": "Johan Senn",
-				"image": ""
+				"image": "https://www.paris-web.fr/media/pages/orateurs/johan-senn/be00e6c529-1725803764/johan-senn.jpg"
 			},
 			{
 				"name": "Jean-Pierre Gay",
-				"image": ""
+				"image": "https://www.paris-web.fr/media/pages/orateurs/jean-pierre-gay/c4123a1f37-1725803746/jean-pierre-gay.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -235,7 +235,7 @@
 		"speakers": [
 			{
 				"name": "Magali Milbergue",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/c41112de2e-1716813314/magali-milbergue.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/3e79438118-1716813314/magali-milbergue.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -259,7 +259,7 @@
 		"speakers": [
 			{
 				"name": "Guillaume Wolf",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/guillaume-wolf/a75a46a60d-1716813315/guillaume-wolf.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/guillaume-wolf/8e8b94cb60-1716813315/guillaume-wolf.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -271,7 +271,7 @@
 		"speakers": [
 			{
 				"name": "Damien Gomez",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-gomez/5e5df8e985-1716813315/damien-gomez-paris-web.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-gomez/70ff048489-1716813315/damien-gomez-paris-web.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -283,11 +283,11 @@
 		"speakers": [
 			{
 				"name": "Luz Delgado Bautista",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/luz-delgado-bautista/ed5d2d9194-1716813315/Luz-Delgado-Bautista.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/luz-delgado-bautista/85948cc7c0-1716813315/Luz-Delgado-Bautista.jpg"
 			},
 			{
 				"name": "Candice Larmangeat",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/candice-larmangeat/7e188cd209-1717159050/candice-lamargeant.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/candice-larmangeat/b49a25a0e5-1717159050/candice-lamargeant.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -299,7 +299,7 @@
 		"speakers": [
 			{
 				"name": "Catherine Smet",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/catherine-smet/f19c5bc7da-1716813315/catherine-smet.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/catherine-smet/b6a413621a-1716813315/catherine-smet.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -311,11 +311,11 @@
 		"speakers": [
 			{
 				"name": "Alizée Rault",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/alizee-rault/775c22c1fb-1716813314/alizee-rault.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/alizee-rault/353595a153-1716813314/alizee-rault.jpg"
 			},
 			{
 				"name": "Damien Legendre",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-legendre/0722be117a-1716813314/damien-legendre.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-legendre/ea92480c51-1716813314/damien-legendre.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -327,7 +327,7 @@
 		"speakers": [
 			{
 				"name": "Myriam Jessier",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/myriam-jessier/e127815257-1716813315/myriam-jessier.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/myriam-jessier/7f189893ce-1716813315/myriam-jessier.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -339,11 +339,11 @@
 		"speakers": [
 			{
 				"name": "Emmanuelle Aboaf",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/emmanuelle-aboaf/4b2b79ee8c-1716813312/emmanuelle-aboaf.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/emmanuelle-aboaf/78e76390a3-1716813312/emmanuelle-aboaf.jpg"
 			},
 			{
 				"name": "Angi Guyard",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/angi-guyard/404b0c13e1-1716813315/angi-guyard.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/angi-guyard/dd643440bf-1716813315/angi-guyard.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -355,11 +355,11 @@
 		"speakers": [
 			{
 				"name": "Amélie Poirier",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/amelie-poirier/f787e465e7-1716813315/amelie-poirier.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/amelie-poirier/991280fd66-1716813315/amelie-poirier.jpg"
 			},
 			{
 				"name": "Cristella Henriques",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/cristella-henriques/67b20c7436-1716813315/cristella-henriques.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/cristella-henriques/9a4c619d80-1716813315/cristella-henriques.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -371,7 +371,7 @@
 		"speakers": [
 			{
 				"name": "Guillaume Barbier",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/guillaume-barbier/06156865f6-1716813315/Guillaume-Barbier-Paris-Web.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/guillaume-barbier/094b7aea9f-1716813315/Guillaume-Barbier-Paris-Web.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -383,11 +383,11 @@
 		"speakers": [
 			{
 				"name": "Romy Duhem-Verdière",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/romy-duhem-verdiere/b68ae90ae7-1716813315/Romy-Duhem-Verdiere-paris-web.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/romy-duhem-verdiere/9255c04f95-1716813315/Romy-Duhem-Verdiere-paris-web.jpg"
 			},
 			{
 				"name": "Anne-Sophie Tranchet",
-				"image": "https://www.paris-web.fr/media/pages/orateurs/anne-sophie-tranchet/ea7f75bbc4-1716813311/anne-sophie-tranchet-2.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurs/anne-sophie-tranchet/f2ddd7ebd4-1716813311/anne-sophie-tranchet-2.jpg"
 			}
 		],
 		"type": "Ateliers"
@@ -399,7 +399,7 @@
 		"speakers": [
 			{
 				"name": "Cécile Jouve",
-				"image": ""
+				"image": "https://www.paris-web.fr/media/pages/orateurs/cecile-jouve/d98ad08a61-1725803816/cecile-jouve.jpg"
 			}
 		],
 		"type": "Ateliers"

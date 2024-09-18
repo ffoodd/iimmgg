@@ -8,7 +8,7 @@
 	<!-- Décor -->
 	<defs>
 		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
-		<radialGradient id="gradient" r="400" cx="1688" cy="192" gradientUnits="userSpaceOnUse">
+		<radialGradient id="gradient" r="600" cx="1488" cy="192" fx="1800" fy="180" gradientUnits="userSpaceOnUse">
 			<stop offset="0%" stop-color="#492740" />
 			<stop offset="100%" stop-color="#25222c" />
 		</radialGradient>
@@ -20,9 +20,8 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="PT Sans" fill="#fff">
-		<text font-size="88" x="120" font-weight="700"><tspan x="120" y="400">Mots à maux —</tspan><tspan x="120" y="486">comment le langage reflète et entretient</tspan><tspan x="120" y="572">les parties les plus toxiques de notre industrie</tspan></text><g><image href="https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/c41112de2e-1716813314/magali-milbergue.jpg" width="64" height="64" x="200" y="" style="clip-path: circle();"/>
-					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Magali Milbergue</text></g><text x="120" y="740" font-style="italic" font-size="36" fill="#aaa7b4">
-			26 septembre 2024 à 09h35
-		</text><text font-size="32"><tspan x="1280" y="824" font-style="italic" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="864">Orejime,</tspan><tspan x="1280" y="904">un projet open-source et accessible :</tspan><tspan x="1280" y="944">compte de fée ou drama project ?!</tspan><tspan x="1280" y="984" font-style="italic">26 septembre 2024 à 10h30</tspan>
+		<text font-size="88" x="120" font-weight="700"><tspan x="120" y="400">Mots à maux —</tspan><tspan x="120" y="486">comment le langage reflète et entretient</tspan><tspan x="120" y="572">les parties les plus toxiques de notre industrie</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
+					<image href="https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/3e79438118-1716813314/magali-milbergue-300x-crop.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Magali Milbergue</text></g><text x="1280" y="672" font-weight="700" font-size="48" fill="#aaa7b4">09h35</text><text font-size="32" font-weight="700"><tspan x="1280" y="824" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="864">Orejime,</tspan><tspan x="1280" y="904">un projet open-source et accessible :</tspan><tspan x="1280" y="944">compte de fée ou drama project ?!</tspan><tspan x="1280" y="984" font-weight="400" fill="var(--gray)">À 10h30</tspan>
 			</text></g>
 </svg>

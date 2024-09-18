@@ -28,6 +28,6 @@
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			29 septembre 2023 à 10h00
-		</text><text font-size="32"><tspan x="1280" y="824" font-style="italic" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="864">Le guide du jardinier de l’accessibilité</tspan><tspan x="1280" y="904">numérique : choisir les meilleures graines</tspan><tspan x="1280" y="944">pour la faire pousser et l’entretenir</tspan><tspan x="1280" y="984" font-style="italic">29 septembre 2023 à 11h00</tspan>
+		</text><text font-size="32"><tspan x="1280" y="824" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="864">Le guide du jardinier de l’accessibilité</tspan><tspan x="1280" y="904">numérique : choisir les meilleures graines</tspan><tspan x="1280" y="944">pour la faire pousser et l’entretenir</tspan><tspan x="1280" y="984" font-style="italic">29 septembre 2023 à 11h00</tspan>
 			</text></g>
 </svg>
