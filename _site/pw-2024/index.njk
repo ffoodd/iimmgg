@@ -15,40 +15,12 @@
 	<main role="main">
 		<h1>Images générées pour Paris Web 2024</h1>
 		<details>
-			<summary><h2>Conférences</h2></summary>
-			<ul>
-				{%- for conference in conferences %}
-					{%- if conference.type === "Conférences" -%}
-						<li><a href="cartons-titres/base/conf-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
-					{%- endif -%}
-				{%- endfor %}
-			</ul>
-		</details>
-		<details>
-			<summary><h2>Ateliers</h2></summary>
-			<ul>
-				{%- for conference in conferences %}
-					{%- if conference.type === "Ateliers" -%}
-						<li><a href="cartons-titres/base/atel-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
-					{%- endif -%}
-				{%- endfor %}
-			</ul>
-		</details>
-		<details>
 			<summary><h2><abbr lang="en" title="Video On Demand">VOD</abbr></h2></summary>
 			<ul>
 				{%- for conference in conferences %}
 					{%- if conference.type === "Conférences" -%}
 						<li><a href="cartons-titres/vod/post-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
 					{%- endif -%}
-				{%- endfor %}
-			</ul>
-		</details>
-		<details>
-			<summary><h2>Politesse</h2></summary>
-			<ul>
-				{%- for courtesy in courtesies_2024 %}
-					<li><a href="cartons-titres/transitions/trans-{{ courtesy.slug | slugify }}.svg">{{ courtesy.title | microtypo }}</a></li>
 				{%- endfor %}
 			</ul>
 		</details>

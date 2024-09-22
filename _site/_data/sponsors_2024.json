@@ -3,88 +3,120 @@
 		"name": "Webvert",
 		"type": "bronze",
 		"logo": "/img/sponsors-2024/webvert.svg",
+		"size": {
+			"width": 520,
+			"height": 85
+		},
 		"position": {
 			"x": 120,
-			"y": 865,
-			"height": 48,
-			"width": 297
+			"y": 1125,
+			"height": 62,
+			"width": 386
 		}
 	},
 	{
 		"name": "CodeWorks",
 		"type": "bronze",
 		"logo": "/img/sponsors-2024/codeworks.svg",
+		"size": {
+			"width": 540,
+			"height": 419
+		},
 		"position": {
-			"x": 500,
-			"y": 810,
-			"height": 120,
-			"width": 154
-		}
-	},
-	{
-		"name": "LebonCoin",
-		"type": "argent",
-		"logo": "/img/sponsors-2024/leboncoin.svg",
-		"position": {
-			"x": 1670,
-			"y": 675,
-			"height": 93,
-			"width": 293
+			"x": 660,
+			"y": 1070,
+			"height": 156,
+			"width": 200
 		}
 	},
 	{
 		"name": "Temesis",
 		"type": "argent",
 		"logo": "/img/sponsors-2024/temesis.svg",
+		"size": {
+			"width": 179,
+			"height": 40
+		},
 		"position": {
-			"x": 1180,
-			"y": 662,
-			"height": 93,
-			"width": 407
+			"x": 1520,
+			"y": 812,
+			"height": 121,
+			"width": 529
 		}
 	},
 	{
 		"name": "Idéance",
 		"type": "argent",
 		"logo": "/img/sponsors-2024/ideance.svg",
+		"size": {
+			"width": 20,
+			"height": 22
+		},
 		"position": {
-			"x": 1000,
-			"y": 662,
-			"height": 93,
-			"width": 85
+			"x": 1280,
+			"y": 812,
+			"height": 121,
+			"width": 110
 		}
 	},
 	{
 		"name": "Authôt",
 		"type": "argent",
 		"logo": "/img/sponsors-2024/authot.svg",
+		"size": {
+			"width": 488,
+			"height": 124
+		},
 		"position": {
-			"x": 560,
-			"y": 662,
-			"height": 93,
-			"width": 366
+			"x": 700,
+			"y": 812,
+			"height": 121,
+			"width": 476
 		}
 	},
 	{
 		"name": "Enedis",
 		"type": "argent",
 		"logo": "/img/sponsors-2024/enedis.svg",
+		"size": {
+			"width": 960,
+			"height": 194
+		},
 		"position": {
 			"x": 120,
-			"y": 680,
-			"height": 70,
-			"width": 346
+			"y": 830,
+			"height": 91,
+			"width": 450
+		}
+	},
+	{
+		"name": "LebonCoin",
+		"type": "or",
+		"logo": "/img/sponsors-2024/leboncoin.svg",
+		"size": {
+			"width": 933,
+			"height": 296
+		},
+		"position": {
+			"x": 1340,
+			"y": 440,
+			"height": 226,
+			"width": 711
 		}
 	},
 	{
 		"name": "o2switch",
 		"type": "or",
 		"logo": "/img/sponsors-2024/o2switch.svg",
+		"size": {
+			"width": 794,
+			"height": 251
+		},
 		"position": {
 			"x": 120,
-			"y": 386,
-			"height": 174,
-			"width": 776
+			"y": 406,
+			"height": 226,
+			"width": 1009
 		}
 	}
 ]

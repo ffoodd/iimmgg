@@ -48,6 +48,10 @@ module.exports = (eleventyConfig) => {
 				color = ' fill="var(--gray)"'
 				fontStyle = ''
 			}
+			if (['en anglais'].some(string => line.includes(string))) {
+				fontStyle = '';
+				line = line.replace(' (en anglais)', ' <tspan font-weight="400" fill="var(--gray)" font-style="italic">(en anglais)</tspan>')
+			}
 			return `<tspan x="${offsetX}" y="${offsets[index]}"${fontStyle}${fontSize}${fontWeight}${color}>${line}</tspan>`
 		})
 		return wrappedTitle.join('')

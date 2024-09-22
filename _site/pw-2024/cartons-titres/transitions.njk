@@ -50,7 +50,7 @@
 				<tspan y="144">{{ conference.title | microtypo | escape | safe }}</tspan>
 			{%- else -%}
 				{%- if conference.lang === "Anglais" -%}
-					{% set title = conference.title + "\n(en anglais)" %}
+					{% set title = conference.title + " (en anglais)" %}
 					{{ title | microtypo | escape | wrap([314,400,486,572]) | safe }}
 				{%- else -%}
 					{{ conference.title | microtypo | escape | wrap([314,400,486,572]) | safe }}
@@ -69,6 +69,10 @@
 					<text x="{{ x + 80 }}" y="672" font-size="48" font-weight="700" fill="{{ secondary }}">{{ speaker.name | microtypo | escape }}</text>
 				{%- endfor -%}
 			</g>
+		{%- endif -%}
+		{%- if conference.lang === "Anglais" -%}
+			<image href="/img/interprefy.svg" width="339" height="60" x="120" y="900"/>
+			<text font-size="36" font-weight="700" x="490" y="944">PARISWEB2024</text>
 		{%- endif -%}
 		{%- if conference.type === "Pause" -%}
 			<g style="transform: scale(66%) translate(0, -150px);transform-box: fill-box;">
