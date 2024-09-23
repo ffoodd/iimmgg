@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+	<!-- Couleurs --><style>
+		:root {
+			--secondary: #ff94cc;
+			--gray: #aaa7b4;
+		}
+	</style>
+	<!-- Décor -->
+	<defs>
+		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
+		<radialGradient id="gradient" r="600" cx="1488" cy="192" fx="1800" fy="180" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#492740" />
+			<stop offset="100%" stop-color="#25222c" />
+		</radialGradient>
+	</defs>
+	<g>
+		<rect width="100%" height="100%" fill="url(#gradient)"></rect>
+		<image x="1568" y="72" width="240" height="240" href="http://localhost:8080/img/paris-web×ishihara-dark.svg" />
+		<image x="1622" y="132" width="132" height="128" href="http://localhost:8080/img/paris-web-dark.svg" />
+	</g>
+	<!-- Contenu -->
+	<g font-family="PT Sans" fill="#fff">
+		<text font-size="88" x="120" font-weight="700"><tspan x="120" y="486">L’instabilité de nos tests</tspan><tspan x="120" y="572">nous empêche de délivrer</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
+					<image href="https://www.paris-web.fr/media/pages/orateurs/sofia-lescano-carroll/9a389f8b54-1716813315/sofia-lescano-caroll.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Sofia Lescano Carroll</text></g><text x="1280" y="672" font-weight="700" font-size="48" fill="#aaa7b4">11h10</text><text font-size="32" font-weight="700"><tspan x="1280" y="864" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">Quel design pour un numérique</tspan><tspan x="1280" y="944">écologiquement contraint ?</tspan><tspan x="1280" y="984" font-weight="400" fill="var(--gray)">À 11h45</tspan>
+			</text></g>
+</svg>

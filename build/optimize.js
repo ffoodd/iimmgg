@@ -11,11 +11,11 @@ const colors = {
 }
 
 const folders = [
-	'dist/pw-2023/cartons-titres/base',
-	'dist/pw-2023/cartons-titres/vod',
-	'dist/pw-2023/cartons-titres/sponsors',
-	'dist/pw-2023/cartons-titres/colors',
-	'dist/pw-2023/cartons-titres/transitions'
+	'dist/pw-2024/cartons-titres/vod',
+	'dist/pw-2024/cartons-titres/video',
+	'dist/pw-2024/cartons-titres/colors',
+	'dist/pw-2024/cartons-titres/sponsors',
+	'dist/pw-2024/cartons-titres/transitions'
 ];
 
 folders.forEach(folder => {

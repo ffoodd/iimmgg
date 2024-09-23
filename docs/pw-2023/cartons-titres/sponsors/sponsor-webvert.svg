@@ -21,7 +21,7 @@
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#4f27d6">
 		<!-- Zone d’affichage : 1156 × 443 -->
-		<!-- @todo Faire ça en amont avec 11ty ? --><!-- Si la largeur est trop grande --><!-- Si la hauteur est trop grande --><!-- Si on a un SVG --><image href="/img/sponsors/webvert.svg" width="1156" height="189" x="120" y="323"/>
+		<!-- @todo Faire ça en amont avec 11ty ? --><!-- Si la largeur est trop grande --><!-- Si la hauteur est trop grande --><!-- Si on a un SVG --><image href="/img/sponsors-2023/webvert.svg" width="1156" height="189" x="120" y="323"/>
 		<text x="120" y="604" font-size="88">soutient Paris Web</text>
 		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--

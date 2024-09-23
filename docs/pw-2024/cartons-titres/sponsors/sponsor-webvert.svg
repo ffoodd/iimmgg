@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice"><style>
+		:root {
+			--secondary: #4f27d6;
+			--gray: #585462;
+		}
+	</style>
+	<defs>
+		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
+		<radialGradient id="gradient" r="600" cx="1488" cy="192" fx="1800" fy="180" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#e8e0fa" />
+			<stop offset="100%" stop-color="#fff" />
+		</radialGradient>
+	</defs>
+	<!-- Décor -->
+	<g>
+		<rect width="100%" height="100%" fill="url(#gradient)"></rect>
+		<image x="1568" y="72" width="240" height="240" href="http://localhost:8080/img/paris-web×ishihara.svg" />
+		<image x="1622" y="132" width="132" height="128" href="http://localhost:8080/img/paris-web.svg" />
+	</g>
+	<!-- Contenu -->
+	<g font-family="PT Sans" fill="#25222c">
+		<!-- Zone d’affichage : 1280 × 560 -->
+		<!-- @todo Faire ça en amont avec 11ty ? --><!-- Si la largeur est trop grande --><!-- Si la hauteur est trop grande --><!-- Si on a un SVG --><image href="/img/sponsors-2024/webvert.svg" width="1280" height="209" x="120" y="421"/>
+		<text x="120" y="754" font-size="88" font-weight="700" fill="#4f27d6">soutient Paris Web</text>
+		<text x="120" y="810" font-size="44" fill="#585462">
+			<tspan font-weight="700">19</tspan><tspan font-size="32" font-weight="700" dy="-24">e</tspan>
+			<tspan font-weight="700" dy="24"> édition</tspan>
+			<tspan>26 — 28 septembre 2024</tspan>
+		</text>
+	</g>
+</svg>

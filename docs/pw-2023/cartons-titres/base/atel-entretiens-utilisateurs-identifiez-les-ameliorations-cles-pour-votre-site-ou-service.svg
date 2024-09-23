@@ -22,8 +22,8 @@
 	<g font-family="Zilla Slab" fill="#fff">
 		<text font-size="88"><tspan x="120" y="314">Entretiens utilisateurs :</tspan><tspan x="120" y="400">identifiez les améliorations clés</tspan><tspan x="120" y="486">pour votre site ou service</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
-		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/Myriam-Jessier-paris-web-thumb-200x200-1795.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
-				<text x="200" y="672" font-size="48" font-style="italic">Myriam Jessier</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/assets_c/2023/05/Stephanie-Walter-paris-web-thumb-200x200-1825.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
+		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/myriam-jessier/7f189893ce-1716813315/myriam-jessier.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
+				<text x="200" y="672" font-size="48" font-style="italic">Myriam Jessier</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/stephanie-walter/88fdeb7b85-1716813313/Stephanie-Walter-paris-web.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
 				<text x="200" y="744" font-size="48" font-style="italic">Stéphanie Walter</text></g>
 		<text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--

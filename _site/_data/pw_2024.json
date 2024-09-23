@@ -1,0 +1,467 @@
+[
+	{
+		"title": "Mots à maux —\ncomment le langage reflète et entretient\nles parties les plus toxiques de notre industrie",
+		"date": "2024-09-26",
+		"start": "09:35",
+		"speakers": [
+			{
+				"name": "Magali Milbergue",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/3e79438118-1716813314/magali-milbergue-300x-crop.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Orejime,\nun projet open-source et accessible :\ncompte de fée ou drama project ?!",
+		"date": "2024-09-26",
+		"start": "10:30",
+		"speakers": [
+			{
+				"name": "Simon Bonaventure",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/simon-bonaventure/7ffa9d207a-1716885351/simon-bonaventure.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Il n’y a pas que les\nSingle Page Apps dans la vie",
+		"date": "2024-09-26",
+		"start": "11:30",
+		"speakers": [
+			{
+				"name": "Anthony Ricaud",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/anthony-ricaud/f5ee603bf6-1716813315/anthony-ricaud.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Défendre et industrialiser l’accessibilité\nen tant qu’UX designer",
+		"date": "2024-09-26",
+		"start": "12:25",
+		"speakers": [
+			{
+				"name": "Tamara Sredojevic",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/tamara-sredojevic/cdfd2d420c-1716813315/tamara-sredojevic.jpg"
+			},
+			{
+				"name": "Nora Goerne",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/nora-goerne/e4be248439-1716813315/nora-goerne.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Du calendrier lunaire\naux notifications du smartphone :\nla notion du temps",
+		"date": "2024-09-26",
+		"start": "14:40",
+		"speakers": [
+			{
+				"name": "Flora Brochier",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/flora-brochier/4888be0cc6-1716905417/flora-brochier.jpg"
+			},
+			{
+				"name": "Esther Jacquet",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/esther-jacquet/4133d12585-1716813315/esther-jacquet.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "« Accessibilité : l’IA pour faire\npousser mes tomates inclusives »",
+		"date": "2024-09-26",
+		"start": "15:35",
+		"speakers": [
+			{
+				"name": "Sébastien Delorme",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/sebastien-delorme/a03211da2d-1716813314/sebastien-delorme.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Appuyez sur Entrée\npour envoyer ce message",
+		"date": "2024-09-26",
+		"start": "16:35",
+		"speakers": [
+			{
+				"name": "Thomas Parisot",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/thomas-parisot/0fc5114f57-1716813315/thomas-parisot.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Penser l’accessibilité numérique\navec les handicaps cognitifs",
+		"date": "2024-09-26",
+		"start": "17:10",
+		"speakers": [
+			{
+				"name": "Lison Fanuel",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/lison-fanuel/0fe03af665-1716813315/lison-fanuel.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "La technologie des polices variables",
+		"date": "2024-09-27",
+		"start": "09:15",
+		"speakers": [
+			{
+				"name": "Damien Collot",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-collot/02257c3a4b-1716813315/damien-collot.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Be a Dolphin not a Shark:\nUsing cooperation over conflict\nto advance digital accessibility",
+		"date": "2024-09-27",
+		"start": "09:50",
+		"speakers": [
+			{
+				"name": "Lainey Feingold",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/lainey-feingold/36a3e2397f-1716813315/lainey-feingold.jpg"
+			}
+		],
+		"type": "Conférences",
+		"lang": "Anglais"
+	},
+	{
+		"title": "L’instabilité de nos tests\nnous empêche de délivrer",
+		"date": "2024-09-27",
+		"start": "11:10",
+		"speakers": [
+			{
+				"name": "Sofia Lescano Carroll",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/sofia-lescano-carroll/9a389f8b54-1716813315/sofia-lescano-caroll.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Quel design pour un numérique\nécologiquement contraint ?",
+		"date": "2024-09-27",
+		"start": "11:45",
+		"speakers": [
+			{
+				"name": "Thomas Thibault",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/thomas-thibault/842b9b19c3-1716813315/thomas-thibault.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Double authentification :\nde quoi parle-t-on ?",
+		"date": "2024-09-27",
+		"start": "14:20",
+		"speakers": [
+			{
+				"name": "Agnès Haasser",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/agnes-haasser/9fab215c68-1716813312/agnes-haasser.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Vos présentations et vos sites\nme donnent littéralement envie de vomir",
+		"date": "2024-09-27",
+		"start": "15:15",
+		"speakers": [
+			{
+				"name": "Christophe Breheret-Girardin",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/christophe-breheret-girardin/96826602c4-1716813315/christophe-bregeret-girardin.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Au-delà du RGAA :\npenser réellement aux usagers\nde lecteurs d’écran",
+		"date": "2024-09-27",
+		"start": "16:15",
+		"speakers": [
+			{
+				"name": "Emmanuel Pelletier",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/emmanuel-pelletier/68f0e23010-1716813315/emmanuel-pelletier.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Design pour l’offline :\nstratégies pour des expériences utilisateur\nininterrompues",
+		"date": "2024-09-27",
+		"start": "17:10",
+		"speakers": [
+			{
+				"name": "Olivier Guillard",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/olivier-guillard/5e576318f8-1716813315/olivier-guillard.jpg"
+			}
+		],
+		"type": "Conférences"
+	},
+	{
+		"title": "Action ! Améliorez l’accessibilité de vos contenus sur les réseaux sociaux",
+		"date": "2024-09-28",
+		"start": "09:30",
+		"speakers": [
+			{
+				"name": "Coryse Quibel",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/coryse-quibel/cf583d2eca-1725811398/coryse-quibel-2.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Créez vos propres bookmarklets accessibles",
+		"date": "2024-09-28",
+		"start": "09:30",
+		"speakers": [
+			{
+				"name": "Johan Senn",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/johan-senn/be00e6c529-1725803764/johan-senn.jpg"
+			},
+			{
+				"name": "Jean-Pierre Gay",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/jean-pierre-gay/c4123a1f37-1725803746/jean-pierre-gay.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Like a Wrecking Ball - déconstruire les biais brique par brique",
+		"date": "2024-09-28",
+		"start": "09:30",
+		"speakers": [
+			{
+				"name": "Magali Milbergue",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/magali-milbergue/3e79438118-1716813314/magali-milbergue.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Quelles questions poser à son designer avant de commencer une intégration ?",
+		"date": "2024-09-28",
+		"start": "09:30",
+		"speakers": [
+			{
+				"name": "Morgane Hervé",
+				"image": ""
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Réduire l’empreinte environnementale d’un site",
+		"date": "2024-09-28",
+		"start": "09:30",
+		"speakers": [
+			{
+				"name": "Guillaume Wolf",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/guillaume-wolf/8e8b94cb60-1716813315/guillaume-wolf.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Discussions et retours d’expériences sur l’utilisation de la gamification pour promouvoir l’accessibilité numérique",
+		"date": "2024-09-28",
+		"start": "11:25",
+		"speakers": [
+			{
+				"name": "Damien Gomez",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-gomez/70ff048489-1716813315/damien-gomez-paris-web.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Tous·tes ensemble : l’atelier de l’inclusion",
+		"date": "2024-09-28",
+		"start": "11:25",
+		"speakers": [
+			{
+				"name": "Luz Delgado Bautista",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/luz-delgado-bautista/85948cc7c0-1716813315/Luz-Delgado-Bautista.jpg"
+			},
+			{
+				"name": "Candice Larmangeat",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/candice-larmangeat/b49a25a0e5-1717159050/candice-lamargeant.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Atelier prospectif - En 2035, l’avenir dont nous serons les héros·ïnes ? ?",
+		"date": "2024-09-28",
+		"start": "13:55",
+		"speakers": [
+			{
+				"name": "Catherine Smet",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/catherine-smet/b6a413621a-1716813315/catherine-smet.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Concevez un web mesuré avec la Méthode de l’Écumoire",
+		"date": "2024-09-28",
+		"start": "13:55",
+		"speakers": [
+			{
+				"name": "Alizée Rault",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/alizee-rault/353595a153-1716813314/alizee-rault.jpg"
+			},
+			{
+				"name": "Damien Legendre",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/damien-legendre/ea92480c51-1716813314/damien-legendre.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Gérer des équipes neurodiverses : le manuel manquant",
+		"date": "2024-09-28",
+		"start": "13:55",
+		"speakers": [
+			{
+				"name": "Myriam Jessier",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/myriam-jessier/7f189893ce-1716813315/myriam-jessier.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Immersion dans les Situations de Handicap : Participez à un Panorama Interactif",
+		"date": "2024-09-28",
+		"start": "13:55",
+		"speakers": [
+			{
+				"name": "Emmanuelle Aboaf",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/emmanuelle-aboaf/78e76390a3-1716813312/emmanuelle-aboaf.jpg"
+			},
+			{
+				"name": "Angi Guyard",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/angi-guyard/dd643440bf-1716813315/angi-guyard.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Le jeu où la planète gagne à tous les coups",
+		"date": "2024-09-28",
+		"start": "13:55",
+		"speakers": [
+			{
+				"name": "Amélie Poirier",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/amelie-poirier/991280fd66-1716813315/amelie-poirier.jpg"
+			},
+			{
+				"name": "Cristella Henriques",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/cristella-henriques/9a4c619d80-1716813315/cristella-henriques.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Analyse métier : concevoir des solutions en accord avec les besoins et contraintes",
+		"date": "2024-09-28",
+		"start": "15:50",
+		"speakers": [
+			{
+				"name": "Guillaume Barbier",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/guillaume-barbier/094b7aea9f-1716813315/Guillaume-Barbier-Paris-Web.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Easy Checks pour vérifier l’accessibilité",
+		"date": "2024-09-28",
+		"start": "15:50",
+		"speakers": [
+			{
+				"name": "Romy Duhem-Verdière",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/romy-duhem-verdiere/9255c04f95-1716813315/Romy-Duhem-Verdiere-paris-web.jpg"
+			},
+			{
+				"name": "Anne-Sophie Tranchet",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/anne-sophie-tranchet/f2ddd7ebd4-1716813311/anne-sophie-tranchet-2.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Rendre visible l’invisible : Création d’un modèle de maturité d’Accessibilité",
+		"date": "2024-09-28",
+		"start": "15:50",
+		"speakers": [
+			{
+				"name": "Cécile Jouve",
+				"image": "https://www.paris-web.fr/media/pages/orateurs/cecile-jouve/d98ad08a61-1725803816/cecile-jouve.jpg"
+			}
+		],
+		"type": "Ateliers"
+	},
+	{
+		"title": "Conférence d’ouverture",
+		"date": "2024-09-26",
+		"start": "09:25",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2024-09-26",
+		"start": "11:00",
+		"type": "Pause"
+	},
+	{
+		"title": "Déjeuner",
+		"date": "2024-09-26",
+		"start": "12:55",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2024-09-26",
+		"start": "16:05",
+		"type": "Pause"
+	},
+	{
+		"title": "Soirée communautaire",
+		"date": "2024-09-26",
+		"start": "18:00",
+		"type": "Pause"
+	},
+	{
+		"title": "Bonjour !",
+		"date": "2024-09-27",
+		"start": "08:30",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2024-09-27",
+		"start": "10:40",
+		"type": "Pause"
+	},
+	{
+		"title": "Déjeuner",
+		"date": "2024-09-27",
+		"start": "12:35",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2024-09-27",
+		"start": "15:45",
+		"type": "Pause"
+	},
+	{
+		"title": "Conférence de clôture",
+		"date": "2024-09-27",
+		"start": "17:40",
+		"type": "Pause"
+	}
+]

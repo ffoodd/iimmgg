@@ -14,11 +14,11 @@ const colors = {
 
 // @todo Passer le(s) chemin(s) en argument
 const folders = [
-	'pw-2023/cartons-titres/base',
-	'pw-2023/cartons-titres/vod',
-	'pw-2023/cartons-titres/sponsors',
-	'pw-2023/cartons-titres/colors',
-	'pw-2023/cartons-titres/transitions'
+	'pw-2024/cartons-titres/vod',
+	'pw-2024/cartons-titres/video',
+	'pw-2024/cartons-titres/colors',
+	'pw-2024/cartons-titres/sponsors',
+	'pw-2024/cartons-titres/transitions'
 ];
 
 folders.forEach(folder => {

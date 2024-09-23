@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+	<!-- Couleurs --><style>
+		:root {
+			--secondary: #4f27d6;
+			--gray: #585462;
+		}
+	</style>
+	<!-- Décor -->
+	<defs>
+		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
+		<radialGradient id="gradient" r="600" cx="1488" cy="192" fx="1800" fy="180" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="#e8e0fa" />
+			<stop offset="100%" stop-color="#fff" />
+		</radialGradient>
+	</defs>
+	<g>
+		<rect width="100%" height="100%" fill="url(#gradient)"></rect>
+		<image x="1568" y="72" width="240" height="240" href="http://localhost:8080/img/paris-web×ishihara.svg" />
+		<image x="1622" y="132" width="132" height="128" href="http://localhost:8080/img/paris-web.svg" />
+	</g>
+	<!-- Contenu -->
+	<g font-family="PT Sans" fill="#25222c">
+		<text font-size="88" x="120" font-weight="700"><tspan y="144">Pause</tspan></text><g style="transform: scale(66%) translate(0, -150px);transform-box: fill-box;"><image href="/img/sponsors-2024/webvert.svg" width="386" height="62" x="120" y="1125" /><image href="/img/sponsors-2024/codeworks.svg" width="200" height="156" x="660" y="1070" /><image href="/img/sponsors-2024/temesis.svg" width="529" height="121" x="1520" y="812" /><image href="/img/sponsors-2024/ideance.svg" width="110" height="121" x="1280" y="812" /><image href="/img/sponsors-2024/authot.svg" width="476" height="121" x="700" y="812" /><image href="/img/sponsors-2024/enedis.svg" width="450" height="91" x="120" y="830" /><image href="/img/sponsors-2024/leboncoin.svg" width="711" height="226" x="1340" y="440" /><image href="/img/sponsors-2024/o2switch.svg" width="1009" height="226" x="120" y="406" /></g><text font-size="32" font-weight="700"><tspan x="1280" y="864" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">Il n’y a pas que les</tspan><tspan x="1280" y="944">Single Page Apps dans la vie</tspan><tspan x="1280" y="984" font-weight="400" fill="var(--gray)">À 11h30</tspan>
+			</text></g>
+</svg>

@@ -1,0 +1,78 @@
+---js
+{
+	pagination: {
+		data: "sponsors_2024",
+		size: 1,
+		alias: "sponsor"
+	},
+	permalink: "pw-2024/cartons-titres/sponsors/sponsor-{{ sponsor.name | slugify }}.svg"
+}
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+	{%- set background = colors_2024[1].background -%}
+	{%- set gradient = colors_2024[1].gradient -%}
+	{%- set primary = colors_2024[1].primary -%}
+	{%- set secondary = colors_2024[1].secondary -%}
+	{%- set gray = colors_2024[1].gray -%}
+	<style>
+		:root {
+			--secondary: {{ secondary }};
+			--gray: {{ gray }};
+		}
+	</style>
+	<defs>
+		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
+		<radialGradient id="gradient" r="600" cx="1488" cy="192" fx="1800" fy="180" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="{{ gradient }}" />
+			<stop offset="100%" stop-color="{{ background }}" />
+		</radialGradient>
+	</defs>
+	<!-- Décor -->
+	<g>
+		<rect width="100%" height="100%" fill="url(#gradient)"></rect>
+		<image x="1568" y="72" width="240" height="240" href="http://localhost:8080/img/paris-web×ishihara.svg" />
+		<image x="1622" y="132" width="132" height="128" href="http://localhost:8080/img/paris-web.svg" />
+	</g>
+	<!-- Contenu -->
+	<g font-family="PT Sans" fill="{{ primary }}">
+		<!-- Zone d’affichage : 1280 × 560 -->
+		<!-- @todo Faire ça en amont avec 11ty ? -->
+		{%- set width = sponsor.size.width or 560 -%}
+		{%- set height = sponsor.size.height or 560 -%}
+		<!-- Si la largeur est trop grande -->
+		{%- if width > 1280 -%}
+			{%- set width = 1280 -%}
+			{%- set height = height * 1280 / sponsor.size.width -%}
+		{%- endif -%}
+		<!-- Si la hauteur est trop grande -->
+		{%- if height > 560 -%}
+			{%- set height = 560 -%}
+			{%- set width = width * 560 / sponsor.size.height -%}
+		{%- endif -%}
+		<!-- Si on a un SVG -->
+		{%- if sponsor.logo and ".svg" in sponsor.logo -%}
+			{%- if sponsor.size.width > sponsor.size.height -%}
+				{%- set width = 1280 -%}
+				{%- set height = sponsor.size.height * 1280 / sponsor.size.width -%}
+				{%- if height > 560 -%}
+					{%- set height = 560 -%}
+					{%- set width = "auto" -%}
+				{%- endif -%}
+			{%- else -%}
+				{%- set height = 560 -%}
+				{%- set width = sponsor.size.width * 560 / sponsor.size.height -%}
+				{%- if width > 1280 -%}
+					{%- set width = 1280 -%}
+					{%- set height = "auto" -%}
+				{%- endif -%}
+			{%- endif -%}
+		{%- endif -%}
+		<image href="{{ sponsor.logo or "/img/lego.svg" }}" width="{{ width | round }}" height="{{ height | round }}" x="120" y="{{ 630 - height | round }}"/>
+		<text x="120" y="754" font-size="88" font-weight="700" fill="{{ secondary }}">soutient Paris Web</text>
+		<text x="120" y="810" font-size="44" fill="{{ gray }}">
+			<tspan font-weight="700">19</tspan><tspan font-size="32" font-weight="700" dy="-24">e</tspan>
+			<tspan font-weight="700" dy="24"> édition</tspan>
+			<tspan>26 — 28 septembre 2024</tspan>
+		</text>
+	</g>
+</svg>

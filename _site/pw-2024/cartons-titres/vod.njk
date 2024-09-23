@@ -1,0 +1,74 @@
+---js
+{
+	pagination: {
+		data: "pw_2024",
+		size: 1,
+		alias: "conference",
+		before: (paginationData, fullData) => {
+			return paginationData.filter(slot => slot.type === "Conférences");
+		}
+	},
+	permalink: "pw-2024/cartons-titres/vod/post-{{ conference.title | slugify }}.svg"
+}
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+	<!-- Couleurs -->
+	{%- set index = 0 -%}
+	{%- if conference.type === "Pause" -%}
+		{%- set index = 1 -%}
+	{%- endif -%}
+	{%- set background = colors_2024[index].background -%}
+	{%- set gradient = colors_2024[index].gradient -%}
+	{%- set primary = colors_2024[index].primary -%}
+	{%- set secondary = colors_2024[index].secondary -%}
+	{%- set gray = colors_2024[index].gray -%}
+	<style>
+		:root {
+			--secondary: {{ secondary }};
+			--gray: {{ gray }};
+		}
+	</style>
+	<!-- Décor -->
+	<defs>
+		<style>@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700');</style>
+		<radialGradient id="gradient" r="600" cx="1488" cy="192" fx="1800" fy="180" gradientUnits="userSpaceOnUse">
+			<stop offset="0%" stop-color="{{ gradient }}" />
+			<stop offset="100%" stop-color="{{ background }}" />
+		</radialGradient>
+	</defs>
+	<g>
+		<rect width="100%" height="100%" fill="url(#gradient)"></rect>
+		<image x="1568" y="72" width="240" height="240" href="http://localhost:8080/img/paris-web×ishihara{% if conference.type === "Conférences" %}-dark{% endif %}.svg" />
+		<image x="1622" y="132" width="132" height="128" href="http://localhost:8080/img/paris-web{% if conference.type === "Conférences" %}-dark{% endif %}.svg" />
+		<text x="120" y="200" font-family="PT Sans" font-size="36" font-weight="700" fill="{{ gray }}">26 — 28 septembre 2024</text>
+	</g>
+	<!-- Contenu -->
+	<g font-family="PT Sans" fill="{{ primary }}">
+		<text font-size="88" x="120" font-weight="700">
+			{%- if conference.type === "Pause" -%}
+				<tspan y="144">{{ conference.title | microtypo | escape | safe }}</tspan>
+			{%- else -%}
+				{%- if conference.lang === "Anglais" -%}
+					{% set title = conference.title + " (en anglais)" %}
+					{{ title | microtypo | escape | wrap([314,400,486,572]) | safe }}
+				{%- else -%}
+					{{ conference.title | microtypo | escape | wrap([314,400,486,572]) | safe }}
+				{%- endif -%}
+			{%- endif -%}
+		</text>
+		{%- if conference.speakers -%}
+			<g>
+				{%- for speaker in conference.speakers -%}
+					{%- set x = 120 -%}
+					{%- if loop.index === 2 -%}
+						{%- set x = 702 -%}
+					{%- endif -%}
+					<circle r="36" cx="{{ x + 32 }}" cy="656" fill="{{ secondary }}"></circle>
+					<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="{{ x }}" y="624" style="clip-path: circle();"/>
+					<text x="{{ x + 80 }}" y="672" font-size="48" font-weight="700" fill="{{ secondary }}">{{ speaker.name | microtypo | escape }}</text>
+				{%- endfor -%}
+			</g>
+		{%- endif -%}
+		<text x="120" y="960" font-size="48" fill="{{ gray }}">Retrouvez les vidéos de toutes nos conférences sur notre site <tspan text-decoration="underline" font-weight="700" fill="{{ primary }}">paris-web.fr</tspan></text>
+	</g>
+</svg>

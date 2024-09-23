@@ -1,0 +1,18 @@
+[
+	{
+		"name": "conference",
+		"background": "#25222c",
+		"gradient": "#492740",
+		"primary": "#fff",
+		"secondary": "#ff94cc",
+		"gray": "#aaa7b4"
+	},
+	{
+		"name": "workshops",
+		"background": "#fff",
+		"gradient": "#e8e0fa",
+		"primary": "#25222c",
+		"secondary": "#4f27d6",
+		"gray": "#585462"
+	}
+]

@@ -33,9 +33,10 @@ firefox -p "noob" --screenshot path/to/img.png --window-size 1920,1080 http://lo
 ```
 
 Plusieurs écueils :
-1. Il faut disposer de Firefox ;
-2. Il faut lancer un serveur web : la commande ne veut pas fonctionner avec `file://` ;
+1. Il faut disposer de Firefox, et un profil vierge nommé `noob` (ou à changer dans la commande précédente) ;
+2. Il faut lancer un serveur web (donc `npm start`) : la commande ne veut pas fonctionner avec `file://` ;
 3. Et c’est quand même assez lent.
+4. Sharp est utilisé pour optimiser les PNG sortis.
 
 ### À étudier en remplacement
 
