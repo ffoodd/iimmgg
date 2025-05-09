@@ -19,7 +19,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88" x="120"><tspan x="120" y="400">CSS Viewport Units v2 :</tspan><tspan x="120" y="486">on pousse encore plus loin la réactivité</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
+		<text font-size="88" x="120"><tspan y="400" x="">CSS Viewport Units v2 :</tspan><tspan y="486" x="">on pousse encore plus loin la réactivité</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
 			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/josiane-makelele/04d0f761cf-1716813315/josiane-makelele-paris-web.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 					<text x="200" y="672" font-size="48" font-style="italic">Josiane Makelele</text></g><text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
@@ -28,6 +28,6 @@
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			28 septembre 2023 à 12h10
-		</text><text font-size="32"><tspan x="1280" y="824" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="864">[Partenaire]</tspan><tspan x="1280" y="904">Cabinets de conseil en SI</tspan><tspan x="1280" y="944">et numérique responsable, incompatibles ?</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 13h50</tspan>
+		</text><text font-size="32"><tspan y="824" x="" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan y="864" x="">[Partenaire]</tspan><tspan y="904" x="">Cabinets de conseil en SI</tspan><tspan y="944" x="">et numérique responsable, incompatibles ?</tspan><tspan y="984" x="" font-style="italic">28 septembre 2023 à 13h50</tspan>
 			</text></g>
 </svg>

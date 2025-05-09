@@ -32,7 +32,7 @@ folders.forEach(folder => {
 
 		if (isGitModified || !outputFileExists) {
 			try {
-				cp.execSync(`/usr/bin/firefox -p "noob" --no-remote --screenshot ${outputPath}/${filename} --window-size 1920,1080 http://localhost:8080/${folder}/${file}`, { encoding: 'utf-8' })
+				cp.execSync(`firefox -p "noob" --no-remote --screenshot ${outputPath}/${filename} --window-size 1920,1080 http://localhost:8080/${folder}/${file}`, { encoding: 'utf-8' })
 				console.log(`${colors.bold}${colors.green}Generated${colors.end} ${colors.blue}${folder}/${filename}${colors.end}`)
 			} catch (error) {
 				console.error(`${colors.bold}${colors.red}Error: ${colors.yellow}${error}${colors.end} ${colors.blue}${folder}/${filename}${colors.end}`)

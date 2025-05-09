@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="314">Une séance d’entrainement</tspan><tspan x="120" y="400">pour muscler son écoute ?</tspan><tspan x="120" y="486">C’est par ici !</tspan></text>
+		<text font-size="88"><tspan y="314" x="">Une séance d’entrainement</tspan><tspan y="400" x="">pour muscler son écoute ?</tspan><tspan y="486" x="">C’est par ici !</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/albane-veyron/08473885f7-1716813315/albane-veyron-paris-web.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Albane Veyron</text></g>

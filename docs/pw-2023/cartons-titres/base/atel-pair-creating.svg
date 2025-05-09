@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="486">« Pair-Creating »</tspan></text>
+		<text font-size="88"><tspan y="486" x="">« Pair-Creating »</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/maxime-federov/ac29bd86ad-1716813315/maxime-federov-paris-web.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Maxime Federov</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/candice-poyet/85a8aeafae-1716813315/Candice-Poyet.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>

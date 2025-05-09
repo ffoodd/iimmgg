@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="314">RGESN : retour d’expérience</tspan><tspan x="120" y="400">sur sa prise en compte par</tspan><tspan x="120" y="486">les métiers du Web</tspan></text>
+		<text font-size="88"><tspan y="314" x="">RGESN : retour d’expérience</tspan><tspan y="400" x="">sur sa prise en compte par</tspan><tspan y="486" x="">les métiers du Web</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/christophe-clouzeau/29937161d7-1716813315/christophe-clouzeau.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Christophe Clouzeau</text></g>

@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="400">L’IA et le handicap :</tspan><tspan x="120" y="486">progrès ou exclusion ?</tspan></text>
+		<text font-size="88"><tspan y="400" x="">L’IA et le handicap :</tspan><tspan y="486" x="">progrès ou exclusion ?</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>
 				

@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="486">ARIA, the good parts</tspan></text>
+		<text font-size="88"><tspan y="486" x="">ARIA, the good parts</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/hidde-de-vries/69fa1d6e5e-1716813315/Hidde-De-Vries-paris-web.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Hidde De Vries</text></g>

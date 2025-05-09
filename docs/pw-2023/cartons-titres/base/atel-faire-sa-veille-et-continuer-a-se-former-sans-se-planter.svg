@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="400">Faire sa veille</tspan><tspan x="120" y="486">et continuer à se former sans se planter</tspan></text>
+		<text font-size="88"><tspan y="400" x="">Faire sa veille</tspan><tspan y="486" x="">et continuer à se former sans se planter</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/juliette-audema/a3775a3104-1716813314/juliette-audema-paris-web.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Juliette Audema</text></g>

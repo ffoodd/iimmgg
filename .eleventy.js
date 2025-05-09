@@ -5,7 +5,7 @@ module.exports = (eleventyConfig) => {
 		return DateTime.fromISO(dateObj).setLocale('fr').toLocaleString(DateTime.DATE_FULL)
 	})
 
-	eleventyConfig.addFilter('wrap', (title, positions = [314,400,486], offsetX = 120) => {
+	eleventyConfig.addFilter('wrap', (title, positions = [314,400,486], offsetX) => {
 		const lines = title.split('\n')
 		const wrappedTitle = lines.map((line, index) => {
 			let offsets = []
@@ -31,6 +31,7 @@ module.exports = (eleventyConfig) => {
 					offsets = [positions.at(-1)]
 					break;
 			}
+			let xOffset = ''
 			let fontWeight = ''
 			let fontStyle = ''
 			let fontSize = ''
@@ -52,7 +53,13 @@ module.exports = (eleventyConfig) => {
 				fontStyle = '';
 				line = line.replace(' (en anglais)', ' <tspan font-weight="400" fill="var(--gray)" font-style="italic">(en anglais)</tspan>')
 			}
-			return `<tspan x="${offsetX}" y="${offsets[index]}"${fontStyle}${fontSize}${fontWeight}${color}>${line}</tspan>`
+			if(offsetX !== undefined && !isNaN(offsetX) && xOffset === '') {
+				xOffset = ` x="${xOffset}"`;
+			} else {
+				// @note Ajout 2025
+				xOffset = ` x="0" text-anchor="middle"`;
+			}
+			return `<tspan y="${offsets[index]}"${xOffset}${fontStyle}${fontSize}${fontWeight}${color}>${line}</tspan>`
 		})
 		return wrappedTitle.join('')
 	})

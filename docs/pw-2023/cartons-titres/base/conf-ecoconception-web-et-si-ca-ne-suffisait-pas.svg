@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="400">Écoconception web,</tspan><tspan x="120" y="486">et si ça ne suffisait pas ?</tspan></text>
+		<text font-size="88"><tspan y="400" x="">Écoconception web,</tspan><tspan y="486" x="">et si ça ne suffisait pas ?</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/richard-hanna/b5b449d18d-1716813315/d8471bb7749ce5d5357596e99dd81ffb6087387a.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Richard Hanna</text></g>

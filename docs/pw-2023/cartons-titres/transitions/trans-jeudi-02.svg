@@ -19,7 +19,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88" x="120"><tspan x="120" y="400">Table ronde</tspan><tspan x="120" y="486">« Femmes de la tech »</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
+		<text font-size="88" x="120"><tspan y="400" x="">Table ronde</tspan><tspan y="486" x="">« Femmes de la tech »</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
 			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/gaelle-kubila/7b6d6ce17a-1716813315/Gaelle-Kubila.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 					<text x="200" y="672" font-size="48" font-style="italic">Gaëlle Kubila</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/marcy-ericka-charollois/a90ace5498-1716813315/Marcy-Ericka-Charollois.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
 					<text x="200" y="744" font-size="48" font-style="italic">Marcy Ericka Charollois</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/anais-sparesotto/1e0085cb09-1716813315/Anais-Sparesotto-paris-web.jpg" width="64" height="64" x="120" y="768" style="clip-path: circle();"/>
@@ -32,6 +32,6 @@
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			28 septembre 2023 à 11h15
-		</text><text font-size="32"><tspan x="1280" y="864" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan x="1280" y="904">CSS Viewport Units v2 :</tspan><tspan x="1280" y="944">on pousse encore plus loin la réactivité</tspan><tspan x="1280" y="984" font-style="italic">28 septembre 2023 à 12h10</tspan>
+		</text><text font-size="32"><tspan y="864" x="" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan y="904" x="">CSS Viewport Units v2 :</tspan><tspan y="944" x="">on pousse encore plus loin la réactivité</tspan><tspan y="984" x="" font-style="italic">28 septembre 2023 à 12h10</tspan>
 			</text></g>
 </svg>
