@@ -14,16 +14,12 @@ const colors = {
 
 // @todo Passer le(s) chemin(s) en argument
 const folders = [
-	'pw-2024/cartons-titres/vod',
-	'pw-2024/cartons-titres/video',
-	'pw-2024/cartons-titres/colors',
-	'pw-2024/cartons-titres/sponsors',
-	'pw-2024/cartons-titres/transitions'
+	'pw-2025/vignettes'
 ];
 
 folders.forEach(folder => {
 	const files = fs.readdirSync(`docs/${folder}/`)
-	const outputPath = path.join(process.cwd(), `dist/${folder}/`)
+	const outputPath = path.join(process.cwd(), `dist/${folder}`)
 	if (!fs.existsSync(outputPath)) {
 		fs.mkdirSync(outputPath, { recursive: true })
 	}
@@ -33,9 +29,10 @@ folders.forEach(folder => {
 		const filePath = `docs/${folder}/${file}`
 		const isGitModified = cp.execSync(`git diff --name-only HEAD ${filePath}`, { encoding: 'utf-8' }).trim() === filePath
 		const outputFileExists = fs.existsSync(`${outputPath}/${filename}`)
+
 		if (isGitModified || !outputFileExists) {
 			try {
-				cp.execSync(`firefox -p "noob" --no-remote --screenshot ${outputPath}/${filename} --window-size 1920,1080 http://localhost:8080/${folder}/${file}`, { encoding: 'utf-8' })
+				cp.execSync(`/usr/bin/firefox -p "noob" --no-remote --screenshot ${outputPath}/${filename} --window-size 1920,1080 http://localhost:8080/${folder}/${file}`, { encoding: 'utf-8' })
 				console.log(`${colors.bold}${colors.green}Generated${colors.end} ${colors.blue}${folder}/${filename}${colors.end}`)
 			} catch (error) {
 				console.error(`${colors.bold}${colors.red}Error: ${colors.yellow}${error}${colors.end} ${colors.blue}${folder}/${filename}${colors.end}`)

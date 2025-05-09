@@ -80,6 +80,7 @@ module.exports = (eleventyConfig) => {
 	)
 
 	eleventyConfig.addPassthroughCopy("_site/img")
+	eleventyConfig.addPassthroughCopy("_site/fonts")
 
 	eleventyConfig.setServerOptions({
 		liveReload: true
