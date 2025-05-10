@@ -21,7 +21,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="PT Sans" fill="#fff">
-		<text font-size="88" x="120" font-weight="700"><tspan y="486" x="0" text-anchor="middle">Penser l’accessibilité numérique</tspan><tspan y="572" x="0" text-anchor="middle">avec les handicaps cognitifs</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
+		<text font-size="88" x="120" font-weight="700"><tspan y="486" x="50%" dominant-baseline="middle" text-anchor="middle">Penser l’accessibilité numérique</tspan><tspan y="572" x="50%" dominant-baseline="middle" text-anchor="middle">avec les handicaps cognitifs</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
 					<image href="https://www.paris-web.fr/media/pages/orateurs/lison-fanuel/0fe03af665-1716813315/lison-fanuel.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Lison Fanuel</text></g><text x="120" y="960" font-size="48" fill="#aaa7b4">Retrouvez les vidéos de toutes nos conférences sur notre site <tspan text-decoration="underline" font-weight="700" fill="#fff">paris-web.fr</tspan></text>
 	</g>

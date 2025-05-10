@@ -57,7 +57,7 @@ module.exports = (eleventyConfig) => {
 				xOffset = ` x="${xOffset}"`;
 			} else {
 				// @note Ajout 2025
-				xOffset = ` x="0" text-anchor="middle"`;
+				xOffset = ` x="50%" dominant-baseline="middle" text-anchor="middle"`;
 			}
 			return `<tspan y="${offsets[index]}"${xOffset}${fontStyle}${fontSize}${fontWeight}${color}>${line}</tspan>`
 		})

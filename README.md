@@ -9,27 +9,37 @@ Les fichiers json d’entrée sont stockés dans `_site/_data/`.
 
 ### Nettoyer un json d’entrée
 
-La source principale est [l’export proposé par MT](https://www.paris-web.fr/export_conferences_gael.json) :
+La source principale est [la représentation de contenus implémentée via Kirby](https://www.paris-web.fr/2025.json) :
 
-1. à filtrer pour l’année en cours (2023),
-2. à enregistrer dans `_site/_date/pw-2023.json` (ignoré de Git),
-3. à limiter aux conférences et atelier de ladite année.
+1. à filtrer pour l’année en cours (2025),
+2. à enregistrer dans `_site/_date/pw-2025.json`.
+
+
+#### Hors contexte
+
+> [!NOTE]
+> Cette procédure n’est plus nécessaire depuis la migration du site paris-web.fr vers Kirby ; cela étant dit, dans d’autres contextes, ça pourrait toujours servir.
+
+<details>
+	<summary>Nettoyer le fichier avec jq</summary>
 
 Puis en utilisant [jq](https://jqlang.github.io/jq/), on peut générer un fichier json sur-mesure contenant uniquement les clés qui nous intéressent — par exemple, pour un export du programme de Paris Web, voilà la commande utilisée :
 
 ```shell
-cat _site/_data/pw-2023-export.json | jq 'map({title,date,start,speakers,type,lang})' > _site/_data/pw-2023-clean.json
+cat _site/_data/pw_2025.json | jq 'map({title,date,start,speakers,type,lang})' > _site/_data/pw_2025.json
 ```
 
 > [!IMPORTANT]
 > On écrase le fichier source, car des données supplémentaires sont ajoutées dans le fichier source pour 11ty : présence des sponsors, pauses et sauts de ligne (`\n`).
+
+</details>
 
 ## Images
 
 Les images sont générées en SVG avec un peu d’aide d’Eleventy et [Nunjucks](https://mozilla.github.io/nunjucks/), puis sont converties en png avec Firefox (lancé en CLI via un script Node) :
 
 ```shell
-firefox -p "noob" --screenshot path/to/img.png --window-size 1920,1080 http://localhost:8080/pw-2023/svg/img.svg
+firefox -p "noob" --screenshot path/to/img.png --window-size 1920,1080 http://localhost:8080/pw-2025/svg/img.svg
 ```
 
 Plusieurs écueils :
