@@ -20,6 +20,10 @@
 				src: url("http://localhost:8080/fonts/GOODBRUSH.woff2") format("woff2");
 			}
 			:root { background-color: #767676; }
+			.portrait {
+				clip-path: circle();
+				translate: calc(var(--longueur) * -2ch);
+			}
 		</style>
 		<pattern id="grain" x="0" y="0" patternUnits="userSpaceOnUse" height="428" width="642">
 			<image x="0" y="0" href="http://localhost:8080/img/bg-2025.png" height="428" width="642"></image>
@@ -54,14 +58,21 @@
 			{%- set nombre = conference.speakers | length -%}
 			{%- if nombre === 1 -%}
 				{%- set speaker = conference.speakers[0]  -%}
-				{%- set longueur = speaker.name | length -%}
-				<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="48%" y="888" style="translate: -{{ longueur * 2 }}ch; clip-path: circle();"/>
-				<text font-weight="800" font-size="72" fill="#E11A81" x="52%" y="928" dominant-baseline="middle" text-anchor="middle">{{ speaker.name | microtypo | escape }}</text>
+				{%- if speaker.image -%}
+					<image class="portrait" href="{{ speaker.image }}" width="128" height="128" x="46%" y="860" style="--longueur: {{ speaker.name | length }};"/>
+				{%- else -%}
+					<use class="portrait" href="/img/avatars.svg#{{ [0,1,2,3,4,5,6,7] | random }}" width="128" height="128" x="46%" y="860" style="--longueur: {{ speaker.name | length }};"></use>
+				{%- endif -%}
+				<text font-weight="800" font-size="72" fill="#E11A81" x="54%" y="928" dominant-baseline="middle" text-anchor="middle">{{ speaker.name | microtypo | escape }}</text>
 			{%- elseif nombre === 2 -%}
 				{%- for speaker in conference.speakers -%}
-					{%- set longueur = speaker.name | length -%}
-					<image href="{{ speaker.image or "/img/lego.svg" }}" width="64" height="64" x="{{ (33 * loop.index) - 2 }}%" y="888" style="translate: -{{ longueur * 2 }}ch; clip-path: circle();"/>
-					<text font-weight="800" font-size="72" fill="#E11A81" x="{{ (33 * loop.index) + 2 }}%" y="928" dominant-baseline="middle" text-anchor="middle">{{ speaker.name | microtypo | escape }}</text>
+					{%- set x = speaker.x | int or (33 * loop.index) -%}
+					{%- if speaker.image -%}
+						<image class="portrait" href="{{ speaker.image }}" width="128" height="128" x="{{ x - 4 }}%" y="860" style="--longueur: {{ speaker.name | length }};"/>
+					{%- else -%}
+						<use class="portrait" href="/img/avatars.svg#{{ [0,1,2,3,4,5,6,7] | random }}" width="128" height="128" x="{{ x - 4 }}%" y="860" style="--longueur: {{ speaker.name | length }};"></use>
+					{%- endif -%}
+					<text font-weight="800" font-size="72" fill="#E11A81" x="{{ x + 4 }}%" y="928" dominant-baseline="middle" text-anchor="middle">{{ speaker.name | microtypo | escape }}</text>
 				{%- endfor -%}
 			{%- endif -%}
 		</g>

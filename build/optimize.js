@@ -11,7 +11,8 @@ const colors = {
 }
 
 const folders = [
-	'dist/pw-2025/vignettes'
+	'dist/pw-2025/vignettes/base',
+	'dist/pw-2025/vignettes/conferences'
 ];
 
 folders.forEach(folder => {

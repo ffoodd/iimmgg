@@ -14,12 +14,13 @@ const colors = {
 
 // @todo Passer le(s) chemin(s) en argument
 const folders = [
-	'pw-2025/vignettes'
+	'pw-2025/vignettes/base',
+	'pw-2025/vignettes/conferences'
 ];
 
 folders.forEach(folder => {
 	const files = fs.readdirSync(`docs/${folder}/`)
-	const outputPath = path.join(process.cwd(), `dist/${folder}`)
+	const outputPath = path.join(process.cwd(), `dist/${folder}/`)
 	if (!fs.existsSync(outputPath)) {
 		fs.mkdirSync(outputPath, { recursive: true })
 	}
