@@ -20,7 +20,7 @@
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
 		<text font-size="88" x="120">
-					<tspan y="400" x="">WCAGmire</tspan><tspan y="486" x="">(en anglais)</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
+					<tspan y="400" x="120">WCAGmire</tspan><tspan y="486" x="120">(en anglais)</tspan></text><text x="120" y="600" font-size="48" font-style="italic">--</text>
 			<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/adrian-roselli/4f6819b7a7-1716813315/adrian-roselli.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 					<text x="200" y="672" font-size="48" font-style="italic">Adrian Roselli</text></g><text x="1280" y="660" font-size="48">
 			Paris Web — <tspan font-size="48" font-style="italic">18</tspan><!--
@@ -29,6 +29,6 @@
 		</text>
 		<text x="1280" y="700" font-style="italic" font-size="40">
 			28 septembre 2023 à 14h25
-		</text><text font-size="32"><tspan y="824" x="" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan y="864" x="">Le contenu doit être rédigé de la manière</tspan><tspan y="904" x="">la plus claire et la plus simple possible :</tspan><tspan y="944" x="">les textes dans l’accessibilité numérique</tspan><tspan y="984" x="" font-style="italic">28 septembre 2023 à 15h20</tspan>
+		</text><text font-size="32"><tspan y="824" x="1280" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan y="864" x="1280">Le contenu doit être rédigé de la manière</tspan><tspan y="904" x="1280">la plus claire et la plus simple possible :</tspan><tspan y="944" x="1280">les textes dans l’accessibilité numérique</tspan><tspan y="984" x="1280" font-style="italic">28 septembre 2023 à 15h20</tspan>
 			</text></g>
 </svg>

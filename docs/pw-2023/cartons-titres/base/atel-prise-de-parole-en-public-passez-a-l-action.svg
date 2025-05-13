@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan y="400" x="">Prise de parole en public,</tspan><tspan y="486" x="">passez à l’action !</tspan></text>
+		<text font-size="88"><tspan y="400" x="120">Prise de parole en public,</tspan><tspan y="486" x="120">passez à l’action !</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/frederic-fuchs/76e0e1b092-1716813315/eef678e2ffc86bcc5e5e6ddaca97bf65eafe46fc.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Frédéric Fuchs</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/liv-lefebvre/8a8f31af41-1716813315/Liv-Danthon-Lefebvre-Paris-Web.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>

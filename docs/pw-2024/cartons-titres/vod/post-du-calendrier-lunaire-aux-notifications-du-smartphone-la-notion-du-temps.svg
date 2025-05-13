@@ -21,7 +21,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="PT Sans" fill="#fff">
-		<text font-size="88" x="120" font-weight="700"><tspan y="400" x="50%" dominant-baseline="middle" text-anchor="middle">Du calendrier lunaire</tspan><tspan y="486" x="50%" dominant-baseline="middle" text-anchor="middle">aux notifications du smartphone :</tspan><tspan y="572" x="50%" dominant-baseline="middle" text-anchor="middle">la notion du temps</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
+		<text font-size="88" x="120" font-weight="700"><tspan y="400" x="120">Du calendrier lunaire</tspan><tspan y="486" x="120">aux notifications du smartphone :</tspan><tspan y="572" x="120">la notion du temps</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
 					<image href="https://www.paris-web.fr/media/pages/orateurs/flora-brochier/4888be0cc6-1716905417/flora-brochier.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Flora Brochier</text><circle r="36" cx="734" cy="656" fill="#ff94cc"></circle>
 					<image href="https://www.paris-web.fr/media/pages/orateurs/esther-jacquet/4133d12585-1716813315/esther-jacquet.jpg" width="64" height="64" x="702" y="624" style="clip-path: circle();"/>

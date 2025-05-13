@@ -20,8 +20,8 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="PT Sans" fill="#fff">
-		<text font-size="88" x="120" font-weight="700"><tspan y="486" x="50%" dominant-baseline="middle" text-anchor="middle">Double authentification :</tspan><tspan y="572" x="50%" dominant-baseline="middle" text-anchor="middle">de quoi parle-t-on ?</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
+		<text font-size="88" x="120" font-weight="700"><tspan y="486" x="120">Double authentification :</tspan><tspan y="572" x="120">de quoi parle-t-on ?</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
 					<image href="https://www.paris-web.fr/media/pages/orateurs/agnes-haasser/9fab215c68-1716813312/agnes-haasser.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
-					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Agnès Haasser</text></g><text x="1280" y="672" font-weight="700" font-size="48" fill="#aaa7b4">14h20</text><text font-size="32" font-weight="700"><tspan y="864" x="" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan y="904" x="">Vos présentations et vos sites</tspan><tspan y="944" x="">me donnent littéralement envie de vomir</tspan><tspan y="984" x="" font-weight="400" fill="var(--gray)">À 15h15</tspan>
+					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Agnès Haasser</text></g><text x="1280" y="672" font-weight="700" font-size="48" fill="#aaa7b4">14h20</text><text font-size="32" font-weight="700"><tspan y="864" x="1280" font-weight="400" fill="var(--gray)">À suivre :</tspan><tspan y="904" x="1280">Vos présentations et vos sites</tspan><tspan y="944" x="1280">me donnent littéralement envie de vomir</tspan><tspan y="984" x="1280" font-weight="400" fill="var(--gray)">À 15h15</tspan>
 			</text></g>
 </svg>

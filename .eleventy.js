@@ -9,7 +9,6 @@ module.exports = (eleventyConfig) => {
 		const lines = title.split('\n')
 		const wrappedTitle = lines.map((line, index) => {
 			let offsets = []
-			// @todo Comment simplifier ça ?
 			switch (lines.length) {
 				case 6:
 					offsets = [positions.at(-6), positions.at(-5), positions.at(-4), positions.at(-3), positions.at(-2), positions.at(-1)]
@@ -43,7 +42,6 @@ module.exports = (eleventyConfig) => {
 				fontStyle = ' font-style="italic"'
 				fontSize = ' font-size="48"'
 			}
-			// @note Ajouts 2024, peut avoir des impacts sur 2023
 			if (['À'].some(string => line.startsWith(string))) {
 				fontWeight = ' font-weight="400"'
 				color = ' fill="var(--gray)"'
@@ -53,10 +51,9 @@ module.exports = (eleventyConfig) => {
 				fontStyle = '';
 				line = line.replace(' (en anglais)', ' <tspan font-weight="400" fill="var(--gray)" font-style="italic">(en anglais)</tspan>')
 			}
-			if(offsetX !== undefined && !isNaN(offsetX) && xOffset === '') {
-				xOffset = ` x="${xOffset}"`;
+			if(offsetX !== undefined && xOffset === '') {
+				xOffset = ` x="${offsetX}"`;
 			} else {
-				// @note Ajout 2025
 				xOffset = ` x="50%" dominant-baseline="middle" text-anchor="middle"`;
 			}
 			return `<tspan y="${offsets[index]}"${xOffset}${fontStyle}${fontSize}${fontWeight}${color}>${line}</tspan>`

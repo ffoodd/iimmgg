@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan y="400" x="">Stratégie de tests a11y :</tspan><tspan y="486" x="">comment les organiser ?</tspan></text>
+		<text font-size="88"><tspan y="400" x="120">Stratégie de tests a11y :</tspan><tspan y="486" x="120">comment les organiser ?</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/guillaume-moizan/6a242ade46-1716813315/guillaume-moizan.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Guillaume Moizan</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/romy-duhem-verdiere/9255c04f95-1716813315/Romy-Duhem-Verdiere-paris-web.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>

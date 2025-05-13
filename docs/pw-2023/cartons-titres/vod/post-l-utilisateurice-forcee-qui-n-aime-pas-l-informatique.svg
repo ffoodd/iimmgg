@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan y="400" x="">L’utilisateurice forcée,</tspan><tspan y="486" x="">qui n’aime pas l’informatique</tspan></text>
+		<text font-size="88"><tspan y="400" x="120">L’utilisateurice forcée,</tspan><tspan y="486" x="120">qui n’aime pas l’informatique</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>
 				

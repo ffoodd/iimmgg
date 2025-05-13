@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan y="486" x="">Jeu du design inclusif</tspan></text>
+		<text font-size="88"><tspan y="486" x="120">Jeu du design inclusif</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/luz-delgado-bautista/85948cc7c0-1716813315/Luz-Delgado-Bautista.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Luz Delgado Bautista</text></g>

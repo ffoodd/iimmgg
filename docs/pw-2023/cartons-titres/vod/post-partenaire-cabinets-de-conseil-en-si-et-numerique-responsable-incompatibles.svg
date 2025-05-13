@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan y="314" x="" font-style="italic" font-size="48">[Partenaire]</tspan><tspan y="400" x="">Cabinets de conseil en SI</tspan><tspan y="486" x="">et numérique responsable, incompatibles ?</tspan></text>
+		<text font-size="88"><tspan y="314" x="120" font-style="italic" font-size="48">[Partenaire]</tspan><tspan y="400" x="120">Cabinets de conseil en SI</tspan><tspan y="486" x="120">et numérique responsable, incompatibles ?</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>
 				

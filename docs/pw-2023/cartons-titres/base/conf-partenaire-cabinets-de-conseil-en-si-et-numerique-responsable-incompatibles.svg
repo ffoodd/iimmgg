@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan y="314" x="" font-style="italic" font-size="48">[Partenaire]</tspan><tspan y="400" x="">Cabinets de conseil en SI</tspan><tspan y="486" x="">et numérique responsable, incompatibles ?</tspan></text>
+		<text font-size="88"><tspan y="314" x="120" font-style="italic" font-size="48">[Partenaire]</tspan><tspan y="400" x="120">Cabinets de conseil en SI</tspan><tspan y="486" x="120">et numérique responsable, incompatibles ?</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/charlotte-grivot/11148121dd-1716813315/charlotte-grivot.png" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Charlotte Grivot</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/gaetan-robine/0c17a0fabc-1716813315/gaetan-robine.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>
