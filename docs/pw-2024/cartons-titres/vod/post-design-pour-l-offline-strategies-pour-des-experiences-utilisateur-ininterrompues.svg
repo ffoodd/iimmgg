@@ -21,7 +21,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="PT Sans" fill="#fff">
-		<text font-size="88" x="120" font-weight="700"><tspan x="120" y="400">Design pour l’offline :</tspan><tspan x="120" y="486">stratégies pour des expériences utilisateur</tspan><tspan x="120" y="572">ininterrompues</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
+		<text font-size="88" x="120" font-weight="700"><tspan y="400" x="120">Design pour l’offline :</tspan><tspan y="486" x="120">stratégies pour des expériences utilisateur</tspan><tspan y="572" x="120">ininterrompues</tspan></text><g><circle r="36" cx="152" cy="656" fill="#ff94cc"></circle>
 					<image href="https://www.paris-web.fr/media/pages/orateurs/olivier-guillard/5e576318f8-1716813315/olivier-guillard.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 					<text x="200" y="672" font-size="48" font-weight="700" fill="#ff94cc">Olivier Guillard</text></g><text x="120" y="960" font-size="48" fill="#aaa7b4">Retrouvez les vidéos de toutes nos conférences sur notre site <tspan text-decoration="underline" font-weight="700" fill="#fff">paris-web.fr</tspan></text>
 	</g>

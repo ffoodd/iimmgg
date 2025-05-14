@@ -1,0 +1,34 @@
+---js
+{
+	title: "Liste des contenus générés pour Paris Web 2025",
+	permalink: "pw-2025/index.html",
+	pagination: {
+		data: "pw_2025",
+		size: 100,
+		alias: "conferences"
+	}
+}
+---
+{% extends "base.njk" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+	<main role="main">
+		<h1>Images générées pour Paris Web 2025</h1>
+		<details>
+			<summary><h2>Vignettes de partage</h2></summary>
+			<ul>
+				<li><a href="vignettes/base/base.svg">Base</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary><h2>Conférences</h2></summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Conférence" -%}
+						<li><a href="vignettes/conferences/conf-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
+	</main>
+{% endblock %}

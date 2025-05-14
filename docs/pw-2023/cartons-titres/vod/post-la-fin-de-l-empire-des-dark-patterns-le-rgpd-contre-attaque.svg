@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="400">La fin de l’Empire des Dark patterns ?</tspan><tspan x="120" y="486">Le RGPD contre-attaque !</tspan></text>
+		<text font-size="88"><tspan y="400" x="120">La fin de l’Empire des Dark patterns ?</tspan><tspan y="486" x="120">Le RGPD contre-attaque !</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>
 				

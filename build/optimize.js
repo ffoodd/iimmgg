@@ -10,12 +10,22 @@ const colors = {
 	bold: '\x1B[1m'
 }
 
-const folders = [
+// @note Anciens chemins
+const oldFolders = [
+	'dist/pw-2023/cartons-titres/base',
+	'dist/pw-2023/cartons-titres/vod',
+	'dist/pw-2023/cartons-titres/sponsors',
+	'dist/pw-2023/cartons-titres/colors',
+	'dist/pw-2023/cartons-titres/transitions',
 	'dist/pw-2024/cartons-titres/vod',
 	'dist/pw-2024/cartons-titres/video',
 	'dist/pw-2024/cartons-titres/colors',
 	'dist/pw-2024/cartons-titres/sponsors',
 	'dist/pw-2024/cartons-titres/transitions'
+]
+const folders = [
+	'dist/pw-2025/vignettes/base',
+	'dist/pw-2025/vignettes/conferences'
 ];
 
 folders.forEach(folder => {

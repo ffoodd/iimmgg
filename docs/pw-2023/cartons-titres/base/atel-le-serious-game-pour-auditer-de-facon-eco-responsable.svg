@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="400">Le serious game</tspan><tspan x="120" y="486">pour auditer de façon éco-responsable</tspan></text>
+		<text font-size="88"><tspan y="400" x="120">Le serious game</tspan><tspan y="486" x="120">pour auditer de façon éco-responsable</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/lola-sandevoir/4a697da4d9-1716813315/Lola-Sandevoir.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Lola Sandevoir</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/amelie-poirier/991280fd66-1716813315/amelie-poirier.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>

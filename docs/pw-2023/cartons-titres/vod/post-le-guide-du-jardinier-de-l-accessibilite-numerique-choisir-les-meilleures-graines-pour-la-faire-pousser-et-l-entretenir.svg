@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="314">Le guide du jardinier de l’accessibilité</tspan><tspan x="120" y="400">numérique : choisir les meilleures graines</tspan><tspan x="120" y="486">pour la faire pousser et l’entretenir</tspan></text>
+		<text font-size="88"><tspan y="314" x="120">Le guide du jardinier de l’accessibilité</tspan><tspan y="400" x="120">numérique : choisir les meilleures graines</tspan><tspan y="486" x="120">pour la faire pousser et l’entretenir</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>
 				

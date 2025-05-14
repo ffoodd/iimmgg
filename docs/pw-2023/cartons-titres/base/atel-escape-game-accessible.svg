@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="486">Escape game accessible</tspan></text>
+		<text font-size="88"><tspan y="486" x="120">Escape game accessible</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/zougane-haffez/31ebb92841-1716813315/Zougane-Haffez-paris-web.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Zougane Haffez</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/damien-gomez/70ff048489-1716813315/damien-gomez-paris-web.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>

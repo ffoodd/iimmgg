@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="400">De grâce, annotez vos designs</tspan><tspan x="120" y="486">avec de l’accessibilité !</tspan></text>
+		<text font-size="88"><tspan y="400" x="120">De grâce, annotez vos designs</tspan><tspan y="486" x="120">avec de l’accessibilité !</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/nicolas-got/5da4cb505d-1716813315/nicolas-got.jpg" width="64" height="64" x="120" y="624" style="clip-path: circle();"/>
 				<text x="200" y="672" font-size="48" font-style="italic">Nicolas Got</text><!-- @todo Simplifier ça ? Un filtre ? --><image href="https://www.paris-web.fr/media/pages/orateurs/vincent-aniort/f58b3832e8-1716813313/4562064de3d7e80d050a302285b8a322dc755bae.jpg" width="64" height="64" x="120" y="696" style="clip-path: circle();"/>

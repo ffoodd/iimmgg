@@ -20,7 +20,7 @@
 	</g>
 	<!-- Contenu -->
 	<g font-family="Zilla Slab" fill="#fff">
-		<text font-size="88"><tspan x="120" y="314">Le contenu doit être rédigé de la manière</tspan><tspan x="120" y="400">la plus claire et la plus simple possible :</tspan><tspan x="120" y="486">les textes dans l’accessibilité numérique</tspan></text>
+		<text font-size="88"><tspan y="314" x="120">Le contenu doit être rédigé de la manière</tspan><tspan y="400" x="120">la plus claire et la plus simple possible :</tspan><tspan y="486" x="120">les textes dans l’accessibilité numérique</tspan></text>
 		<text x="120" y="600" font-size="48" font-style="italic">--</text>
 		<g>
 				

@@ -73,9 +73,9 @@
 			{%- else -%}
 				{%- if conference.lang === "EN" -%}
 					{% set title = conference.title + "\n(en anglais)" %}
-					{{ title | microtypo | escape | wrap([314,400,486]) | safe }}
+					{{ title | microtypo | escape | wrap([314,400,486], 120) | safe }}
 				{%- else -%}
-					{{ conference.title | microtypo | escape | wrap([314,400,486]) | safe }}
+					{{ conference.title | microtypo | escape | wrap([314,400,486], 120) | safe }}
 				{%- endif -%}
 			{%- endif -%}
 		</text>
