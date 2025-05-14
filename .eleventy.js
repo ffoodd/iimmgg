@@ -5,7 +5,7 @@ module.exports = (eleventyConfig) => {
 		return DateTime.fromISO(dateObj).setLocale('fr').toLocaleString(DateTime.DATE_FULL)
 	})
 
-	eleventyConfig.addFilter('wrap', (title, positions = [314,400,486], offsetX) => {
+	eleventyConfig.addFilter('wrap', (title, positions = [314,400,486], offsetX, center) => {
 		const lines = title.split('\n')
 		const wrappedTitle = lines.map((line, index) => {
 			let offsets = []
@@ -23,11 +23,11 @@ module.exports = (eleventyConfig) => {
 					offsets = [positions.at(-3), positions.at(-2), positions.at(-1)]
 					break;
 				case 2:
-					offsets = [positions.at(-2), positions.at(-1)]
+					offsets = !!center ? [positions.at(-2) - 56, positions.at(-1) - 56] : [positions.at(-2), positions.at(-1)]
 					break;
 				case 1:
 				default:
-					offsets = [positions.at(-1)]
+					offsets = !!center ? [positions.at(-2)] : [positions.at(-1)]
 					break;
 			}
 			let xOffset = ''
