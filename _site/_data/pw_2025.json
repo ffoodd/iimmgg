@@ -248,5 +248,22 @@
 			}
 		],
 		"lang": "Français"
+	},
+	{
+		"url": "https://stage.paris-web.fr/2025/conference/paillettes-netscape-et-gifs-animes",
+		"title": "Mettez de l’ordre dans votre code",
+		"date": "2025-09-25",
+		"start": "13:45",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Jérôme Guerin",
+				"url": "https://stage.paris-web.fr/orateurs/jerome-guerin"
+			}
+		],
+		"sponsors": {
+			"name": "MAIF"
+		},
+		"lang": "Français"
 	}
 ]
