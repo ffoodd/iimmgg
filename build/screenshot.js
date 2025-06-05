@@ -29,6 +29,7 @@ const oldFolders = [
 
 const folders = [
 	'pw-2025/vignettes/base',
+	'pw-2025/vignettes/ateliers',
 	'pw-2025/vignettes/conferences'
 ];
 

@@ -25,6 +25,7 @@ const oldFolders = [
 ]
 const folders = [
 	'dist/pw-2025/vignettes/base',
+	'dist/pw-2025/vignettes/ateliers',
 	'dist/pw-2025/vignettes/conferences'
 ];
 
