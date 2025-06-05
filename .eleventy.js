@@ -62,7 +62,7 @@ module.exports = (eleventyConfig) => {
 	})
 
 	// @note Micro-typographie FR : des choses à ajouter ?
-	eleventyConfig.addFilter('microtypo', (text) => {
+	eleventyConfig.addFilter('microtypo', (text = '') => {
 		return text
 			.replace(' :', ' :')
 			.replace(' ?', ' ?')

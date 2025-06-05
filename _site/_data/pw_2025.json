@@ -265,5 +265,100 @@
 			"name": "MAIF"
 		},
 		"lang": "Français"
+	},
+	{
+		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/adieu-substack-heberger-et-envoyer-soi-meme-une-newsletter",
+		"title": "Adieu Substack :\nhéberger et envoyer soi-même\nune newsletter",
+		"date": "2025-06-28",
+		"start": "09:30",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Martin Lafréchoux",
+				"url": "https://stage.paris-web.fr/orateurices/martin-lafrechoux",
+				"image": "https://stage.paris-web.fr/media/pages/orateurices/martin-lafrechoux/f1cd313761-1746869956/martin-lafrechoux-500x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/penser-l-implicite-penser-l-invisible",
+		"title": "Penser l’implicite,\npenser l’invisible",
+		"date": "2025-06-28",
+		"start": "09:30",
+		"duration": "180",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Guillaume Barbier",
+				"url": "https://stage.paris-web.fr/orateurs/guillaume-barbier",
+				"image": "https://stage.paris-web.fr/media/pages/orateurices/guillaume-barbier/353a1e1c28-1742478252/guillaume-barbier-paris-web-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/etre-concepteur-d-un-produit-numerique-et-responsable",
+		"title": "Être concepteur d’un produit\nnumérique et responsable",
+		"date": "2025-06-28",
+		"start": "11:15",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Margerie Guilliot",
+				"url": "https://stage.paris-web.fr/orateurices/margerie-guilliot",
+				"image": ""
+			},
+			{
+				"name": "Isabelle Macaire Ferry",
+				"url": "https://stage.paris-web.fr/orateurices/isabelle-macaire-ferry",
+				"image": ""
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/jeux-d-enfants",
+		"title": "Jeux d’enfants",
+		"date": "2025-06-28",
+		"start": "13:45",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Natacha Madeuf",
+				"url": "https://stage.paris-web.fr/orateurices/natacha-madeuf",
+				"image": ""
+			},
+			{
+				"name": "Molika Thai",
+				"url": "https://stage.paris-web.fr/orateurices/molika-thai",
+				"image": ""
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/lotobingo-accessibilite",
+		"title": "Lotobingo accessibilité",
+		"date": "2025-06-28",
+		"start": "15:30",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Vincent Aniort",
+				"url": "https://stage.paris-web.fr/orateurs/vincent-aniort",
+				"image": "https://stage.paris-web.fr/media/pages/orateurices/vincent-aniort/e4ca61b0aa-1742478252/4562064de3d7e80d050a302285b8a322dc755bae-300x-crop.jpg"
+			},
+			{
+				"name": "Yoann Roselier",
+				"url": "https://stage.paris-web.fr/orateurices/yoann-roselier",
+				"image": ""
+			}
+		],
+		"lang": "Français"
 	}
 ]
