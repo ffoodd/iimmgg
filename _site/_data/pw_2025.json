@@ -360,5 +360,79 @@
 			}
 		],
 		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-09-nantes/accessibilite-jouez-la-bonne-carte",
+		"title": "Accessibilité,\njouez la bonne carte",
+		"date": "2025-09-06",
+		"start": "09:30",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Tamara Sredojevic",
+				"url": "https://www.paris-web.fr/orateurices/tamara-sredojevic",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/tamara-sredojevic/d4bcb634f1-1747060696/tamara_sredojevic.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-09-nantes/futurs-du-travail-inclusif-evoluer-ensemble-ou-disparaitre",
+		"title": "Futurs du travail inclusif :\névoluer ensemble ou disparaître ?",
+		"date": "2025-09-06",
+		"start": "11:15",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Luz Delgado Bautista",
+				"url": "https://www.paris-web.fr/orateurices/luz-delgado-bautista",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/luz-delgado-bautista/5ef6c99d23-1752424430/luz-delgado.jpg"
+			},
+			{
+				"name": "Céline Khy",
+				"url": "https://www.paris-web.fr/orateurices/celine-khy",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/celine-khy/e03836dd25-1752424402/celine-khy.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-09-nantes/html-et-css-des-algorithmes-un-kata-mais",
+		"title": "HTML et CSS :\ndes algorithmes ? Un kata ? Mais !",
+		"date": "2025-09-06",
+		"start": "11:15",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Manon Carbonnel",
+				"url": "https://www.paris-web.fr/orateurices/manon-carbonnel",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/manon-carbonnel/87d179a731-1747060708/avatar_5JoOu1I.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-09-nantes/10-tests-simples-pour-ameliorer-l-accessibilite-de-votre-site",
+		"title": "10 tests simples\npour améliorer l’accessibilité\nde votre site",
+		"date": "2025-09-06",
+		"start": "14:15",
+		"duration": "180",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "François-Xavier Lair",
+				"url": "https://www.paris-web.fr/orateurices/francois-xavier-lair",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/francois-xavier-lair/289109a0e8-1752424644/francois-xavier-lair.jpg"
+			},
+			{
+				"name": "Henri Gauffriau",
+				"url": "https://www.paris-web.fr/orateurices/henri-gauffriau",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/henri-gauffriau/ff64e22b84-1752424735/henri-gauffriau.jpg"
+			}
+		],
+		"lang": "Français"
 	}
 ]
