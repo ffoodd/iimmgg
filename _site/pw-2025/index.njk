@@ -41,5 +41,34 @@
 				{%- endfor %}
 			</ul>
 		</details>
+		<details>
+			<summary><h2>Transitions</h2></summary>
+			<ol>
+				{%- for date, conferences in conferences | groupby("date") %}
+					{%- if date === "2025-09-25" or date === "2025-09-26" -%}
+						{%- if date === "2025-09-25" -%}
+							{%- set day = "Jeudi"  %}
+						{%- elseif date === "2025-09-26" -%}
+							{%- set day = "Vendredi"  %}
+						{%- endif -%}
+						<li>
+							<h3>{{ day }}</h3>
+							<ol>
+								{%- for conference in conferences | sort( false, true, "start") %}
+									{%- if date === "2025-09-26" -%}
+										{%- set index = loop.index + 12 -%}
+									{%- elseif loop.index < 11 -%}
+										{%- set index = "0" + (loop.index - 1) -%}
+									{%- else -%}
+										{%- set index = loop.index - 1 -%}
+									{%- endif -%}
+									<li><a href="cartons-titres/transitions/trans-{{ day | lower }}-{{ index }}.svg">{{ conference.title | microtypo }} ({{ conference.start | replace(':', 'h') }})</a></li>
+								{%- endfor %}
+							</ol>
+						{%- endif -%}
+					</li>
+				{%- endfor %}
+			</ol>
+		</details>
 	</main>
 {% endblock %}

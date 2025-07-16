@@ -434,5 +434,65 @@
 			}
 		],
 		"lang": "Français"
+	},
+	{
+		"title": "Conférence d’ouverture",
+		"date": "2025-09-25",
+		"start": "09:20",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2025-09-25",
+		"start": "11:05",
+		"type": "Pause"
+	},
+	{
+		"title": "Déjeuner",
+		"date": "2025-09-25",
+		"start": "13:00",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2025-09-25",
+		"start": "16:10",
+		"type": "Pause"
+	},
+	{
+		"title": "Soirée communautaire",
+		"date": "2025-09-25",
+		"start": "18:00",
+		"type": "Pause"
+	},
+	{
+		"title": "Bonjour !",
+		"date": "2025-09-26",
+		"start": "08:15",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2025-09-26",
+		"start": "10:45",
+		"type": "Pause"
+	},
+	{
+		"title": "Déjeuner",
+		"date": "2025-09-26",
+		"start": "12:40",
+		"type": "Pause"
+	},
+	{
+		"title": "Pause",
+		"date": "2025-09-26",
+		"start": "15:50",
+		"type": "Pause"
+	},
+	{
+		"title": "Conférence de clôture",
+		"date": "2025-09-26",
+		"start": "17:45",
+		"type": "Pause"
 	}
 ]

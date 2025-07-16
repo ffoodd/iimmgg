@@ -26,7 +26,8 @@ const oldFolders = [
 const folders = [
 	'dist/pw-2025/vignettes/base',
 	'dist/pw-2025/vignettes/ateliers',
-	'dist/pw-2025/vignettes/conferences'
+	'dist/pw-2025/vignettes/conferences',
+	'dist/pw-2025/cartons-titres/transitions'
 ];
 
 folders.forEach(folder => {
