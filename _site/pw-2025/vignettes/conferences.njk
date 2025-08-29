@@ -55,7 +55,11 @@
 	<g font-family="Kumbh Sans">
 		<text font-weight="900" font-size="96">{{ conference.title | microtypo | escape | wrap([448,560,672], undefined, true) | safe }}</text>
 		{%- if (conference.sponsors | length) -%}
-			<g transform="translate(840, 620)">
+			{%- set y = 620 -%}
+			{%- if ("\n" in conference.title) -%}
+				{%- set y = 700 -%}
+			{%- endif -%}
+			<g transform="translate(840, {{ y }})">
 				<rect fill="#d6cafd" width="200" height="48" ry="30" rx="30"/>
 				<text font-family="Nunito Sans" font-size="32" x="24" y="34" fill="#25222c">Partenaire</text>
 			</g>

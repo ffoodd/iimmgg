@@ -1,21 +1,21 @@
 [
 	{
-		"url": "https://stage.paris-web.fr/2025/conference/conference-anniversaire",
+		"url": "https://www.paris-web.fr/2025/conference/conference-anniversaire",
 		"title": "Conférence anniversaire",
 		"date": "2025-09-25",
-		"start": "09:35",
+		"start": "09:40",
 		"type": "Conférence",
 		"speakers": [
 			{
 				"name": "Orateurice surprise",
-				"url": "https://stage.paris-web.fr/orateurs/orateurice-surprise",
-				"image": ""
+				"url": "https://www.paris-web.fr/orateurs/orateurice-surprise",
+				"image": "https://www.paris-web.fr/assets/images/portrait-vide.svg"
 			}
 		],
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/2025/conference/formatrice-de-design-ui",
+		"url": "https://www.paris-web.fr/2025/conference/formatrice-de-design-ui",
 		"title": "Pour une formation accessible\ndu design",
 		"date": "2025-09-25",
 		"start": "10:35",
@@ -23,14 +23,14 @@
 		"speakers": [
 			{
 				"name": "Cindy Quai",
-				"url": "https://stage.paris-web.fr/orateurs/cindy-quai",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/cindy-quai/c75ddf9609-1746475423/1a9e1948-b320-4ef0-8cbd-434aa3249e70-300x-crop-62-0-38-4.jpg"
+				"url": "https://www.paris-web.fr/orateurs/cindy-quai",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/cindy-quai/c7374927cc-1747060623/1a9e1948-b320-4ef0-8cbd-434aa3249e70-300x-crop-62-0-38-4.jpg"
 			}
 		],
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/2025/conference/passkeys-en-pratique",
+		"url": "https://www.paris-web.fr/2025/conference/passkeys-en-pratique",
 		"title": "Passkeys, en pratique",
 		"date": "2025-09-25",
 		"start": "11:35",
@@ -38,14 +38,14 @@
 		"speakers": [
 			{
 				"name": "Daniel Garnier-Moiroux",
-				"url": "https://stage.paris-web.fr/orateurs/daniel-garnier-moiroux",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/daniel-garnier-moiroux/591fbc06fc-1746474146/profile_6-300x-crop.jpg"
+				"url": "https://www.paris-web.fr/orateurs/daniel-garnier-moiroux",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/daniel-garnier-moiroux/2b7c5db560-1747060565/profile_6-300x-crop.jpg"
 			}
 		],
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/2025/conference/handicap-et-recherche-utilisateur-des-normes-a-lexperience-reelle",
+		"url": "https://www.paris-web.fr/2025/conference/handicap-et-recherche-utilisateur-des-normes-a-lexperience-reelle",
 		"title": "Handicap et recherche utilisateur :\ndes normes à l’expérience réelle",
 		"date": "2025-09-25",
 		"start": "12:10",
@@ -53,198 +53,8 @@
 		"speakers": [
 			{
 				"name": "Justine Nicol",
-				"url": "https://stage.paris-web.fr/orateurs/justine-nicol",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/justine-nicol/f4c2ecf049-1746474426/capture_decran_2023-08-31_a_16.17.01-300x-crop-46-8-20-8.png"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/concevoir-accessible-pour-les-personnes-deficientes-visuelles-au-dela-du-rgaa-regards-croises-designdev",
-		"title": "Concevoir accessible\npour les personnes déficientes visuelles\nregards croisés design/dev",
-		"date": "2025-09-25",
-		"start": "14:45",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Anne Faubry",
-				"url": "https://stage.paris-web.fr/orateurs/anne-faubry",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/anne-faubry/78625c2c03-1746474237/faubry_anne-ear69005-retouche-300x-crop-52-3-24-1.jpg"
-			},
-			{
-				"name": "Chloé Corfmat",
-				"url": "https://stage.paris-web.fr/orateurs/chloe-corfmat",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/chloe-corfmat/8579a0273a-1746474485/branding-chloe-tests-interieur-21-300x-crop-56-5-37-0.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/rgesn-la-force-du-collectif-pour-viser-la-conformite",
-		"title": "RGESN : la force du collectif\npour viser la conformité",
-		"date": "2025-09-25",
-		"start": "15:20",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Damien Legendre",
-				"url": "https://stage.paris-web.fr/orateurs/damien-legendre",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/damien-legendre/55fb07cc79-1746474900/pp_damien-800px_8j1bizt-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/a-la-decouverte-du-monde-au-travers-de-lunicode",
-		"title": "À la découverte du monde\nau travers de l’Unicode",
-		"date": "2025-09-25",
-		"start": "16:40",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Loïc Marleix",
-				"url": "https://stage.paris-web.fr/orateurs/loic-marleix",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/loic-marleix/e5478b244a-1746474413/loic_marleix_2025_2-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/conferences-surprises",
-		"title": "Conférence surprise",
-		"date": "2025-09-25",
-		"start": "17:15",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Orateurice surprise",
-				"url": "https://stage.paris-web.fr/orateurs/orateurice-surprise",
-				"image": ""
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/design-validiste-comment-rompre-les-normes-systemiques",
-		"title": "Design validiste : comment rompre\nles normes systémiques",
-		"date": "2025-09-26",
-		"start": "09:20",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Tamara Sredojevic",
-				"url": "https://stage.paris-web.fr/orateurs/tamara-sredojevic",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/tamara-sredojevic/6b84976b8b-1746475377/tamara_sredojevic-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/logiciel-libre-participer-partager-et-creer",
-		"title": "Logiciel libre :\nparticiper, partager et créer",
-		"date": "2025-09-26",
-		"start": "10:15",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Lucie Anglade",
-				"url": "https://stage.paris-web.fr/orateurs/lucie-anglade",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/lucie-anglade/8194b99fb6-1746474996/avatar_zezsfza-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/maintenance-du-web-des-donnees-de-reference-des-boucles-et-du-lien-humain",
-		"title": "Maintenance du web :\ndes données de référence,\ndes boucles, et du lien humain",
-		"date": "2025-09-26",
-		"start": "11:15",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "François Daoust",
-				"url": "https://stage.paris-web.fr/orateurs/francois-daoust",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/francois-daoust/0d013348b8-1746474940/fd-800-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/limpact-psychosocial-de-lia-sur-le-futur-de-nos-metiers-du-numerique",
-		"title": "L’impact psychosocial de l’IA\nsur le futur de nos métiers\ndu numérique",
-		"date": "2025-09-26",
-		"start": "12:10",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Raphaël Yharrassarry",
-				"url": "https://stage.paris-web.fr/orateurs/raphael-yharrassarry",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/raphael-yharrassarry/5c0bf2ff48-1746475151/photoprofil500-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/le-s-de-https",
-		"title": "Le S de HTTPS",
-		"date": "2025-09-26",
-		"start": "14:25",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Agnès Haasser",
-				"url": "https://stage.paris-web.fr/orateurs/agnes-haasser",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/agnes-haasser/757438fc9e-1742478253/agnes-haasser-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/les-web-components-et-laccessibilite",
-		"title": "Les web components\net l’accessibilité",
-		"date": "2025-09-26",
-		"start": "15:20",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Simon Duhem",
-				"url": "https://stage.paris-web.fr/orateurs/simon-duhem",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/simon-duhem/feef9441da-1746474161/smndhm-square-300x-crop.jpg"
-			},
-			{
-				"name": "Nicolas Jouanno Daniel",
-				"url": "https://stage.paris-web.fr/orateurs/nicolas-jouanno-daniel",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/nicolas-jouanno-daniel/104de39390-1746474388/fichier_12-12-2022_15_02_27-300x-crop.png"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/un-web-disponible-meme-sans-internet",
-		"title": "Un web disponible,\nmême sans Internet ?",
-		"date": "2025-09-26",
-		"start": "16:20",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Ignacio Rondini",
-				"url": "https://stage.paris-web.fr/orateurs/ignacio-rondini",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/ignacio-rondini/815e969863-1746474396/rondini-ignacio-axoly_tech2-300x-crop.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://stage.paris-web.fr/2025/conference/paillettes-netscape-et-gifs-animes",
-		"title": "Paillettes, Netscape\net GIFs animés",
-		"date": "2025-09-26",
-		"start": "17:15",
-		"type": "Conférence",
-		"speakers": [
-			{
-				"name": "Nathalie Rosenberg",
-				"url": "https://stage.paris-web.fr/orateurs/nathalie-rosenberg",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/nathalie-rosenberg/e6e40e3e91-1746475077/045_natouille_web_nwdjn1c-300x-crop.jpg"
+				"url": "https://www.paris-web.fr/orateurs/justine-nicol",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/justine-nicol/747bf98593-1747060693/capture_decran_2023-08-31_a_16.17.01-300x-crop-46-8-20-8.png"
 			}
 		],
 		"lang": "Français"
@@ -253,13 +63,13 @@
 		"url": "https://www.paris-web.fr/2025/conference/mettez-de-l-ordre-dans-votre-code",
 		"title": "Mettez de l’ordre dans votre code",
 		"date": "2025-09-25",
-		"start": "13:45",
+		"start": "14:10",
 		"type": "Conférence",
 		"speakers": [
 			{
 				"name": "Jérôme Guerin",
 				"url": "https://www.paris-web.fr/orateurices/jerome-guerin",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/jerome-guerin/cefefec18f-1752936371/jerome-guerin-300x-crop.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurices/jerome-guerin/e821e3b79d-1752936371/jerome-guerin-300x-crop.jpg"
 			}
 		],
 		"sponsors": {
@@ -268,7 +78,215 @@
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/adieu-substack-heberger-et-envoyer-soi-meme-une-newsletter",
+		"url": "https://www.paris-web.fr/2025/conference/concevoir-accessible-pour-les-personnes-deficientes-visuelles-au-dela-du-rgaa-regards-croises-designdev",
+		"title": "Concevoir accessible\npour les personnes déficientes visuelles\nregards croisés design/dev",
+		"date": "2025-09-25",
+		"start": "14:45",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Anne Faubry",
+				"url": "https://www.paris-web.fr/orateurs/anne-faubry",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/anne-faubry/0b56578984-1747060616/faubry_anne-ear69005-retouche-300x-crop-52-3-24-1.jpg"
+			},
+			{
+				"name": "Chloé Corfmat",
+				"url": "https://www.paris-web.fr/orateurs/chloe-corfmat",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/chloe-corfmat/94750e43ed-1747060546/branding-chloe-tests-interieur-21-300x-crop-56-5-37-0.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/rgesn-la-force-du-collectif-pour-viser-la-conformite",
+		"title": "RGESN : la force du collectif\npour viser la conformité",
+		"date": "2025-09-25",
+		"start": "15:20",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Damien Legendre",
+				"url": "https://www.paris-web.fr/orateurs/damien-legendre",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/damien-legendre/de6aba34af-1747060541/pp_damien-800px_8j1bizt-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/a-la-decouverte-du-monde-au-travers-de-lunicode",
+		"title": "À la découverte du monde\nau travers de l’Unicode",
+		"date": "2025-09-25",
+		"start": "16:40",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Loïc Marleix",
+				"url": "https://www.paris-web.fr/orateurs/loic-marleix",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/loic-marleix/b90c32952e-1747060584/loic_marleix_2025_2-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/conferences-surprises",
+		"title": "Lightning talks",
+		"date": "2025-09-25",
+		"start": "17:15",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Orateurice surprise",
+				"url": "https://www.paris-web.fr/orateurs/orateurice-surprise",
+				"image": "https://www.paris-web.fr/assets/images/portrait-vide.svg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/design-validiste-comment-rompre-les-normes-systemiques",
+		"title": "Design validiste : comment rompre\nles normes systémiques",
+		"date": "2025-09-26",
+		"start": "09:20",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Tamara Sredojevic",
+				"url": "https://www.paris-web.fr/orateurs/tamara-sredojevic",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/tamara-sredojevic/0f271b4036-1747060696/tamara_sredojevic-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/logiciel-libre-participer-partager-et-creer",
+		"title": "Logiciel libre :\nparticiper, partager et créer",
+		"date": "2025-09-26",
+		"start": "10:15",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Lucie Anglade",
+				"url": "https://www.paris-web.fr/orateurs/lucie-anglade",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/lucie-anglade/540c287e41-1747060523/avatar_zezsfza-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/maintenance-du-web-des-donnees-de-reference-des-boucles-et-du-lien-humain",
+		"title": "Maintenance du web :\ndes données de référence,\ndes boucles, et du lien humain",
+		"date": "2025-09-26",
+		"start": "11:15",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "François Daoust",
+				"url": "https://www.paris-web.fr/orateurs/francois-daoust",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/francois-daoust/232fc8e195-1747060593/fd-800-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/limpact-psychosocial-de-lia-sur-le-futur-de-nos-metiers-du-numerique",
+		"title": "L’impact psychosocial de l’IA\nsur le futur de nos métiers\ndu numérique",
+		"date": "2025-09-26",
+		"start": "12:10",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Raphaël Yharrassarry",
+				"url": "https://www.paris-web.fr/orateurs/raphael-yharrassarry",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/raphael-yharrassarry/8233e60cd2-1747060560/photoprofil500-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/identifier-et-choisir-une-typographie-lisible",
+		"title": "Identifier et choisir\nune typographie lisible",
+		"date": "2025-09-26",
+		"start": "13:50",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Damien Collot",
+				"url": "https://www.paris-web.fr/orateurices/damien-collot",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/damien-collot/c0ac7e6dce-1755633828/damien-collot-300x-crop.jpg"
+			}
+		],
+		"sponsors": {
+			"name": "Monotype"
+		},
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/le-s-de-https",
+		"title": "Le S de HTTPS",
+		"date": "2025-09-26",
+		"start": "14:25",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Agnès Haasser",
+				"url": "https://www.paris-web.fr/orateurs/agnes-haasser",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/agnes-haasser/95d59d0149-1747060604/agnes-haasser-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/les-web-components-et-laccessibilite",
+		"title": "Les web components\net l’accessibilité",
+		"date": "2025-09-26",
+		"start": "15:20",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Simon Duhem",
+				"url": "https://www.paris-web.fr/orateurs/simon-duhem",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/simon-duhem/b08556df59-1747060569/smndhm-square-300x-crop.jpg"
+			},
+			{
+				"name": "Nicolas Jouanno Daniel",
+				"url": "https://www.paris-web.fr/orateurs/nicolas-jouanno-daniel",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/nicolas-jouanno-daniel/b8bf759007-1747060615/fichier_12-12-2022_15_02_27-300x-crop.png"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/un-web-disponible-meme-sans-internet",
+		"title": "Un web disponible,\nmême sans Internet ?",
+		"date": "2025-09-26",
+		"start": "16:20",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Ignacio Rondini",
+				"url": "https://www.paris-web.fr/orateurs/ignacio-rondini",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/ignacio-rondini/be1f865883-1747060695/rondini-ignacio-axoly_tech2-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/2025/conference/paillettes-netscape-et-gifs-animes",
+		"title": "Paillettes, Netscape\net GIFs animés",
+		"date": "2025-09-26",
+		"start": "17:15",
+		"type": "Conférence",
+		"speakers": [
+			{
+				"name": "Nathalie Rosenberg",
+				"url": "https://www.paris-web.fr/orateurs/nathalie-rosenberg",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/nathalie-rosenberg/c5c4621fdf-1747060618/045_natouille_web_nwdjn1c-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-06-paris/adieu-substack-heberger-et-envoyer-soi-meme-une-newsletter",
 		"title": "Adieu Substack :\nhéberger et envoyer soi-même\nune newsletter",
 		"date": "2025-06-28",
 		"start": "09:30",
@@ -277,14 +295,14 @@
 		"speakers": [
 			{
 				"name": "Martin Lafréchoux",
-				"url": "https://stage.paris-web.fr/orateurices/martin-lafrechoux",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/martin-lafrechoux/f1cd313761-1746869956/martin-lafrechoux-500x-crop.jpg"
+				"url": "https://www.paris-web.fr/orateurices/martin-lafrechoux",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/martin-lafrechoux/f1cd313761-1746869956/martin-lafrechoux-500x-crop.jpg"
 			}
 		],
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/penser-l-implicite-penser-l-invisible",
+		"url": "https://www.paris-web.fr/ateliers/2025-06-paris/penser-l-implicite-penser-l-invisible",
 		"title": "Penser l’implicite,\npenser l’invisible",
 		"date": "2025-06-28",
 		"start": "09:30",
@@ -293,14 +311,14 @@
 		"speakers": [
 			{
 				"name": "Guillaume Barbier",
-				"url": "https://stage.paris-web.fr/orateurs/guillaume-barbier",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/guillaume-barbier/353a1e1c28-1742478252/guillaume-barbier-paris-web-300x-crop.jpg"
+				"url": "https://www.paris-web.fr/orateurs/guillaume-barbier",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/guillaume-barbier/353a1e1c28-1742478252/guillaume-barbier-paris-web-300x-crop.jpg"
 			}
 		],
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/etre-concepteur-d-un-produit-numerique-et-responsable",
+		"url": "https://www.paris-web.fr/ateliers/2025-06-paris/etre-concepteur-d-un-produit-numerique-et-responsable",
 		"title": "Être concepteur d’un produit\nnumérique et responsable",
 		"date": "2025-06-28",
 		"start": "11:15",
@@ -309,19 +327,19 @@
 		"speakers": [
 			{
 				"name": "Margerie Guilliot",
-				"url": "https://stage.paris-web.fr/orateurices/margerie-guilliot",
+				"url": "https://www.paris-web.fr/orateurices/margerie-guilliot",
 				"image": ""
 			},
 			{
 				"name": "Isabelle Macaire Ferry",
-				"url": "https://stage.paris-web.fr/orateurices/isabelle-macaire-ferry",
+				"url": "https://www.paris-web.fr/orateurices/isabelle-macaire-ferry",
 				"image": ""
 			}
 		],
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/jeux-d-enfants",
+		"url": "https://www.paris-web.fr/ateliers/2025-06-paris/jeux-d-enfants",
 		"title": "Jeux d’enfants",
 		"date": "2025-06-28",
 		"start": "13:45",
@@ -330,19 +348,19 @@
 		"speakers": [
 			{
 				"name": "Natacha Madeuf",
-				"url": "https://stage.paris-web.fr/orateurices/natacha-madeuf",
+				"url": "https://www.paris-web.fr/orateurices/natacha-madeuf",
 				"image": ""
 			},
 			{
 				"name": "Molika Thai",
-				"url": "https://stage.paris-web.fr/orateurices/molika-thai",
+				"url": "https://www.paris-web.fr/orateurices/molika-thai",
 				"image": ""
 			}
 		],
 		"lang": "Français"
 	},
 	{
-		"url": "https://stage.paris-web.fr/ateliers/2025-06-paris/lotobingo-accessibilite",
+		"url": "https://www.paris-web.fr/ateliers/2025-06-paris/lotobingo-accessibilite",
 		"title": "Lotobingo accessibilité",
 		"date": "2025-06-28",
 		"start": "15:30",
@@ -351,12 +369,12 @@
 		"speakers": [
 			{
 				"name": "Vincent Aniort",
-				"url": "https://stage.paris-web.fr/orateurs/vincent-aniort",
-				"image": "https://stage.paris-web.fr/media/pages/orateurices/vincent-aniort/e4ca61b0aa-1742478252/4562064de3d7e80d050a302285b8a322dc755bae-300x-crop.jpg"
+				"url": "https://www.paris-web.fr/orateurs/vincent-aniort",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/vincent-aniort/e4ca61b0aa-1742478252/4562064de3d7e80d050a302285b8a322dc755bae-300x-crop.jpg"
 			},
 			{
 				"name": "Yoann Roselier",
-				"url": "https://stage.paris-web.fr/orateurices/yoann-roselier",
+				"url": "https://www.paris-web.fr/orateurices/yoann-roselier",
 				"image": ""
 			}
 		],
@@ -373,7 +391,7 @@
 			{
 				"name": "Tamara Sredojevic",
 				"url": "https://www.paris-web.fr/orateurices/tamara-sredojevic",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/tamara-sredojevic/d4bcb634f1-1747060696/tamara_sredojevic.jpg"
+				"image": "\"https://www.paris-web.fr/media/pages/orateurices/tamara-sredojevic/0f271b4036-1747060696/tamara_sredojevic-300x-crop.jpg"
 			}
 		],
 		"lang": "Français"
@@ -389,28 +407,12 @@
 			{
 				"name": "Luz Delgado Bautista",
 				"url": "https://www.paris-web.fr/orateurices/luz-delgado-bautista",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/luz-delgado-bautista/5ef6c99d23-1752424430/luz-delgado.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurices/luz-delgado-bautista/eb5744c8d6-1752424430/luz-delgado-300x-crop.jpg"
 			},
 			{
 				"name": "Céline Khy",
 				"url": "https://www.paris-web.fr/orateurices/celine-khy",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/celine-khy/e03836dd25-1752424402/celine-khy.jpg"
-			}
-		],
-		"lang": "Français"
-	},
-	{
-		"url": "https://www.paris-web.fr/ateliers/2025-09-nantes/html-et-css-des-algorithmes-un-kata-mais",
-		"title": "HTML et CSS :\ndes algorithmes ? Un kata ? Mais !",
-		"date": "2025-09-06",
-		"start": "11:15",
-		"duration": "90",
-		"type": "Atelier",
-		"speakers": [
-			{
-				"name": "Manon Carbonnel",
-				"url": "https://www.paris-web.fr/orateurices/manon-carbonnel",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/manon-carbonnel/87d179a731-1747060708/avatar_5JoOu1I.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurices/celine-khy/f7e2ca4d9b-1752424402/celine-khy-300x-crop.jpg"
 			}
 		],
 		"lang": "Français"
@@ -426,12 +428,12 @@
 			{
 				"name": "François-Xavier Lair",
 				"url": "https://www.paris-web.fr/orateurices/francois-xavier-lair",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/francois-xavier-lair/289109a0e8-1752424644/francois-xavier-lair.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurices/francois-xavier-lair/f02203c728-1752424644/francois-xavier-lair-300x-crop.jpg"
 			},
 			{
 				"name": "Henri Gauffriau",
 				"url": "https://www.paris-web.fr/orateurices/henri-gauffriau",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/henri-gauffriau/ff64e22b84-1752424735/henri-gauffriau.jpg"
+				"image": "https://www.paris-web.fr/media/pages/orateurices/henri-gauffriau/12d3a4f590-1752424735/henri-gauffriau-300x-crop.jpg"
 			}
 		],
 		"lang": "Français"
