@@ -1,0 +1,182 @@
+[
+	{
+		"name": "MAIF",
+		"type": "or",
+		"logo": "/img/sponsors-2025/maif.svg",
+		"size": {
+			"width": 144,
+			"height": 113
+		},
+		"position": {
+			"x": 415,
+			"y": 440,
+			"height": 150,
+			"width": 191
+		}
+	},
+	{
+		"name": "Monotype",
+		"type": "or",
+		"logo": "/img/sponsors-2025/monotype.svg",
+		"size": {
+			"width": 1200,
+			"height": 225
+		},
+		"position": {
+			"x": 707,
+			"y": 440,
+			"height": 150,
+			"width": 800
+		}
+	},
+	{
+		"name": "Onepoint",
+		"type": "argent",
+		"logo": "/img/sponsors-2025/onepoint.svg",
+		"size": {
+			"width": 140,
+			"height": 36
+		},
+		"position": {
+			"x": 78,
+			"y": 660,
+			"height": 75,
+			"width": 292
+		}
+	},
+	{
+		"name": "Orange",
+		"type": "argent",
+		"logo": "/img/sponsors-2025/orange.svg",
+		"size": {
+			"width": 283,
+			"height": 283
+		},
+		"position": {
+			"x": 448,
+			"y": 660,
+			"height": 75,
+			"width": 75
+		}
+	},
+	{
+		"name": "Elementor",
+		"type": "argent",
+		"logo": "/img/sponsors-2025/elementor.svg",
+		"size": {
+			"width": 801,
+			"height": 160
+		},
+		"position": {
+			"x": 601,
+			"y": 660,
+			"height": 75,
+			"width": 375
+		}
+	},
+	{
+		"name": "Temesis",
+		"type": "argent",
+		"logo": "/img/sponsors-2025/temesis.svg",
+		"size": {
+			"width": 179,
+			"height": 40
+		},
+		"position": {
+			"x": 1054,
+			"y": 660,
+			"height": 75,
+			"width": 336
+		}
+	},
+	{
+		"name": "Enedis",
+		"type": "argent",
+		"logo": "/img/sponsors-2025/enedis.svg",
+		"size": {
+			"width": 960,
+			"height": 194
+		},
+		"position": {
+			"x": 1468,
+			"y": 660,
+			"height": 75,
+			"width": 371
+		}
+	},
+	{
+		"name": "Livre Rare Book",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/livre-rare-book.svg",
+		"size": {
+			"width": 527,
+			"height": 361
+		},
+		"position": {
+			"x": 157,
+			"y": 810,
+			"height": 50,
+			"width": 73
+		}
+	},
+	{
+		"name": "LebonCoin",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/leboncoin.svg",
+		"size": {
+			"width": 933,
+			"height": 296
+		},
+		"position": {
+			"x": 423,
+			"y": 810,
+			"height": 50,
+			"width": 158
+		}
+	},
+	{
+		"name": "Proton",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/proton.svg",
+		"size": {
+			"width": 690,
+			"height": 175
+		},
+		"position": {
+			"x": 756,
+			"y": 810,
+			"height": 50,
+			"width": 197
+		}
+	},
+	{
+		"name": "alwaysdata",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/alwaysdata.svg",
+		"size": {
+			"width": 359,
+			"height": 54
+		},
+		"position": {
+			"x": 1128,
+			"y": 810,
+			"height": 50,
+			"width": 332
+		}
+	},
+	{
+		"name": "Compositech",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/compositech.svg",
+		"size": {
+			"width": 82,
+			"height": 38
+		},
+		"position": {
+			"x": 1635,
+			"y": 810,
+			"height": 50,
+			"width": 108
+		}
+	}
+]
