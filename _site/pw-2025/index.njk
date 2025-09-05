@@ -56,8 +56,8 @@
 							<ol>
 								{%- for conference in conferences | sort( false, true, "start") %}
 									{%- if date === "2025-09-26" -%}
-										{%- set index = loop.index + 12 -%}
-									{%- elseif loop.index < 11 -%}
+										{%- set index = loop.index + 13 -%}
+									{%- elseif loop.index < 12 -%}
 										{%- set index = "0" + (loop.index - 1) -%}
 									{%- else -%}
 										{%- set index = loop.index - 1 -%}

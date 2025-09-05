@@ -8,7 +8,7 @@
 			"height": 113
 		},
 		"position": {
-			"x": 415,
+			"x": 512,
 			"y": 440,
 			"height": 150,
 			"width": 191
@@ -23,10 +23,10 @@
 			"height": 225
 		},
 		"position": {
-			"x": 707,
-			"y": 440,
-			"height": 150,
-			"width": 800
+			"x": 960,
+			"y": 470,
+			"height": 100,
+			"width": 533
 		}
 	},
 	{
@@ -99,9 +99,9 @@
 		},
 		"position": {
 			"x": 1468,
-			"y": 660,
-			"height": 75,
-			"width": 371
+			"y": 666,
+			"height": 66,
+			"width": 327
 		}
 	},
 	{
@@ -113,7 +113,7 @@
 			"height": 361
 		},
 		"position": {
-			"x": 157,
+			"x": 120,
 			"y": 810,
 			"height": 50,
 			"width": 73
@@ -128,7 +128,7 @@
 			"height": 296
 		},
 		"position": {
-			"x": 423,
+			"x": 313,
 			"y": 810,
 			"height": 50,
 			"width": 158
@@ -143,10 +143,10 @@
 			"height": 175
 		},
 		"position": {
-			"x": 756,
+			"x": 588,
 			"y": 810,
-			"height": 50,
-			"width": 197
+			"height": 44,
+			"width": 173
 		}
 	},
 	{
@@ -158,10 +158,10 @@
 			"height": 54
 		},
 		"position": {
-			"x": 1128,
+			"x": 881,
 			"y": 810,
-			"height": 50,
-			"width": 332
+			"height": 44,
+			"width": 293
 		}
 	},
 	{
@@ -173,10 +173,40 @@
 			"height": 38
 		},
 		"position": {
-			"x": 1635,
+			"x": 1294,
 			"y": 810,
 			"height": 50,
 			"width": 108
+		}
+	},
+	{
+		"name": "Idéance",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/ideance.svg",
+		"size": {
+			"width": 20,
+			"height": 22
+		},
+		"position": {
+			"x": 1522,
+			"y": 806,
+			"height": 60,
+			"width": 55
+		}
+	},
+	{
+		"name": "W3C",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/w3c.svg",
+		"size": {
+			"width": 72,
+			"height": 48
+		},
+		"position": {
+			"x": 1689,
+			"y": 810,
+			"height": 66,
+			"width": 99
 		}
 	}
 ]
