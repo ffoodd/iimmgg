@@ -1,14 +1,14 @@
 ---js
 {
 	pagination: {
-	data: "pw_2025",
-	size: 1,
-	alias: "conference",
-	before: (paginationData, fullData) => {
-		return paginationData
-			.filter(slot => (["Conférence", "Pause"].includes(slot.type)))
-			.sort((a,b) => new Date(`${a.date}T${a.start}`) - new Date(`${b.date}T${b.start}`) )
-		}
+		data: "pw_2025",
+		size: 1,
+		alias: "conference",
+		before: (paginationData, fullData) => {
+			return paginationData
+				.filter(slot => (["Conférence", "Pause"].includes(slot.type)))
+				.sort((a,b) => new Date(`${a.date}T${a.start}`) - new Date(`${b.date}T${b.start}`) )
+			}
 	},
 	permalink: "pw-2025/cartons-titres/transitions/trans-{%- if conference.date === '2025-09-25' -%}jeudi{%- elseif conference.date === '2025-09-26' -%}vendredi{%- endif -%}-{%- if pagination.pageNumber < 10 -%}0{%- endif -%}{{ pagination.pageNumber }}.svg"
 }
@@ -35,10 +35,10 @@
 	<!-- Décor -->
 	<g>
 		<rect fill="url(#grain)" width="100%" height="100%"></rect>
-		{%- set x = 758 -%}
+		{%- set x = 782 -%}
 		{%- set y = 80 -%}
 		{%- set height = 180 -%}
-		{%- set offsetX = 536 -%}
+		{%- set offsetX = 560 -%}
 		{%- set offsetY = 158 -%}
 		{%- set scale = 1.3 -%}
 		{%- if conference.type === "Pause" -%}

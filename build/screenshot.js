@@ -32,7 +32,8 @@ const folders = [
 	'pw-2025/vignettes/ateliers',
 	'pw-2025/vignettes/conferences',
 	'pw-2025/cartons-titres/transitions',
-	'pw-2025/cartons-titres/background'
+	'pw-2025/cartons-titres/background',
+	'pw-2025/cartons-titres/posters'
 ];
 
 folders.forEach(folder => {

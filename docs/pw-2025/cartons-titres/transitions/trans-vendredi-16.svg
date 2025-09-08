@@ -19,8 +19,8 @@
 	</defs>
 	<!-- Décor -->
 	<g>
-		<rect fill="url(#grain)" width="100%" height="100%"></rect><image x="758" y="80" width="347.4" height="180" href="http://localhost:8080/img/logo.svg"/>
-		<g id="ruban" transform="scale(1.3) translate(536, 158)">
+		<rect fill="url(#grain)" width="100%" height="100%"></rect><image x="782" y="80" width="347.4" height="180" href="http://localhost:8080/img/logo.svg"/>
+		<g id="ruban" transform="scale(1.3) translate(560, 158)">
 			<path fill="#ffd165" d="M117.8 28.7C68.1 29 15.6 59.9 2 66.7l8 9-8 22.1c12.3-7.4 66.1-43.1 115.8-43.5V28.7Z"></path>
 			<path fill="#a46022" d="M118 54.4c-14 1-67-9-67-9v-20l67-3.4v32.4Z"></path>
 			<path fill="#ffd165" d="M224 25c76.5.4 83 9.2 104 16l-12.2 9L328 72c-18.9-7.4-27.5-21-104-21.5V25Z"></path>

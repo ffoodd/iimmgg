@@ -76,5 +76,15 @@
 					<li><a href="cartons-titres/background/background.svg">Arrière-plan</a></li>
 			</ul>
 		</details>
+		<details>
+			<summary><h2>Posters</h2></summary>
+			<ul>
+				{%- for conference in conferences %}
+					{%- if conference.type === "Conférence" -%}
+						<li><a href="cartons-titres/posters/post-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+					{%- endif -%}
+				{%- endfor %}
+			</ul>
+		</details>
 	</main>
 {% endblock %}
