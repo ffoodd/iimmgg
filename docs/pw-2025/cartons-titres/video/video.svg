@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+	<defs>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@800..900');
+			@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12');
+			@font-face {
+				font-family: "GOODBRUSH";
+				src: url("http://localhost:8080/fonts/GOODBRUSH.woff2") format("woff2");
+			}
+			:root { background-color: #767676; }
+		</style>
+		<pattern id="grain" x="0" y="0" patternUnits="userSpaceOnUse" height="428" width="642">
+			<image x="0" y="0" href="http://localhost:8080/img/bg-2025.png" height="428" width="642"></image>
+		</pattern>
+	</defs>
+	<!-- Décor -->
+	<g>
+		<rect fill="url(#grain)" width="100%" height="100%"></rect><image x="1550" y="44" width="270.2" height="140" href="http://localhost:8080/img/logo.svg"/>
+		<g id="ruban" transform="scale(1) translate(1500, 140)">
+			<path fill="#ffd165" d="M117.8 28.7C68.1 29 15.6 59.9 2 66.7l8 9-8 22.1c12.3-7.4 66.1-43.1 115.8-43.5V28.7Z"></path>
+			<path fill="#a46022" d="M118 54.4c-14 1-67-9-67-9v-20l67-3.4v32.4Z"></path>
+			<path fill="#ffd165" d="M224 25c76.5.4 83 9.2 104 16l-12.2 9L328 72c-18.9-7.4-27.5-21-104-21.5V25Z"></path>
+			<path fill="#a46022" d="m224 50.4 58.5-6.5L281 17h-57v33.4Z"></path>
+			<path fill="#fdc02f" d="M51 45.3c76 9.4 158.2-24.4 231.7-1.4l6.3-24.4c-75.4-24.6-158.5 7.2-238 0v25.8Z"></path>
+			<path fill="#3d9dd9" d="M40.3 17c.9-.4.4-2.6-.4-4.6-1.1-2.4-2.5-2.6-3.4-2-1 .5-1.5 1.8.1 4 1.3 1.6 3 3.1 3.7 2.7Zm-9 2.6c-2.1-1.6-3.4-1-4-.2-.5 1-.3 2.4 2.2 3.4 2 .9 4.1 1.4 4.6.5.5-.8-1-2.4-2.8-3.7Zm.5 12.4c0-1-2.1-1.6-4.3-1.9C25 29.8 24 31 24 32c0 1 .9 2.2 3.5 1.9 2.2-.3 4.3-1 4.3-1.9Zm-2.3 9.2c-2.5 1-2.7 2.4-2.1 3.4.5.9 1.8 1.4 4-.2 1.7-1.3 3.2-2.9 2.7-3.7-.5-.9-2.7-.4-4.6.5Z"></path>
+			<path fill="#3d9dd9" d="M39 22c-.5.6-.7 1.7 1 3 1.3 1 2.8 1.9 3.3 1.3.5-.5-.3-2-1.3-3.3-1.3-1.7-2.4-1.5-3-1Zm-1.4 8.5c1.7.2 3.4.2 3.6-.6.2-.7-1.3-1.6-2.8-2.2-2-.8-2.8-.1-3 .7-.2.8.2 1.8 2.2 2.1Zm.8 5.8c1.6-.6 3-1.5 2.8-2.3-.2-.7-1.9-.8-3.5-.5-2.1.3-2.5 1.3-2.3 2.1.2.8 1 1.5 3 .7ZM40 39c-1.7 1.3-1.5 2.4-1 3 .7.6 1.8.7 3-1 1-1.2 1.9-2.8 1.3-3.3-.5-.5-2 .3-3.3 1.3Z" opacity=".6"></path>
+			<path id="courbe" fill="none" d="M51 40.3c76 9.4 158.2-24.4 231.7-1.4"></path>
+			<text fill="black" font-size="10.6px" font-family="Kumbh Sans" dy="-.35em">
+				<textPath lengthAdjust="spacingAndGlyphs" href="#courbe" startOffset="2.5%">Design, qualité et accessibilité depuis</textPath>
+			</text>
+			<text fill="black" font-size="14px" font-family="GOODBRUSH" dy="-.2em">
+				<textPath lengthAdjust="spacingAndGlyphs" href="#courbe" startOffset="84%">2006</textPath>
+			</text>
+		</g>
+	</g>
+	<!-- Contenu -->
+	<g>
+		<path transform="scale(.98) translate(48, 980)" fill="#c4e1f4" d="M55.574 14.317c-5.648 5.569-51.048 5.743-54.165 7.692-2.445 2.32 5.47 36.625 8.451 41.463 1.063 1.725 2.089 1.882 4.293.745 3.493-2.11 46.12-4.491 50.82-4.732.517-1.158 2.734 2.275 2.95.912.871-3.554 81.578-7.675 84.06-7.858 3.961-.29.648-2.045 5.378-1.69 10.065.756 31.542-3.023 39.215-1.737 6.149 1.029 7.429.89 13.117-.826 5.792-1.752 37.37-2.811 41.115-.506.936.574 1.58.31 1.523-.47.364-.08 22.088-2.572 22.134-3.06.11-.788.756-1.209 1.423-.72 1.213.69 24.986 1.955 25.215-.343.656-6.56-4.555-33.797-7.75-40.347-3.378-6.923-18.214 2.177-30.964-1.19-67.924 4.963-52.6 5.038-70.457 2.83-1.218 2.457-7.123-2.832-10.116 1.575-1.233 1.81-11.043 2.91-13.389 1.414-2.003-1.273-51.982 7.278-57.559 3.232-8.819 4.865-46.566 3.5-55.294 3.616Z"/>
+		<text font-size="42" x="80" y="1000">
+			<tspan font-family="GOODBRUSH">20</tspan><tspan font-family="Kumbh Sans" font-weight="900" font-size="24" dy="-24">e</tspan>
+			<tspan font-family="Kumbh Sans" font-weight="900" dy="24">édition !</tspan>
+			<tspan>    </tspan>
+			<tspan font-family="Nunito Sans">25 &amp; 26 septembre 2025</tspan>
+		</text>
+	</g>
+</svg>
