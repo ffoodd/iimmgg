@@ -33,7 +33,8 @@ const folders = [
 	'pw-2025/vignettes/conferences',
 	'pw-2025/cartons-titres/transitions',
 	'pw-2025/cartons-titres/background',
-	'pw-2025/cartons-titres/posters'
+	'pw-2025/cartons-titres/posters',
+	'pw-2025/cartons-titres/video'
 ];
 
 folders.forEach(folder => {
