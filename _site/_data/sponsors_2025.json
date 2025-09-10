@@ -38,7 +38,7 @@
 			"height": 40
 		},
 		"position": {
-			"x": 90,
+			"x": 97,
 			"y": 660,
 			"height": 75,
 			"width": 336
@@ -53,7 +53,7 @@
 			"height": 194
 		},
 		"position": {
-			"x": 516,
+			"x": 530,
 			"y": 666,
 			"height": 60,
 			"width": 297
@@ -68,7 +68,7 @@
 			"height": 36
 		},
 		"position": {
-			"x": 903,
+			"x": 924,
 			"y": 660,
 			"height": 75,
 			"width": 292
@@ -83,7 +83,7 @@
 			"height": 283
 		},
 		"position": {
-			"x": 1285,
+			"x": 1313,
 			"y": 646,
 			"height": 96,
 			"width": 96
@@ -94,14 +94,14 @@
 		"type": "argent",
 		"logo": "/img/sponsors-2025/elementor.svg",
 		"size": {
-			"width": 801,
-			"height": 160
+			"width": 2053,
+			"height": 521
 		},
 		"position": {
-			"x": 1471,
-			"y": 660,
-			"height": 72,
-			"width": 360
+			"x": 1506,
+			"y": 656,
+			"height": 80,
+			"width": 315
 		}
 	},
 	{
