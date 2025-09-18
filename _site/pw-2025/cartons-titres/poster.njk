@@ -5,10 +5,12 @@
 		size: 1,
 		alias: "conference",
 		before: (paginationData, fullData) => {
-			return paginationData.filter(slot => slot.type === "Conférence");
+			return paginationData
+				.filter(slot => slot.type === "Conférence")
+				.sort((a,b) => new Date(`${a.date}T${a.start}`) - new Date(`${b.date}T${b.start}`) )
 		}
 	},
-	permalink: "pw-2025/cartons-titres/posters/post-{{ conference.title | slugify }}.svg"
+	permalink: "pw-2025/cartons-titres/posters/post-{%- if conference.date === '2025-09-25' -%}jeudi{%- elseif conference.date === '2025-09-26' -%}vendredi{%- endif -%}-{{ conference.title | slugify }}-{%- if pagination.pageNumber < 10 -%}0{%- endif -%}{{ pagination.pageNumber }}.svg"
 }
 ---
 <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">

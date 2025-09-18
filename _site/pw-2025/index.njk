@@ -80,10 +80,27 @@
 		<details>
 			<summary><h2>Posters</h2></summary>
 			<ul>
-				{%- for conference in conferences %}
-					{%- if conference.type === "Conférence" -%}
-						<li><a href="cartons-titres/posters/post-{{ conference.title | slugify }}.svg">{{ conference.title | microtypo }}</a></li>
+				{%- for date, conferences in conferences | groupby("date") %}
+					{%- if date === "2025-09-25" or date === "2025-09-26" -%}
+						{%- if date === "2025-09-25" -%}
+							{%- set day = "Jeudi"  %}
+							{%- set index = 0 -%}
+						{%- elseif date === "2025-09-26" -%}
+							{%- set day = "Vendredi"  %}
+							{%- set index = 9 -%}
+						{%- endif -%}
+						<li>
+						<h3>{{ day }}</h3>
+						<ol{%- if date === "2025-09-26" %} start="10"{%- endif -%}>
+							{%- for conference in conferences | sort( false, true, "start") %}
+								{%- if conference.type === "Conférence" -%}
+									<li><a href="cartons-titres/posters/post-{{ day | lower }}-{{ conference.title | slugify }}-{%- if index < 10 -%}0{%- endif -%}{{ index }}.svg">{{ conference.title | microtypo }}</a></li>
+									{%- set index = index + 1 -%}
+								{%- endif -%}
+							{%- endfor %}
+						</ol>
 					{%- endif -%}
+					</li>
 				{%- endfor %}
 			</ul>
 		</details>

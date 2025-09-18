@@ -113,7 +113,7 @@
 			"height": 296
 		},
 		"position": {
-			"x": 52,
+			"x": 44,
 			"y": 820,
 			"height": 50,
 			"width": 158
@@ -128,7 +128,7 @@
 			"height": 216
 		},
 		"position": {
-			"x": 262,
+			"x": 245,
 			"y": 812,
 			"height": 66,
 			"width": 66
@@ -143,10 +143,10 @@
 			"height": 54
 		},
 		"position": {
-			"x": 380,
+			"x": 354,
 			"y": 824,
-			"height": 44,
-			"width": 293
+			"height": 40,
+			"width": 266
 		}
 	},
 	{
@@ -158,10 +158,10 @@
 			"height": 175
 		},
 		"position": {
-			"x": 725,
+			"x": 663,
 			"y": 820,
-			"height": 44,
-			"width": 173
+			"height": 40,
+			"width": 158
 		}
 	},
 	{
@@ -173,7 +173,7 @@
 			"height": 361
 		},
 		"position": {
-			"x": 950,
+			"x": 864,
 			"y": 820,
 			"height": 50,
 			"width": 73
@@ -188,7 +188,7 @@
 			"height": 22
 		},
 		"position": {
-			"x": 1075,
+			"x": 980,
 			"y": 806,
 			"height": 60,
 			"width": 55
@@ -203,10 +203,25 @@
 			"height": 183
 		},
 		"position": {
-			"x": 1182,
+			"x": 1078,
 			"y": 796,
 			"height": 75,
 			"width": 113
+		}
+	},
+	{
+		"name": "CodeWorks",
+		"type": "bronze",
+		"logo": "/img/sponsors-2025/codeworks.svg",
+		"size": {
+			"width": 540,
+			"height": 419
+		},
+		"position": {
+			"x": 1234,
+			"y": 796,
+			"height": 75,
+			"width": 97
 		}
 	},
 	{
@@ -218,7 +233,7 @@
 			"height": 360
 		},
 		"position": {
-			"x": 1347,
+			"x": 1374,
 			"y": 796,
 			"height": 88,
 			"width": 88
@@ -233,7 +248,7 @@
 			"height": 38
 		},
 		"position": {
-			"x": 1487,
+			"x": 1505,
 			"y": 816,
 			"height": 50,
 			"width": 108
@@ -248,7 +263,7 @@
 			"height": 110
 		},
 		"position": {
-			"x": 1647,
+			"x": 1656,
 			"y": 802,
 			"height": 72,
 			"width": 219
