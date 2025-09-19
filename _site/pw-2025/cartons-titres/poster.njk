@@ -65,13 +65,13 @@
 			{%- if nombre === 1 -%}
 				{%- set speaker = conference.speakers[0]  -%}
 				{%- set longueur = speaker.name | length  -%}
-				<image class="portrait" href="{{ speaker.image or "/img/lego.svg" }}" width="106" height="106" x="{{ 750 - (longueur * 8) }}" y="764"/>
+				<image class="portrait" href="{{ speaker.image or "https://www.paris-web.fr/assets/images/portrait-vide.svg" }}" width="106" height="106" x="{{ 750 - (longueur * 8) }}" y="764"/>
 				<text font-weight="800" font-size="72" fill="#e11a81" x="{{ 880 - (longueur * 8) }}" y="828" dominant-baseline="middle">{{ speaker.name | microtypo | escape }}</text>
 			{%- elseif nombre === 2 -%}
 				{%- for speaker in conference.speakers -%}
-					{%- set x = 780 - (loop.index0 * 80) -%}
+					{%- set x = 700 + (loop.index0 * 80) -%}
 					{%- set y = 806 + (loop.index0 * 50) -%}
-					<image class="portrait" href="{{ speaker.image or "/img/lego.svg" }}" width="106" height="106" x="{{ x }}" y="770"/>
+					<image class="portrait" href="{{ speaker.image or "https://www.paris-web.fr/assets/images/portrait-vide.svg" }}" width="106" height="106" x="{{ x }}" y="770"/>
 					<text font-weight="800" font-size="48" fill="#e11a81" x="920" y="{{ y }}" dominant-baseline="middle">{{ speaker.name | microtypo | escape }}</text>
 				{%- endfor -%}
 			{%- endif -%}

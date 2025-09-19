@@ -7,9 +7,14 @@
 		"type": "Conférence",
 		"speakers": [
 			{
-				"name": "Orateurice surprise",
-				"url": "https://www.paris-web.fr/orateurs/orateurice-surprise",
-				"image": "https://www.paris-web.fr/assets/images/portrait-vide.svg"
+				"name": "Corinne Durrmeyer",
+				"url": "https://www.paris-web.fr/orateurices/corinne-durrmeyer",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/corinne-durrmeyer/aa1061051a-1747060633/30606179036_59365f2380_o-300x-crop.jpg"
+			},
+			{
+				"name": "Stéphane Deschamps",
+				"url": "https://www.paris-web.fr/orateurices/stephane-deschamps",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/stephane-deschamps/78a1b4b12e-1747060604/stephane-deschamps-300x-crop.jpg"
 			}
 		],
 		"lang": "Français"
@@ -135,9 +140,14 @@
 		"type": "Conférence",
 		"speakers": [
 			{
-				"name": "Orateurice surprise",
-				"url": "https://www.paris-web.fr/orateurs/orateurice-surprise",
-				"image": "https://www.paris-web.fr/assets/images/portrait-vide.svg"
+				"name": "Stéphane Deschamps",
+				"url": "https://www.paris-web.fr/orateurices/stephane-deschamps",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/stephane-deschamps/78a1b4b12e-1747060604/stephane-deschamps-300x-crop.jpg"
+			},
+			{
+				"name": "François Nonnenmacher",
+				"url": "https://www.paris-web.fr/orateurices/francois-nonnenmacher",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/francois-nonnenmacher/572041ddac-1747060602/francois-300x-crop.jpg"
 			}
 		],
 		"lang": "Français"
