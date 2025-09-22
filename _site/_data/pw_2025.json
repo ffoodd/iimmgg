@@ -40,7 +40,6 @@
 		"date": "2025-09-25",
 		"start": "11:35",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Daniel Garnier-Moiroux",
@@ -56,7 +55,6 @@
 		"date": "2025-09-25",
 		"start": "12:10",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Justine Nicol",
@@ -110,7 +108,6 @@
 		"date": "2025-09-25",
 		"start": "15:20",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Damien Legendre",
@@ -126,7 +123,6 @@
 		"date": "2025-09-25",
 		"start": "16:40",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Loïc Marleix",
@@ -162,7 +158,6 @@
 		"date": "2025-09-26",
 		"start": "09:20",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Tamara Sredojevic",
@@ -208,7 +203,6 @@
 		"date": "2025-09-26",
 		"start": "12:10",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Raphaël Yharrassarry",
@@ -257,7 +251,6 @@
 		"date": "2025-09-26",
 		"start": "15:20",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Simon Duhem",
@@ -278,7 +271,6 @@
 		"date": "2025-09-26",
 		"start": "16:20",
 		"type": "Conférence",
-		"informelle": true,
 		"speakers": [
 			{
 				"name": "Ignacio Rondini",
