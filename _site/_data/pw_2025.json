@@ -507,5 +507,41 @@
 		"date": "2025-09-26",
 		"start": "17:45",
 		"type": "Pause"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-09-lyon/decouvrez-le-benevolat-en-traduction-de-l-anglais-au-francais",
+		"title": "Découvrez le bénévolat en traduction :\nde l’anglais au français",
+		"date": "2025-10-25",
+		"start": "10:30",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Christophe Villeneuve",
+				"url": "https://www.paris-web.fr/orateurices/christophe-villeneuve",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/christophe-villeneuve/427063a2f2-1759438169/christophe-villeneuve-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-09-lyon/quoi-vous-n-utilisez-pas-figma",
+		"title": "Quoi ?\nVous n’utilisez pas Figma ?!?",
+		"date": "2025-10-25",
+		"start": "14:00",
+		"duration": "180",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Simon Mercier",
+				"url": "https://www.paris-web.fr/orateurices/simon-mercier",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/simon-mercier/232a99eb7f-1759438097/simon-mercier-300x-crop.png"
+			},
+			{
+				"name": "Antoine Candy",
+				"url": "https://www.paris-web.fr/orateurices/antoine-candy"
+			}
+		],
+		"lang": "Français"
 	}
 ]
