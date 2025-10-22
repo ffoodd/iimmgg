@@ -543,5 +543,26 @@
 			}
 		],
 		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-09-lyon/mettre-le-web-en-page-s",
+		"title": "Mettre le web en page(s)",
+		"date": "2025-10-25",
+		"start": "10:00",
+		"duration": "90",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Lucie Anglade",
+				"url": "https://www.paris-web.fr/orateurices/lucie-anglade",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/lucie-anglade/540c287e41-1747060523/avatar_zezsfza-300x-crop.jpg"
+			},
+			{
+				"name": "Guillaume Ayoub",
+				"url": "https://www.paris-web.fr/orateurices/guillaume-ayoub",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/guillaume-ayoub/101c085abe-1747060706/guillaume-ayoub-paris-web-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
 	}
 ]
