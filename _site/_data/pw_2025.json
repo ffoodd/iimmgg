@@ -564,5 +564,58 @@
 			}
 		],
 		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-12-lille/decodez-la-neurodivergence-dans-la-galaxie-du-digital",
+		"title": "Décodez la neurodivergence\ndans la galaxie du digital",
+		"date": "2025-12-06",
+		"start": "09:30",
+		"duration": "180",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Luz Delgado Bautista",
+				"url": "https://www.paris-web.fr/orateurices/luz-delgado-bautista",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/luz-delgado-bautista/eb5744c8d6-1752424430/luz-delgado-300x-crop.jpg"
+			},
+			{
+				"name": "Vanessa Guilloteau",
+				"url": "https://www.paris-web.fr/orateurices/vanessa-guilloteau",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/vanessa-guilloteau/db0fd84032-1761768887/vanessa-guilloteau-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-12-lille/assurance-qualite-pour-le-numerique-et-preparation-a-la-certification-opquast",
+		"title": "Assurance qualité\npour le numérique et préparation à\nla certification Opquast",
+		"date": "2025-12-06",
+		"start": "09:30",
+		"duration": "180",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Yann Kozon",
+				"url": "https://www.paris-web.fr/orateurices/yann-kozon",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/yann-kozon/6d8966d962-1761769748/yann-kozon-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
+	},
+	{
+		"url": "https://www.paris-web.fr/ateliers/2025-12-lille/developper-un-theme-avec-l-editeur-de-site-de-wordpress",
+		"title": "Développer un thème\navec l’éditeur de site de WordPress",
+		"date": "2025-12-06",
+		"start": "13:45",
+		"duration": "180",
+		"type": "Atelier",
+		"speakers": [
+			{
+				"name": "Vincent Dubroeucq",
+				"url": "https://www.paris-web.fr/orateurices/vincent-dubroeucq",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/vincent-dubroeucq/8577e0f124-1761409094/vincent-dubroeucq-300x-crop.jpg"
+			}
+		],
+		"lang": "Français"
 	}
 ]
