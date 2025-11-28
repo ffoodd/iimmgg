@@ -1,0 +1,222 @@
+[
+	{
+		"title": "Quand l’obligation légale rejoint la mission des médias d’informer tous les publics",
+		"authors": [
+			{
+				"name": "Angi Guyard",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Quel avenir pour l’esthétique web éco-conçue ?",
+		"authors": [
+			{
+				"name": "Esther Jacquet",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/esther-jacquet/644e2a60dc-1747060518/esther-jacquet-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "L’inclusion passe aussi par la culture Sourde",
+		"authors": [
+			{
+				"name": "Cindy Quai",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/cindy-quai/c7374927cc-1747060623/1a9e1948-b320-4ef0-8cbd-434aa3249e70-500x-crop-62-0-38-4.jpg"
+			}
+		]
+	},
+	{
+		"title": "Ataraxie numérique : repenser notre rapport à l’outil",
+		"authors": [
+			{
+				"name": "Maxime Bréhin",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/maxime-brehin/86d6baba13-1747060651/maxime-brehin-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "Comment auditer en environnement restreint",
+		"authors": [
+			{
+				"name": "Morgane Mounier",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Concevoir et développer un carrousel accessible aux personnes handicapées",
+		"authors": [
+			{
+				"name": "Maïa Kopff",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Dire au-revoir aux GAFAM : journal d’une ancienne instragrammeuse",
+		"authors": [
+			{
+				"name": "Vanessa Fayard",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Parlons de santé au travail dans nos coopératives !",
+		"authors": [
+			{
+				"name": "Julie Brillet",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Comment prendre en compte les Web Components dans vos scripts",
+		"authors": [
+			{
+				"name": "Simon Duhem",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/simon-duhem/b08556df59-1747060569/smndhm-square-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "Ma cataracte a modifié mon approche de l’accessibilité",
+		"authors": [
+			{
+				"name": "Emmanuelle Aboaf",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/emmanuelle-aboaf/72f9cb8256-1747060593/emmanuelle-aboaf-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "Guilde design, DesignOps, ResearchOps : cuisine interne et service en salle.",
+		"authors": [
+			{
+				"name": "Goulven Baron",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Title, ce faux ami de l’accessibilité",
+		"authors": [
+			{
+				"name": "François-Xavier Lair",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "L’illusion de l’immédiateté – et si le vrai luxe, c’était la pause ?",
+		"authors": [
+			{
+				"name": "Catherine Smet",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/catherine-smet/ab73ea3c01-1747060524/catherine-smet-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "Des tableaux de données complexes accessibles, c'est possible ?",
+		"authors": [
+			{
+				"name": "Guillaume Barbier",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/guillaume-barbier/0401a338ac-1747060647/guillaume-barbier-paris-web-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "S'investir dans les communautés quand on n'ose pas",
+		"authors": [
+			{
+				"name": "Nathalie Rosenberg",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/nathalie-rosenberg/c5c4621fdf-1747060618/045_natouille_web_nwdjn1c-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "Concevoir un service numérique responsable : stratégie et enseignements pour le produit SNCF Connect",
+		"authors": [
+			{
+				"name": "Mellie La Roque",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Take back the tech!",
+		"authors": [
+			{
+				"name": "Xavier Coadic",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Encore un article qui oppose conformité et accessibilité ?",
+		"authors": [
+			{
+				"name": "Lison Fanuel",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/lison-fanuel/38d14b543b-1747060693/lison-fanuel-500x-crop.jpg"
+			},
+			{
+				"name": "Frédéric Halna",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Tout le Web dépend de l’hébergeur AWS ?",
+		"authors": [
+			{
+				"name": "Stéphane Bortzmeyer",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/stephane-bortzmeyer/557235ab66-1747060666/stephane-bortzmeyer-500x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "Développeuse ? Jardinière ? Je suis quoi, déjà ?",
+		"authors": [
+			{
+				"name": "Marine Dunstetter",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Un petit rhume ? État des lieux de la télémédecine",
+		"authors": [
+			{
+				"name": "Laura Voisin",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Rendre le sport accessible à tous : le marathon de l’accessibilité numérique chez Decathlon ",
+		"authors": [
+			{
+				"name": "Gaspard Mathon",
+				"image": ""
+			}
+		]
+	},
+	{
+		"title": "Le Design System de la Fabrique de Noël",
+		"authors": [
+			{
+				"name": "Natacha Madeuf",
+				"image": "https://www.24joursdeweb.fr/media/pages/auteurices/natacha-madeuf/12cbe3fa4c-1732052219/natacha-madeuf3_b-300x-crop.jpg"
+			}
+		]
+	},
+	{
+		"title": "Wikipédia ou comment partager le savoir pour demain",
+		"authors": [
+			{
+				"name": "Delphine Montagne",
+				"image": ""
+			}
+		]
+	}
+]

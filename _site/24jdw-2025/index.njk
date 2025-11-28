@@ -1,0 +1,26 @@
+---js
+{
+	title: "Liste des contenus générés pour 24 jours de web 2025",
+	permalink: "24jdw-2025/index.html",
+	pagination: {
+		data: "24jdw_2025",
+		size: 100,
+		alias: "articles"
+	}
+}
+---
+{% extends "base.njk" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+	<main role="main">
+		<h1>Images générées pour 24 jours de web 2025</h1>
+		<details>
+			<summary><h2>Articles</h2></summary>
+			<ul>
+				{%- for article in articles %}
+					<li><a href="articles/article-{{ article.title | slugify }}.svg">{{ article.title | microtypo }}</a></li>
+				{%- endfor %}
+			</ul>
+		</details>
+	</main>
+{% endblock %}
