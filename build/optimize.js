@@ -21,9 +21,7 @@ const oldFolders = [
 	'dist/pw-2024/cartons-titres/video',
 	'dist/pw-2024/cartons-titres/colors',
 	'dist/pw-2024/cartons-titres/sponsors',
-	'dist/pw-2024/cartons-titres/transitions'
-]
-const folders = [
+	'dist/pw-2024/cartons-titres/transitions',
 	'dist/pw-2025/vignettes/base',
 	'dist/pw-2025/vignettes/ateliers',
 	'dist/pw-2025/vignettes/conferences',
@@ -31,6 +29,9 @@ const folders = [
 	'dist/pw-2025/cartons-titres/transitions',
 	'dist/pw-2025/cartons-titres/posters',
 	'dist/pw-2025/cartons-titres/video'
+]
+const folders = [
+	'dist/24jdw-2025/articles'
 ];
 
 folders.forEach(folder => {
