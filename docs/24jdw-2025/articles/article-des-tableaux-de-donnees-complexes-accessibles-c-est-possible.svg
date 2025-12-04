@@ -24,7 +24,7 @@
 		<text font-weight="700" font-size="80" font-family="Zilla Slab" fill="#fff">
 			<tspan x="192" y="192" dominant-baseline="middle" text-anchor="middle">14</tspan>
 		</text>
-		<text font-weight="700" font-size="96" font-family="Zilla Slab" fill="#557185"><tspan y="460" x="120">Des tableaux de données</tspan><tspan y="580" x="120">complexes accessibles,</tspan><tspan y="700" x="120">c&#39;est possible ?</tspan></text>
+		<text font-weight="700" font-size="96" font-family="Zilla Slab" fill="#557185"><tspan y="460" x="120">Des tableaux de données</tspan><tspan y="580" x="120">complexes accessibles,</tspan><tspan y="700" x="120">c’est possible ?</tspan></text>
 		<rect fill="#a63823" width="10%" height="10" x="120" y="820" />
 		<text font-family="Atkinson Hyperlegible Next" font-style="italic" font-weight="300" font-size="60" fill="#557185" x="120" y="928" dominant-baseline="middle">
 			par Guillaume Barbier</text>

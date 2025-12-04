@@ -22,11 +22,11 @@
 	<g>
 		<circle fill="#a63823" r="72" cx="192" cy="192"></circle>
 		<text font-weight="700" font-size="80" font-family="Zilla Slab" fill="#fff">
-			<tspan x="192" y="192" dominant-baseline="middle" text-anchor="middle">18</tspan>
+			<tspan x="192" y="192" dominant-baseline="middle" text-anchor="middle">8</tspan>
 		</text>
-		<text font-weight="700" font-size="96" font-family="Zilla Slab" fill="#557185"><tspan y="580" x="120">N’opposez pas</tspan><tspan y="700" x="120">l’accessibilité et la conformité</tspan></text>
+		<text font-weight="700" font-size="96" font-family="Zilla Slab" fill="#557185"><tspan y="580" x="120">Parlons de santé au travail</tspan><tspan y="700" x="120">en coopérative !</tspan></text>
 		<rect fill="#a63823" width="10%" height="10" x="120" y="820" />
 		<text font-family="Atkinson Hyperlegible Next" font-style="italic" font-weight="300" font-size="60" fill="#557185" x="120" y="928" dominant-baseline="middle">
-			par Lison Fanuel et Frédéric Halna</text>
+			par Julie Brillet</text>
 	</g>
 </svg>
