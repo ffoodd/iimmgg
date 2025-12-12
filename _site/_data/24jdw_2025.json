@@ -108,11 +108,11 @@
 		]
 	},
 	{
-		"title": "L’illusion de l’immédiateté\n– et si le vrai luxe, c’était la pause ?",
+		"title": "Le design system\nde la Fabrique de Noël",
 		"authors": [
 			{
-				"name": "Catherine Smet",
-				"image": "https://www.paris-web.fr/media/pages/orateurices/catherine-smet/ab73ea3c01-1747060524/catherine-smet-500x-crop.jpg"
+				"name": "Natacha Madeuf",
+				"image": "https://www.24joursdeweb.fr/media/pages/auteurices/natacha-madeuf/12cbe3fa4c-1732052219/natacha-madeuf3_b-300x-crop.jpg"
 			}
 		]
 	},
@@ -144,10 +144,10 @@
 		]
 	},
 	{
-		"title": "Take back the tech!",
+		"title": "Wikipédia ou comment\npartager le savoir pour demain",
 		"authors": [
 			{
-				"name": "Xavier Coadic",
+				"name": "Delphine Montagne",
 				"image": ""
 			}
 		]
@@ -202,20 +202,20 @@
 		]
 	},
 	{
-		"title": "Le design system\nde la Fabrique de Noël",
+		"title": "Comment l’accessibilité\na changé ma vie…",
 		"authors": [
 			{
-				"name": "Natacha Madeuf",
-				"image": "https://www.24joursdeweb.fr/media/pages/auteurices/natacha-madeuf/12cbe3fa4c-1732052219/natacha-madeuf3_b-300x-crop.jpg"
+				"name": "Magali Milbergue",
+				"image": "https://www.24joursdeweb.fr/media/pages/auteurices/magali-milbergue/185a4c9467-1764454184/magali-milbergue-speaker-300x-crop.png"
 			}
 		]
 	},
 	{
-		"title": "Wikipédia ou comment\npartager le savoir pour demain",
+		"title": "L’illusion de l’immédiateté\n– et si le vrai luxe, c’était la pause ?",
 		"authors": [
 			{
-				"name": "Delphine Montagne",
-				"image": ""
+				"name": "Catherine Smet",
+				"image": "https://www.paris-web.fr/media/pages/orateurices/catherine-smet/ab73ea3c01-1747060524/catherine-smet-500x-crop.jpg"
 			}
 		]
 	}

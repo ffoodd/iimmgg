@@ -22,7 +22,7 @@
 	<g>
 		<circle fill="#a63823" r="72" cx="192" cy="192"></circle>
 		<text font-weight="700" font-size="80" font-family="Zilla Slab" fill="#fff">
-			<tspan x="192" y="192" dominant-baseline="middle" text-anchor="middle">24</tspan>
+			<tspan x="192" y="192" dominant-baseline="middle" text-anchor="middle">17</tspan>
 		</text>
 		<text font-weight="700" font-size="96" font-family="Zilla Slab" fill="#557185"><tspan y="580" x="120">Wikipédia ou comment</tspan><tspan y="700" x="120">partager le savoir pour demain</tspan></text>
 		<rect fill="#a63823" width="10%" height="10" x="120" y="820" />
