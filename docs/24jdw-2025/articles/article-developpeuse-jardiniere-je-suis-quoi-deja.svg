@@ -22,7 +22,7 @@
 	<g>
 		<circle fill="#a63823" r="72" cx="192" cy="192"></circle>
 		<text font-weight="700" font-size="80" font-family="Zilla Slab" fill="#fff">
-			<tspan x="192" y="192" dominant-baseline="middle" text-anchor="middle">20</tspan>
+			<tspan x="192" y="192" dominant-baseline="middle" text-anchor="middle">21</tspan>
 		</text>
 		<text font-weight="700" font-size="96" font-family="Zilla Slab" fill="#557185"><tspan y="580" x="120">Développeuse ? Jardinière ?</tspan><tspan y="700" x="120">Je suis quoi, déjà ?</tspan></text>
 		<rect fill="#a63823" width="10%" height="10" x="120" y="820" />

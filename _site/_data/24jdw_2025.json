@@ -166,6 +166,15 @@
 		]
 	},
 	{
+		"title": "Comment une conférence web\na survécu pendant 20 ans ",
+		"authors": [
+			{
+				"name": "Staff Paris Web",
+				"image": "https://www.24joursdeweb.fr/media/pages/auteurices/staff-paris-web/8b18b1e263-1765785301/logo-carre-300x-crop.png"
+			}
+		]
+	},
+	{
 		"title": "Tout le Web dépend\nde l’hébergeur AWS ?",
 		"authors": [
 			{
@@ -198,15 +207,6 @@
 			{
 				"name": "Gaspard Mathon",
 				"image": ""
-			}
-		]
-	},
-	{
-		"title": "Comment l’accessibilité\na changé ma vie…",
-		"authors": [
-			{
-				"name": "Magali Milbergue",
-				"image": "https://www.24joursdeweb.fr/media/pages/auteurices/magali-milbergue/185a4c9467-1764454184/magali-milbergue-speaker-300x-crop.png"
 			}
 		]
 	},
