@@ -1,6 +1,7 @@
 {
 	"name": "iimmgg",
 	"version": "1.0.0",
+	"type": "module",
 	"description": "11ty-based image generator",
 	"author": {
 		"name": "Gaël Poupard",
@@ -27,5 +28,8 @@
 	"devDependencies": {
 		"@11ty/eleventy": "^3.1.2",
 		"sharp": "^0.34.5"
+	},
+	"dependencies": {
+		"@11ty/eleventy-upgrade-help": "^3.0.2"
 	}
 }
