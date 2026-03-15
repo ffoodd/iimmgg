@@ -1,7 +1,7 @@
-const fs = require('node:fs');
-const path = require('node:path');
-const sharp = require('sharp');
-sharp.cache(false);
+import fs from 'node:fs'
+import path from 'node:path'
+import sharp from 'sharp'
+sharp.cache(false)
 
 const colors = {
 	green: '\x1B[32m',
@@ -31,7 +31,7 @@ const folders = [
 	'dist/pw-2025/cartons-titres/transitions',
 	'dist/pw-2025/cartons-titres/posters',
 	'dist/pw-2025/cartons-titres/video'
-];
+]
 
 folders.forEach(folder => {
 	const images = fs.readdirSync(folder)

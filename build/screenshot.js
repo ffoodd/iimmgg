@@ -1,7 +1,7 @@
-const cp = require('node:child_process');
-const fs = require('node:fs');
-const path = require('node:path');
-const process = require('node:process');
+import cp from 'node:child_process'
+import fs from 'node:fs'
+import path from 'node:path'
+import process from 'node:process'
 
 const colors = {
 	green: '\x1B[32m',
@@ -35,7 +35,7 @@ const folders = [
 	'pw-2025/cartons-titres/background',
 	'pw-2025/cartons-titres/posters',
 	'pw-2025/cartons-titres/video'
-];
+]
 
 folders.forEach(folder => {
 	const files = fs.readdirSync(`docs/${folder}/`)

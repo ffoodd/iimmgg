@@ -1,8 +1,6 @@
-import { DateTime }from 'luxon'
+import { DateTime } from 'luxon'
 
 export default function (eleventyConfig) {
-	eleventyConfig.addPlugin(UpgradeHelper);
-
 	eleventyConfig.addFilter('date', (dateObj) => {
 		return DateTime.fromISO(dateObj).setLocale('fr').toLocaleString(DateTime.DATE_FULL)
 	})
