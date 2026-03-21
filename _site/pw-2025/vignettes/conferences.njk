@@ -74,10 +74,10 @@
 				<text font-weight="800" font-size="72" fill="#e11a81" x="{{ 880 - (longueur * 10) }}" y="928" dominant-baseline="middle">{{ speaker.name | microtypo | escape }}</text>
 			{%- elseif nombre === 2 -%}
 				{%- for speaker in conference.speakers -%}
-					{%- set x = 720 - (loop.index0 * 80) -%}
+					{%- set x = 620 - (loop.index0 * 80) -%}
 					{%- set y = 900 + (loop.index0 * 60) -%}
 					<image class="portrait" href="{{ speaker.image or "/img/lego.svg" }}" width="128" height="128" x="{{ x }}" y="860"/>
-					<text font-weight="800" font-size="60" fill="#e11a81" x="880" y="{{ y }}" dominant-baseline="middle">{{ speaker.name | microtypo | escape }}</text>
+					<text font-weight="800" font-size="60" fill="#e11a81" x="800" y="{{ y }}" dominant-baseline="middle">{{ speaker.name | microtypo | escape }}</text>
 				{%- endfor -%}
 			{%- endif -%}
 		</g>
